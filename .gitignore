@@ -235,3 +235,5 @@ npm-debug.log*
 .DS_Store
 # The Python template above ignores every "lib/" directory; our TS lib must be tracked.
 !src/lib/
+.neon
+.vercel

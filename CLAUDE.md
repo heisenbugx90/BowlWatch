@@ -18,12 +18,13 @@ Users register the foods they feed each pet. We monitor recall feeds nightly, ma
 
 | Country | Source | Access | Phase |
 | --- | --- | --- | --- |
-| USA | FDA openFDA food enforcement API | Structured JSON with lot codes and distribution | Launch |
-| Canada | Health Canada Recalls and Safety Alerts portal | Public JSON API | Launch |
+| USA | FDA iRES Enforcement Report CSV export (center CVM) | Record source: classification, lot codes, distribution | Launch |
+| USA | fda.gov recalls listing JSON | Early warning and links to the original notice | Launch |
+| Canada | Health Canada open data daily full dump (open.canada.ca dataset `d38de914-c94c-429b-8ab1-8776c31643e3`) plus per-notice HTML | Free text; the old JSON API is gone | Launch |
 | UK | FSA food and feed alerts | Data API | Later |
 | EU | RASFF Window | Portal export, no clean API | Later |
 
-Endpoints are from memory as of mid-2026. Verify before relying on them.
+Verified October 2026. openFDA food enforcement carries no pet food (CVM) records, so it is not used. The iRES CSV export is undocumented; an iRES API key (OII Unified Logon) would replace it.
 
 ## Core asset: the normalization table
 
@@ -78,7 +79,7 @@ Steps 1 and 2 come first and alone. If matching isn't good, nothing after it mat
 
 ## Open questions
 
-- [ ] Verify current openFDA and Health Canada endpoints and field names
+- [x] Verify current openFDA and Health Canada endpoints and field names
 - [ ] Decide whether amber also covers recalls at sister brands under the same parent company
 - [ ] Choose email provider and sending domain for deliverability
 - [ ] Confirm BowlWatch clears CIPO and USPTO trademark searches

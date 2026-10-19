@@ -1,0 +1,7 @@
+.env*
+.neon
+.pglite
+bowlwatch-design
+bowlwatch-design.zip
+node_modules
+.next

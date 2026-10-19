@@ -1,31 +1,41 @@
 # Next steps (as of 2026-10-19)
 
-Build steps 1 and 2 are in place: catalog YAML in `data/`, FDA iRES + listing
-ingestion, matcher, lot parser, 10-year validation in `docs/validation/`.
-typecheck, lint, 349 tests, `validate:data` and `build` pass.
+## Live
 
-## Not done
+- Neon Postgres (`production` branch, project `late-breeze-20845974`), postgres
+  service only. Migrated, catalog seeded, 10-year FDA backfill loaded
+  (751 events, 791 matches, 339 review items).
+- Vercel project `bowlwatch`, deployed from the CLI. Env: `DATABASE_URL`,
+  `CRON_SECRET` (copy in `.env.local`). Nightly cron 07:00 UTC; a manual run
+  from Vercel reached iRES and the fda.gov listing with no errors, so no
+  GitHub Actions fallback is needed.
+- bowlwatch.ca and www on Cloudflare DNS (A 76.76.21.21, CNAME
+  cname.vercel-dns.com, proxy off). Landing page live; sign-ups shown as
+  "opening soon".
 
-1. **Update CLAUDE.md data sources.** USA: FDA iRES Enforcement Report CSV
-   export (center CVM) as record source, fda.gov recalls listing JSON for
-   early warning and notice links. openFDA food enforcement has no pet food.
-   Canada: Health Canada open data daily full dump (open.canada.ca dataset
-   `d38de914-c94c-429b-8ab1-8776c31643e3`) plus per-notice HTML; the old JSON
-   API is gone. Tick the "verify endpoints" open question.
-2. **Set up Neon** by following `neon.md`. Decide first whether to drop the
-   Neon `functions` service (the nightly job runs on Vercel Cron). `.env*.local`
-   is already gitignored.
-3. **Deploy to Vercel** and test that FDA (iRES, fda.gov) accepts requests
-   from Vercel's egress IPs. If not, run the fetch from GitHub Actions.
-4. **Work the review queue** (`npm run review`): 339 open items, mostly
-   lot_parse (246) and ambiguous (68). This is how the catalog grows.
-5. **Unmatched pet-food events:** 11 of 180 have no brand match; see
+## Paused: email (owner's decision, 2026-10-19)
+
+No email is sent. Signup is blocked on this too, because login is a magic link.
+To resume:
+
+1. Pick a provider (Postmark suggested), add its SPF/DKIM records in Cloudflare.
+2. Mailing address for the CASL footer.
+3. Review `src/match/lots.ts` before any Stop email; until then send Stop-level
+   matches as Alerts.
+4. Build step 3 with the schema proposed on 2026-10-19: `users`, `login_tokens`,
+   `sessions`, `pets`, `pet_foods`, `alerts` (unique per pet_food and
+   recall_event), `email_sends`. Hand-rolled magic link, one nightly digest per
+   user. Screens per `DESIGN.md`.
+
+## Not blocked on email
+
+1. **Work the review queue** (`npm run review`, with `.env.local` sourced to
+   hit production): 339 open items, mostly lot_parse (246) and ambiguous (68).
+2. **Unmatched pet-food events:** 11 of 180 have no brand match; see
    `docs/validation/report.md`.
-6. **Skipped by stopping the build early:** final validation round and the
-   code review (ingestion correctness, matching/lot parsing, security).
-   Worth one focused review of `src/match/lots.ts` before anything can send a
-   Stop email.
-7. **Optional:** request an iRES API key (OII Unified Logon) to replace the
+3. **Health Canada ingestion** (build step 5) through the same pipeline; the
+   landing page lists it as "Coming soon".
+4. **Optional:** request an iRES API key (OII Unified Logon) to replace the
    undocumented CSV export.
-
-Then build step 3 (signup, pets, foods, profile card) from `DESIGN.md`.
+5. Merge `steps-1-2` into `main` and connect the GitHub repo to Vercel so
+   deploys follow `main` instead of the CLI.
