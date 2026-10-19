@@ -5,7 +5,8 @@
 - Neon Postgres (`production` branch, project `late-breeze-20845974`), postgres
   service only. Migrated, catalog seeded, 10-year FDA backfill loaded
   (751 events, 791 matches, 339 review items).
-- Vercel project `bowlwatch`, deployed from the CLI. Env: `DATABASE_URL`,
+- Vercel project `bowlwatch`, connected to GitHub; pushes to `main` deploy
+  to production. Env: `DATABASE_URL`,
   `CRON_SECRET` (copy in `.env.local`). Nightly cron 07:00 UTC; a manual run
   from Vercel reached iRES and the fda.gov listing with no errors, so no
   GitHub Actions fallback is needed.
@@ -37,5 +38,3 @@ To resume:
    landing page lists it as "Coming soon".
 4. **Optional:** request an iRES API key (OII Unified Logon) to replace the
    undocumented CSV export.
-5. Merge `steps-1-2` into `main` and connect the GitHub repo to Vercel so
-   deploys follow `main` instead of the CLI.
