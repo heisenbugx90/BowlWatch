@@ -1,0 +1,16 @@
+# Never alias bare "Nature's Own": it is a bread brand.
+id: natures-own-pet-chews
+name: "Nature's Own Pet Chews"
+parent: best-buy-bones
+markets: [US]
+firm_names:
+  - Best Buy Bones, Inc.
+  - Best Buy Bones Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/best-buy-bones-inc-recalls-natures-own-pet-chews-bully-bites-because-possible-salmonella-health-risk"
+lines:
+  - id: bully-bites
+    name: Bully Bites
+    species: [dog]
+    formats: [treat]
+    notes: FDA iRES event 97743 (2025) "Nature's Own Pet Chews Bully Bites", UPC 739598900750.

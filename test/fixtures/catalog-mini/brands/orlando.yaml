@@ -1,0 +1,12 @@
+id: orlando
+name: "Orlando"
+parent: lidl
+markets: [US]
+firm_names: ["Lidl US Trading"]
+manufacturers: ["sunshine-mills"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: grain-free
+    name: "Grain Free"
+    species: [dog, cat]
+    formats: [dry, wet]

@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1792365940516,
+      "tag": "0000_init",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1792371517235,
+      "tag": "0001_short_alias_suffix_rule_upc_prefixes",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1792374145442,
+      "tag": "0002_line_upcs_production_date_upstream",
+      "breakpoints": true
+    }
+  ]
+}

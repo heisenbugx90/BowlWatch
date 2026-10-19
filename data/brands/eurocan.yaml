@@ -1,0 +1,19 @@
+# EuroCan's own treat brands. Euro-Can Manufacturing also makes treats for other
+# brands, so its legal name is in manufacturers.yaml only, never a brand identifier.
+id: eurocan
+name: EuroCan
+parent: euro-can-manufacturing
+markets: [CA, US]
+aliases:
+  - Euro-Can
+  - EuroCan Pet Products
+manufacturers:
+  - euro-can-manufacturing
+sources:
+  - https://www.petworldwide.net/content-1/news/2014/04/03/eurocan-celebrates-25-years-in-business.html
+  - https://recalls-rappels.canada.ca/en/alert-recall/euro-can-manufacturing-inc-recalls-bulk-and-prepackaged-junglemax-and-selection-brand
+lines:
+  # No generic "Treats" line: Barnsdale Farms, HoundsTooth and Mac's Choice are the names printed
+  # on the bags, so they are brands of their own (data/brands/barnsdale-farms.yaml etc.) with this
+  # parent. A notice naming only "EuroCan" stays at brand level.
+  []

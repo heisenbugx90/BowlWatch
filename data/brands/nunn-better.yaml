@@ -1,0 +1,16 @@
+id: nunn-better
+name: Nunn Better
+parent: midwestern-pet-foods
+markets: [US]
+firm_names:
+  - Midwestern Pet Foods Inc.
+  - Midwestern Pet Foods Chickasha Operation
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/midwestern-pet-foods-voluntarily-expands-recall-pet-food-aflatoxin-health-risk"
+lines:
+  - id: maintenance
+    name: Hunter's Select Maintenance
+    aliases:
+      - Hunter's Select
+    species: [dog]
+    formats: [dry]

@@ -1,0 +1,11 @@
+id: ranch-hound
+name: "Ranch Hound"
+parent: atwood-distributing
+markets: [US]
+manufacturers: ["cargill"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: maintenance
+    name: "Maintenance"
+    species: [dog, cat]
+    formats: [dry, wet]

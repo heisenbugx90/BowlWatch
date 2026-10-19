@@ -1,0 +1,23 @@
+id: top-quality-dog-food
+name: Top Quality Dog Food
+parent: top-quality-dog-food
+markets: [US]
+aliases:
+  - TopQualityDogFood.com
+firm_names:
+  - Top Quality Dog Food, LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/top-quality-dog-food-recalls-batch-beef-hvm-1-pound-packages-lot-number-071521-because-possible"
+lines:
+  - id: raw
+    name: Raw (Beef HVM etc.)
+    aliases:
+      - Beef HVM
+    species: [dog]
+    formats: [raw]
+  - id: keystone-katie
+    name: Keystone Katie
+    aliases:
+      - { text: Keystone Katie, kind: label }
+    species: [dog]
+    formats: [raw]

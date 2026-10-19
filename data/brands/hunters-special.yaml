@@ -1,0 +1,23 @@
+id: hunters-special
+name: Hunter's Special
+parent: sunshine-mills
+markets: [US]
+firm_names:
+  - SUNSHINE MILLS INC
+  - Sunshine Mills, Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sunshine-mills-inc-expands-previously-announced-voluntary-recall-certain-pet-food-products-due"
+notes: "Value brand made by Sunshine Mills; whether Sunshine or a retailer owns the name was not verified."
+lines:
+  - id: hi-energy
+    name: Hi Energy Formula
+    species: [dog]
+    formats: [dry]
+  - id: maintenance
+    name: Maintenance Formula
+    species: [dog]
+    formats: [dry]
+  - id: farm-and-ranch
+    name: Farm & Ranch Recipe Super Chunks
+    species: [dog]
+    formats: [dry]

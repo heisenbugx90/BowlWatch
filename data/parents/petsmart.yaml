@@ -1,0 +1,8 @@
+id: petsmart
+name: PetSmart LLC
+aliases:
+  - PetSmart Inc
+sources:
+  - https://www.petsmart.com/featured-brands/simply-nourish/
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wet-noses-natural-dog-treat-companyr-voluntarily-recalls-simply-nourish-brand-frozen-dog-food-due
+notes: Store brands Authority and Simply Nourish. FDA iRES event 86870 (2020) names "Petsmart Inc" as recalling firm for Authority cat food.

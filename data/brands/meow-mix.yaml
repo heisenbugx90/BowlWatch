@@ -1,0 +1,44 @@
+id: meow-mix
+name: Meow Mix
+parent: jm-smucker
+markets: [US, CA]
+aliases: []
+firm_names:
+  - The J.M. Smucker Company
+  - The J.M. Smucker Company, Inc.
+  - J M Smucker Co
+  - J.M Smuckers Company
+  - Big Heart Pet Brands
+sources:
+  - https://www.meowmix.com/
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/j-m-smucker-co-issues-limited-voluntary-recall-two-lots-meow-mixr-original-choice-dry-cat-food
+lines:
+  - id: original-choice
+    name: Original Choice
+    aliases: [Original]
+    species: [cat]
+    formats: [dry]
+  - id: indoor-health
+    name: Indoor Health
+    species: [cat]
+    formats: [dry]
+  - id: tender-centers
+    name: Tender Centers
+    species: [cat]
+    formats: [dry]
+  - id: hairball-control
+    name: Hairball Control
+    species: [cat]
+    formats: [dry]
+  - id: tender-favorites
+    name: Tender Favorites
+    species: [cat]
+    formats: [wet]
+  - id: simple-servings
+    name: Simple Servings
+    species: [cat]
+    formats: [wet]
+  - id: irresistibles
+    name: Irresistibles
+    species: [cat]
+    formats: [treat]

@@ -1,0 +1,26 @@
+# Never alias bare "Beyond": a common word.
+id: purina-beyond
+name: Purina Beyond
+parent: nestle-purina
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Nestle Purina PetCare Company
+  - Nestle Purina PetCare Co
+sources:
+  - https://www.purina.com/beyond
+lines:
+  - id: simply
+    name: Simply
+    aliases:
+      - { text: "Beyond Simply", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: grain-free
+    name: Grain Free
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: wholesome-grains
+    name: Wholesome Grains
+    species: [dog, cat]
+    formats: [dry]

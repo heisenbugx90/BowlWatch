@@ -1,0 +1,17 @@
+id: country-vet
+name: Country Vet
+parent: consumers-supply-distributing
+markets: [US]
+firm_names:
+  - Consumers Supply Distributing, LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/consumers-supply-distributing-llc-recalls-country-vet-biscuits-dogs-due-possible-salmonella-health"
+lines:
+  - id: biscuits
+    name: Biscuits
+    species: [dog]
+    formats: [treat]
+  - id: dog-food
+    name: Dog food
+    species: [dog]
+    formats: [dry]

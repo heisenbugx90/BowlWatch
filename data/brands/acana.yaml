@@ -1,0 +1,38 @@
+id: acana
+name: Acana
+parent: mars
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Champion Petfoods LP
+  - Champion Petfoods USA Inc
+  - Champion Petfoods USA, Inc.
+sources:
+  - https://www.acana.com/
+  - https://www.torys.com/work/2022/11/903d8757-9a3f-4cc3-bcbc-2037680377db
+lines:
+  - id: classics
+    name: Classics
+    species: [dog]
+    formats: [dry]
+  - id: singles
+    name: Singles
+    aliases:
+      - Singles Limited Ingredient
+      - { text: "Acana Singles", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: wholesome-grains
+    name: Wholesome Grains
+    species: [dog]
+    formats: [dry]
+  - id: highest-protein
+    name: Highest Protein
+    aliases: [Regionals]
+    species: [dog, cat]
+    formats: [dry]
+  - id: premium-chunks
+    name: Premium Chunks
+    aliases: [Premium Pate]
+    species: [dog, cat]
+    formats: [wet]

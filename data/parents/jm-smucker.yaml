@@ -1,0 +1,15 @@
+# Retained Meow Mix, Milk-Bone and Pup-Peroni in the 2023 sale to Post Holdings.
+# Smucker / Big Heart Pet Brands also made private-label food (Ol' Roy, Special Kitty);
+# that role is in manufacturers.yaml (jm-smucker), never as a brand alias.
+id: jm-smucker
+name: The J.M. Smucker Company
+aliases:
+  - J M Smucker Co
+  - The J.M. Smucker Company, Inc.
+  - Big Heart Pet Brands
+  - Big Heart Pet Brands, Inc.
+sources:
+  - https://www.postholdings.com/post-holdings-completes-acquisition-of-rachael-ray-nutrish-natures-recipe-and-other-select-pet-food-brands/
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/j-m-smucker-co-issues-limited-voluntary-recall-two-lots-meow-mixr-original-choice-dry-cat-food
+  - https://www.petfoodindustry.com/business-strategy/news/15827285/smucker-pet-food-in-q4-fy26-outpaced-company-growth-with-meow-mix-momentum
+notes: Still reporting Meow Mix and Milk-Bone in fiscal 2026 results (quarter ended 2026-04-30).

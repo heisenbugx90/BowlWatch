@@ -1,0 +1,10 @@
+id: sunshine-mills
+name: Sunshine Mills, Inc.
+aliases:
+  - Sunshine Mills Inc
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sunshine-mills-inc-expands-previously-announced-voluntary-recall-certain-pet-food-products-due"
+  - "https://www.petfoodindustry.com/pet-food-market/article/15459933/hi-tek-rations-partners-with-sunshine-mills-refines-petfood-focus"
+  # USPTO records list CHAMP and FIELD TRIAL (pet food) as owned by Sunshine Mills.
+  - https://trademark.justia.com/owners/sunshine-mills-inc-2634462
+notes: "Family-owned, Red Bay AL. Makes its own value brands and many store brands; bought Hi-Tek Rations' brands (Intimidator, Good Dog, ...)."

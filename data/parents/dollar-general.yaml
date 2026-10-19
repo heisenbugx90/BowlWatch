@@ -1,0 +1,9 @@
+id: dollar-general
+name: Dollar General Corporation
+aliases:
+  - Dolgen Corp
+  - "Dolgencorp, LLC"
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jm-smucker-company-expands-limited-voluntary-recall-certain-lots-canned-cat-food-due-low-levels"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jm-smucker-company-announces-limited-voluntary-recall-certain-lots-canned-cat-food-due-low-levels"
+notes: EverPet is its private label; Dolgen Corp is the distributing subsidiary printed on the cans.

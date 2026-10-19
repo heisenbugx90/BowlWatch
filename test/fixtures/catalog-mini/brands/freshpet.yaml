@@ -1,0 +1,12 @@
+id: freshpet
+name: "Freshpet"
+parent: freshpet-inc
+markets: [US]
+firm_names: ["Freshpet Inc."]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: select
+    name: "Select"
+    aliases: [{"text": "Freshpet Select", "kind": "label"}]
+    species: [dog, cat]
+    formats: [dry, wet]

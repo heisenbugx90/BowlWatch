@@ -1,0 +1,64 @@
+# "Victor" alone is a common word and a name (Victor pest-control products etc.),
+# so the brand is identified by "VICTOR Super Premium" and line labels.
+id: victor
+name: Victor Super Premium Pet Food
+parent: mid-america-pet-food
+markets: [US, CA]
+aliases:
+  - Victor Super Premium Dog Food
+  - Victor Super Premium Cat Food
+  - Victor Super Premium
+  - Victor Pet Food
+firm_names:
+  - Mid America Pet Food LLC
+  - Mid America Pet Food, L.L.C.
+sources:
+  - https://victorpetfood.com/
+  - https://ta.com/news/ta-associates-completes-investment-in-mid-america-pet-food-manufacturer-of-victor
+lines:
+  - id: classic
+    name: Classic
+    aliases:
+      - Hi-Pro Plus
+      - Professional
+      - Multi-Pro
+      - { text: "Victor Hi-Pro Plus", kind: label }
+      - { text: "Victor Classic", kind: label }
+    species: [dog]
+    formats: [dry]
+    notes: FDA iRES event 92990 (2023) Hi-Pro Plus.
+  - id: select
+    name: Select
+    aliases:
+      - { text: "Victor Select", kind: label }
+    species: [dog]
+    formats: [dry]
+    notes: A line of its own, not part of Classic. FDA iRES event 93333 (2023) Select Beef Meal & Brown Rice.
+  - id: purpose
+    name: Purpose
+    aliases:
+      - Nutra Pro
+      - Senior Healthy Weight
+      - Performance
+      - { text: "Victor Purpose", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: grain-free
+    name: Grain Free
+    aliases:
+      - Yukon River
+      - Ultra Pro
+      - Hero
+      - { text: "Victor Grain Free", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: cat
+    name: Cat
+    aliases:
+      - { text: "Victor Super Premium Cat", kind: label }
+    species: [cat]
+    formats: [dry]
+  - id: wet
+    name: Canned
+    species: [dog]
+    formats: [wet]

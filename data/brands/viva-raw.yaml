@@ -1,0 +1,35 @@
+# 'Viva' alone is a common word; label aliases carry the brand.
+id: viva-raw
+name: Viva Raw
+parent: viva-raw
+markets: [US]
+aliases:
+  - { text: VIVA for Dogs, kind: label }
+  - { text: VIVA for Cats, kind: label }
+  - { text: VIVA for Puppies, kind: label }
+  - { text: Viva Pure, kind: label }
+  # Bare brand word: counts only when the recalling firm corroborates it.
+  - { text: Viva, kind: short }
+firm_names:
+  - Viva Raw
+  - Viva Raw LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/viva-raw-issues-voluntary-recall-two-lots-dog-and-cat-foods-due-salmonella-and-listeria"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/viva-raw-issues-voluntary-recall-dog-and-cat-food-including-select-viva-turkey-recipes-lot-21244-due"
+lines:
+  - id: dogs
+    name: Viva for Dogs
+    species: [dog]
+    formats: [raw]
+  - id: cats
+    name: Viva for Cats
+    species: [cat]
+    formats: [raw]
+  - id: puppies
+    name: Viva for Puppies
+    species: [dog]
+    formats: [raw]
+  - id: pure
+    name: Viva Pure
+    species: [dog, cat]
+    formats: [raw, topper]

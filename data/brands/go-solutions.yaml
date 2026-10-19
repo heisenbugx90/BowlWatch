@@ -1,0 +1,78 @@
+# Petcurean Go! Solutions. Labels print "GO! SOLUTIONS" + collection name.
+id: go-solutions
+name: Go! Solutions
+parent: petcurean
+markets: [CA, US]
+aliases:
+  - Petcurean Go!
+firm_names:
+  - Petcurean Pet Nutrition
+  - Petcurean Pet Nutrition Inc.
+sources:
+  - https://go-solutions.com/en-ca
+  - https://www.petcurean.com/
+lines:
+  - id: carnivore
+    name: Carnivore
+    aliases:
+      - { text: "Go! Solutions Carnivore", kind: label }
+      - { text: "Go! Carnivore", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: sensitivities
+    name: Sensitivities
+    aliases:
+      - { text: "Go! Solutions Sensitivities", kind: label }
+      - { text: "Go! Sensitivities", kind: label }
+      - { text: "Go! Sensitivity + Shine", kind: label }   # older name
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: skin-coat-care
+    name: Skin + Coat Care
+    aliases:
+      - { text: "Go! Solutions Skin + Coat Care", kind: label }
+      - { text: "Go! Skin + Coat Care", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: digestion-gut-health
+    name: Digestion + Gut Health
+    aliases:
+      - { text: "Go! Solutions Digestion + Gut Health", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: weight-management-joint-care
+    name: Weight Management + Joint Care
+    aliases:
+      - { text: "Go! Solutions Weight Management + Joint Care", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: healthy-aging
+    name: Healthy Aging
+    aliases:
+      - { text: "Go! Solutions Healthy Aging", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: dental-immune-health
+    name: Dental + Immune Health
+    aliases:
+      - { text: "Go! Solutions Dental + Immune Health", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: tranquility
+    name: Tranquility
+    aliases:
+      - { text: "Go! Solutions Tranquility", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: hairball-control-urinary-care
+    name: Hairball Control + Urinary Care
+    aliases:
+      - { text: "Go! Solutions Hairball Control + Urinary Care", kind: label }
+    species: [cat]
+    formats: [dry]
+  - id: brain-health
+    name: Brain Health
+    aliases:
+      - { text: "Go! Solutions Brain Health", kind: label }
+    species: [cat]
+    formats: [dry]

@@ -1,0 +1,14 @@
+id: elite-treats
+name: Elite Treats
+parent: elite-treats
+markets: [US]
+firm_names:
+  - elite treats LLC
+  - Elite Treats, LLC.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/elite-treats-llc-recalls-single-lot-chicken-chips-due-salmonella-contamination"
+lines:
+  - id: chicken-chips
+    name: Chicken Chips
+    species: [dog]
+    formats: [treat]

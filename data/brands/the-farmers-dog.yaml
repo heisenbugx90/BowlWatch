@@ -1,0 +1,19 @@
+id: the-farmers-dog
+name: The Farmer's Dog
+parent: the-farmers-dog
+markets: [US]
+aliases:
+  - Farmer's Dog
+firm_names:
+  - The Farmer's Dog, Inc.
+sources:
+  - https://www.thefarmersdog.com/
+lines:
+  - id: fresh-recipes
+    name: Fresh Recipes
+    species: [dog]
+    formats: [other]
+  - id: snacks
+    name: Snacks
+    species: [dog]
+    formats: [treat]

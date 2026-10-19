@@ -1,0 +1,16 @@
+id: american-beefhide
+name: American Beefhide
+parent: spectrum-brands
+markets: [US]
+firm_names:
+  - Spectrum Brands Inc
+  - United Pet Group
+manufacturers:
+  - salix-animal-health
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/united-pet-group-expands-voluntary-recall-multiple-brands-rawhide-chew-products-dogs-also-include"
+lines:
+  - id: chews
+    name: Chew bones
+    species: [dog]
+    formats: [treat]

@@ -1,0 +1,15 @@
+id: chewy-louie
+name: Chewy Louie
+parent: redbarn-pet-products
+markets: [US]
+firm_names:
+  - Redbarn Pet Products
+  - Redbarn Pet Products, LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/redbarn-pet-products-expands-voluntary-recall-dog-chews"
+notes: "Named as a brand in Redbarn's 2018 recall; whether it is a Redbarn-owned or retailer brand is not verified."
+lines:
+  - id: bully-sticks
+    name: Bully Sticks
+    species: [dog]
+    formats: [treat]

@@ -1,0 +1,18 @@
+id: savage-cat
+name: Savage Cat Food
+parent: predator-pet
+markets: [US]
+aliases:
+  - Savage Cat
+  - Savage Pet
+firm_names:
+  - Predator Pet, Inc.
+  - PREDATOR PET INC DBA SAVAGE PET
+  - Savage Pet
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/savage-pet-recalls-savage-cat-food-chicken-large-and-small-boxes-because-possible-bird-flu-health"
+lines:
+  - id: raw
+    name: Raw (frozen)
+    species: [cat]
+    formats: [raw]

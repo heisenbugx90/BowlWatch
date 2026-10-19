@@ -1,0 +1,39 @@
+id: purina-one
+name: Purina ONE
+parent: nestle-purina
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Nestle Purina PetCare Company
+  - Nestle Purina PetCare Co
+sources:
+  - https://www.purina.com/purina-one
+lines:
+  - id: smartblend
+    name: SmartBlend
+    aliases:
+      - { text: "Purina ONE SmartBlend", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: plus
+    name: +Plus
+    aliases:
+      - { text: "Purina ONE Plus", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: true-instinct
+    name: True Instinct
+    aliases:
+      - { text: "Purina ONE True Instinct", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: indoor-advantage
+    name: Indoor Advantage
+    aliases:
+      - { text: "Purina ONE Indoor Advantage", kind: label }
+    species: [cat]
+    formats: [dry]
+  - id: sensitive-skin-and-stomach
+    name: Sensitive Skin & Stomach
+    species: [dog, cat]
+    formats: [dry]

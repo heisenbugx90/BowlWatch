@@ -1,0 +1,46 @@
+# "Perfect Portions" is also an Iams and Sheba line name; fine because line
+# names only count after the brand is established.
+id: nutro
+name: Nutro
+parent: mars
+markets: [US, CA]
+aliases:
+  - Nutro Natural Choice
+firm_names:
+  - Mars Petcare US
+  - Mars Petcare US Inc
+  - Mars Petcare USA
+  - The Nutro Company
+  - Nutro Products, Inc.
+sources:
+  - https://www.nutro.com/
+  - https://www.mars.com/made-by-mars/petcare
+lines:
+  - id: ultra
+    name: Ultra
+    aliases:
+      - { text: "Nutro Ultra", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: natural-choice
+    name: Natural Choice
+    species: [dog]
+    formats: [dry]
+  - id: wholesome-essentials
+    name: Wholesome Essentials
+    aliases:
+      - { text: "Nutro Wholesome Essentials", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: so-simple
+    name: So Simple
+    species: [dog]
+    formats: [dry]
+  - id: perfect-portions
+    name: Perfect Portions
+    species: [cat]
+    formats: [wet]
+  - id: crunchy-treats
+    name: Crunchy Treats
+    species: [dog]
+    formats: [treat]

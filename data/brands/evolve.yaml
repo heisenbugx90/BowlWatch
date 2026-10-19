@@ -1,0 +1,30 @@
+# 'Evolve' alone is a common verb; name kept because notices print it as the brand,
+# label aliases added.
+id: evolve
+name: Evolve (Sunshine Mills)
+parent: sunshine-mills
+markets: [US]
+aliases:
+  - { text: Evolve Natural Dog Food, kind: label }
+  - { text: Evolve Classic, kind: label }
+  - { text: Evolve Puppy Formula, kind: label }
+  # Bare brand word: counts only when the recalling firm corroborates it.
+  - { text: Evolve, kind: short }
+firm_names:
+  - SUNSHINE MILLS INC
+  - Sunshine Mills, Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sunshine-mills-inc-issues-voluntary-recall-dry-dog-food-due-potentially-elevated-levels-vitamin-d"
+lines:
+  - id: classic
+    name: Classic
+    species: [dog, cat]
+    formats: [dry]
+  - id: grain-free
+    name: Grain Free
+    species: [dog, cat]
+    formats: [dry]
+  - id: puppy
+    name: Puppy Formula
+    species: [dog]
+    formats: [dry]

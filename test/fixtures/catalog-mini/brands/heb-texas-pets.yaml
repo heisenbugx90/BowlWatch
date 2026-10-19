@@ -1,0 +1,11 @@
+id: heb-texas-pets
+name: "H-E-B Texas Pets"
+parent: heb
+markets: [US]
+manufacturers: ["tfp-nutrition"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: indoor-complete
+    name: "Indoor Complete"
+    species: [dog, cat]
+    formats: [dry, wet]

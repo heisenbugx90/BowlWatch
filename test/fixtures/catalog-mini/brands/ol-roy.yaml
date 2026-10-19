@@ -1,0 +1,11 @@
+id: ol-roy
+name: "Ol' Roy"
+parent: walmart
+markets: [US]
+firm_names: ["Wal-Mart Stores"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: strips-in-gravy
+    name: "Strips in Gravy"
+    species: [dog, cat]
+    formats: [dry, wet]

@@ -1,0 +1,42 @@
+# 'Sprout' alone is a common word.
+id: sprout
+name: Sprout (Fleet Farm)
+parent: fleet-farm
+markets: [US]
+aliases:
+  - { text: Sprout brand, kind: label }
+  - { text: Sprout Ultra High Performance, kind: label }
+firm_names:
+  - Mills Fleet Farm
+manufacturers:
+  - simmons-foods
+  - sunshine-mills
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sunshine-mills-inc-issues-voluntary-recall-certain-dog-food-products-because-possible-salmonella"
+  - "https://www.accessdata.fda.gov/scripts/ires/index.cfm?action=export.getExportCSVResult&view=AdvancedSearch&page=product&criteria=%5B%7B%22productdescriptiontxt%22%3A%22%22%7D%2C%7B%22codeinformation%22%3A%22%22%7D%2C%7B%22centercd%22%3A%5B%22CVM%22%5D%7D%2C%7B%22centerclassificationtypetxt%22%3Anull%7D%2C%7B%22firmlegalnam%22%3A%22%22%7D%2C%7B%22phasetxt%22%3Anull%7D%2C%7B%22recalleventid%22%3A%2276403%22%7D%2C%7B%22recallnum%22%3A%22%22%7D%2C%7B%22productshortreasontxt%22%3A%22%22%7D%2C%7B%22centerclassificationdtfrom%22%3A%2201%2F01%2F2016%22%7D%2C%7B%22centerclassificationdtto%22%3A%2212%2F31%2F2026%22%7D%5D"
+lines:
+  - id: sporting
+    name: Sporting / High Performance
+    aliases:
+      - { text: Sprout Sporting, kind: label }
+      - Sporting Dog Food
+      - HI-Protein
+    species: [dog]
+    formats: [dry]
+  - id: bites-and-bones
+    name: Bites & Bones
+    # its own formula (FDA iRES 86569 V-0018), not the Sporting / HI-Protein line
+    species: [dog]
+    formats: [dry]
+  - id: ultra-high-performance
+    name: Ultra High Performance
+    species: [dog, cat]
+    formats: [wet]
+  - id: maintenance
+    name: Maintenance
+    species: [dog]
+    formats: [dry]
+  - id: puppy
+    name: Puppy
+    species: [dog]
+    formats: [dry]

@@ -1,0 +1,12 @@
+id: steves-real-food
+name: "Steve's Real Food"
+parent: go-raw
+markets: [US]
+aliases: ["Steves Real Food"]
+firm_names: ["Go Raw, LLC"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: freeze-dried
+    name: "Freeze Dried"
+    species: [dog, cat]
+    formats: [dry, wet]

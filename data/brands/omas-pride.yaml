@@ -1,0 +1,19 @@
+id: omas-pride
+name: Oma's Pride
+parent: miller-foods
+markets: [US]
+firm_names:
+  - Miller Foods, Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/updated-omas-pride-voluntarily-recalls-one-lot-woof-complete-canine-chicken-recipe-6-lb-bag-because"
+lines:
+  - id: woof-complete
+    name: Woof Complete
+    aliases:
+      - { text: Oma's Pride Woof, kind: label }
+    species: [dog]
+    formats: [raw]
+  - id: purr-complete
+    name: Purr Complete
+    species: [cat]
+    formats: [raw]

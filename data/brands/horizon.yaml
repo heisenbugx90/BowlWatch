@@ -1,0 +1,40 @@
+# Horizon Pet Food (Saskatchewan). Never alias bare "Horizon": Horizon Organic
+# (dairy) and others. Lines print as "pulsar", "taiga", "legacy" with Horizon logo.
+id: horizon
+name: Horizon Pet Food
+parent: horizon-pet-nutrition
+markets: [CA]
+aliases:
+  - Horizon Pet Nutrition
+firm_names:
+  - Horizon Manufacturing Inc.
+sources:
+  - https://horizonpetfood.com/
+  - https://horizonpetfood.com/products/
+lines:
+  - id: pulsar
+    name: Pulsar
+    aliases:
+      - { text: "Horizon Pulsar", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: taiga
+    name: Taiga
+    aliases:
+      - { text: "Horizon Taiga", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: legacy
+    name: Legacy
+    aliases:
+      - { text: "Horizon Legacy", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: amicus
+    name: Amicus
+    aliases:
+      - { text: "Horizon Amicus", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+    discontinued: true
+    notes: Not on horizonpetfood.com/products in 2026-10; status unverified, kept for older notices.

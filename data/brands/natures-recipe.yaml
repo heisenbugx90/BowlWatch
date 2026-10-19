@@ -1,0 +1,25 @@
+id: natures-recipe
+name: Nature's Recipe
+parent: post-holdings
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Post Consumer Brands
+  - Post Holdings, Inc.
+  - Post Brands Pet Care
+sources:
+  - https://www.naturesrecipe.com/
+  - https://www.postholdings.com/post-holdings-completes-acquisition-of-rachael-ray-nutrish-natures-recipe-and-other-select-pet-food-brands/
+lines:
+  - id: original
+    name: Original
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: grain-free
+    name: Grain Free
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: prime-blends
+    name: Prime Blends
+    species: [dog]
+    formats: [wet]

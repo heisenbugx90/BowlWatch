@@ -1,0 +1,21 @@
+id: against-the-grain
+name: Against the Grain
+parent: evangers
+markets: [US]
+aliases:
+  - Against the Grain Pet Food
+firm_names:
+  - Against the Grain Pet Food
+  - Against the Grain
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/evangers-pet-food-and-against-grain-voluntarily-recalls-additional-products-out-abundance-caution"
+  - "https://www.accessdata.fda.gov/scripts/ires/index.cfm?action=export.getExportCSVResult&view=AdvancedSearch&page=product&criteria=%5B%7B%22productdescriptiontxt%22%3A%22%22%7D%2C%7B%22codeinformation%22%3A%22%22%7D%2C%7B%22centercd%22%3A%5B%22CVM%22%5D%7D%2C%7B%22centerclassificationtypetxt%22%3Anull%7D%2C%7B%22firmlegalnam%22%3A%22%22%7D%2C%7B%22phasetxt%22%3Anull%7D%2C%7B%22recalleventid%22%3A%2276466%22%7D%2C%7B%22recallnum%22%3A%22%22%7D%2C%7B%22productshortreasontxt%22%3A%22%22%7D%2C%7B%22centerclassificationdtfrom%22%3A%2201%2F01%2F2016%22%7D%2C%7B%22centerclassificationdtto%22%3A%2212%2F31%2F2026%22%7D%5D"
+lines:
+  - id: canned
+    name: Canned dog food
+    aliases:
+      - Pulled Beef
+      - Braised Beef
+    species: [dog]
+    formats: [wet]
+    notes: "FDA iRES 76466 (2017) Pulled Beef with Gravy, pentobarbital."

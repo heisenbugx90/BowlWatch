@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your foods — watch list</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+body{margin:0}
+a{color:#1E5A45}a:hover{color:#174736}
+</style>
+</head>
+<body>
+<div style="min-height: 100vh; box-sizing: border-box; background: #F5F3EE; color: #16201B; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 15px; line-height: 1.5; display: flex; flex-direction: column">
+
+  <header style="background: #FFFFFF; border-bottom: 1px solid #D9D6CE">
+    <nav aria-label="App" style="max-width: 1120px; margin: 0 auto; padding: 0 24px; min-height: 60px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px">
+      <a href="Main.dc.html" style="font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 20px; letter-spacing: -0.02em; color: #16201B; text-decoration: none; display: inline-flex; align-items: center; gap: 10px"><span aria-hidden="true" style="width: 12px; height: 12px; border-radius: 50% 50% 4px 50%; background: #1E5A45; display: inline-block"></span>BowlWatch</a>
+      <a href="Home.dc.html" aria-current="page" style="color: #16201B; text-decoration: none; font-weight: 700; min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid #1E5A45">Your foods</a>
+      <a href="AddFood.dc.html" style="color: #16201B; text-decoration: none; font-weight: 500; min-height: 44px; display: inline-flex; align-items: center">Add a food</a>
+      <a href="#settings" style="color: #16201B; text-decoration: none; font-weight: 500; min-height: 44px; display: inline-flex; align-items: center">Settings</a>
+      <span style="margin-left: auto; font-size: 13px; color: #4A554F">you@example.com</span>
+    </nav>
+  </header>
+
+  <main style="max-width: 1120px; width: 100%; box-sizing: border-box; margin: 0 auto; padding: 40px 24px 64px; display: flex; flex-direction: column; gap: 32px">
+
+    <section aria-label="Last night’s check" style="background: #16201B; color: #F5F3EE; border-radius: 12px; padding: 24px 28px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px 40px">
+      <div style="display: flex; flex-direction: column; gap: 4px; flex: 1 1 280px">
+        <div style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #B8C3BC">Last check · <span style="text-transform: none; letter-spacing: 0">2026-10-18 02:14 ET</span></div>
+        <div style="font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 26px; line-height: 1.1; letter-spacing: -0.02em; display: flex; align-items: center; gap: 12px"><span aria-hidden="true" style="width: 12px; height: 12px; border-radius: 50%; background: #5FC68F; flex: none"></span>Nothing matched your foods</div>
+      </div>
+      <dl style="margin: 0; display: flex; flex-wrap: wrap; gap: 16px 32px">
+        <div style="display: flex; flex-direction: column; gap: 2px">
+          <dt style="font-size: 12px; color: #B8C3BC">Feeds read</dt>
+          <dd style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 16px">2 · FDA, Health Canada</dd>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 2px">
+          <dt style="font-size: 12px; color: #B8C3BC">New notices</dt>
+          <dd style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 16px">14</dd>
+        </div>
+        <div style="display: flex; flex-direction: column; gap: 2px">
+          <dt style="font-size: 12px; color: #B8C3BC">Matched</dt>
+          <dd style="margin: 0; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 16px">0</dd>
+        </div>
+      </dl>
+      <a href="#log" style="color: #F5F3EE; font-weight: 600; text-underline-offset: 3px">Check log →</a>
+    </section>
+
+    <div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px">
+      <h1 style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 32px; line-height: 1.05; letter-spacing: -0.02em">Your foods</h1>
+      <a href="AddFood.dc.html" style="font-weight: 600; min-height: 44px; padding: 0 18px; border-radius: 8px; background: #1E5A45; color: #FFFFFF; text-decoration: none; display: inline-flex; align-items: center">Add a food</a>
+    </div>
+
+    <section aria-labelledby="pet-maple" style="background: #FFFFFF; border: 1px solid #D9D6CE; border-radius: 12px; overflow: hidden">
+      <div style="padding: 16px 24px; border-bottom: 1px solid #D9D6CE; display: flex; flex-wrap: wrap; align-items: center; gap: 12px">
+        <h2 id="pet-maple" style="margin: 0; font-size: 18px; font-weight: 700">Maple</h2>
+        <span style="font-size: 13px; color: #4A554F">Dog · 2 foods</span>
+        <a href="#edit-maple" style="margin-left: auto; font-size: 14px; font-weight: 600">Edit</a>
+      </div>
+      <ul style="list-style: none; margin: 0; padding: 0">
+        <li style="padding: 18px 24px; border-bottom: 1px solid #D9D6CE; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 12px 24px; align-items: center">
+          <div style="display: flex; flex-direction: column; gap: 2px">
+            <span style="font-weight: 600">Everyday Adult · Chicken &amp; Brown Rice</span>
+            <span style="font-size: 13px; color: #4A554F">Harrow &amp; Finch · dry</span>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px">
+            <span style="display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 6px; background: #16201B; color: #F5F3EE; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px">LOT 24A17</span>
+            <span style="display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 6px; background: #F5F3EE; color: #16201B; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px">BB 2027-03-14</span>
+          </div>
+          <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+            <span style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px; border: 1px solid #D9D6CE; font-size: 13px; font-weight: 600"><span aria-hidden="true" style="width: 8px; height: 8px; border-radius: 50%; background: #1F7A4D"></span>Watching · lot level</span>
+            <a href="AddFood.dc.html" style="font-size: 14px; font-weight: 600; white-space: nowrap">On file →</a>
+          </div>
+        </li>
+        <li style="padding: 18px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 12px 24px; align-items: center">
+          <div style="display: flex; flex-direction: column; gap: 2px">
+            <span style="font-weight: 600">Pasture Lamb · Stew, 354 g cans</span>
+            <span style="font-size: 13px; color: #4A554F">Kettle Creek · wet</span>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center">
+            <a href="#add-lot" style="font-size: 14px; font-weight: 600">Add lot and best-by</a>
+          </div>
+          <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+            <span style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px; border: 1px solid #D9D6CE; font-size: 13px; font-weight: 600"><span aria-hidden="true" style="width: 8px; height: 8px; border-radius: 50%; background: #1F7A4D"></span>Watching · line level</span>
+            <a href="AddFood.dc.html" style="font-size: 14px; font-weight: 600; white-space: nowrap">On file →</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="pet-juniper" style="background: #FFFFFF; border: 1px solid #D9D6CE; border-radius: 12px; overflow: hidden">
+      <div style="padding: 16px 24px; border-bottom: 1px solid #D9D6CE; display: flex; flex-wrap: wrap; align-items: center; gap: 12px">
+        <h2 id="pet-juniper" style="margin: 0; font-size: 18px; font-weight: 700">Juniper</h2>
+        <span style="font-size: 13px; color: #4A554F">Cat · 1 food</span>
+        <a href="#edit-juniper" style="margin-left: auto; font-size: 14px; font-weight: 600">Edit</a>
+      </div>
+      <ul style="list-style: none; margin: 0; padding: 0">
+        <li style="padding: 18px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr)); gap: 12px 24px; align-items: center">
+          <div style="display: flex; flex-direction: column; gap: 2px">
+            <span style="font-weight: 600">Indoor Adult · Salmon</span>
+            <span style="font-size: 13px; color: #4A554F">Kettle Creek · dry</span>
+          </div>
+          <div style="display: flex; flex-wrap: wrap; gap: 8px">
+            <span style="display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 6px; background: #16201B; color: #F5F3EE; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px">LOT K0912</span>
+            <span style="display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px; border-radius: 6px; background: #FBEBCB; color: #6E4100; font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px">BB 2026-11-02 · soon</span>
+          </div>
+          <div style="display: flex; align-items: center; justify-content: space-between; gap: 12px">
+            <span style="display: inline-flex; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px; border: 1px solid #D9D6CE; font-size: 13px; font-weight: 600"><span aria-hidden="true" style="width: 8px; height: 8px; border-radius: 50%; background: #1F7A4D"></span>Watching · lot level</span>
+            <a href="AddFood.dc.html" style="font-size: 14px; font-weight: 600; white-space: nowrap">On file →</a>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="settings" aria-label="Email and region" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(360px, 100%), 1fr)); gap: 16px">
+      <div style="padding: 20px 24px; border: 1px solid #D9D6CE; border-radius: 12px; background: #FFFFFF; display: flex; flex-direction: column; gap: 8px">
+        <h2 style="margin: 0; font-size: 15px; font-weight: 700">Where we email you</h2>
+        <p style="margin: 0; color: #4A554F">Matches go to <span style="color: #16201B; font-weight: 600">you@example.com</span> in one nightly digest, sent only on nights something matches. No weekly round-up, no newsletters.</p>
+        <a href="#email" style="font-size: 14px; font-weight: 600">Change address</a>
+      </div>
+      <div style="padding: 20px 24px; border: 1px solid #D9D6CE; border-radius: 12px; background: #FFFFFF; display: flex; flex-direction: column; gap: 8px">
+        <h2 style="margin: 0; font-size: 15px; font-weight: 700">You’re in Canada</h2>
+        <p style="margin: 0; color: #4A554F">Pet food isn’t federally regulated here, and most recalls reach you through the FDA, so we watch both feeds for you. Silence doesn’t mean safety; it means no one was required to speak.</p>
+        <a href="Main.dc.html" style="font-size: 14px; font-weight: 600">Why this matters →</a>
+      </div>
+    </section>
+  </main>
+</div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+# "Temptations" is a common word; it should only win once the event is classified
+# as pet food. Older packs read "Whiskas Temptations".
+id: temptations
+name: Temptations
+parent: mars
+markets: [US, CA]
+aliases:
+  - Whiskas Temptations
+firm_names:
+  - Mars Petcare US
+  - Mars Petcare US Inc
+  - Mars Petcare USA
+sources:
+  - https://www.temptationstreats.com/
+  - https://www.mars.com/made-by-mars/petcare
+lines:
+  - id: classic
+    name: Classic
+    species: [cat]
+    formats: [treat]
+  - id: mixups
+    name: MixUps
+    aliases:
+      - { text: "Temptations MixUps", kind: label }
+    species: [cat]
+    formats: [treat]
+  - id: creamy-puree
+    name: Creamy Purrrr-ee
+    aliases: [Creamy Puree]
+    species: [cat]
+    formats: [treat]
+  - id: meaty-bites
+    name: Meaty Bites
+    species: [cat]
+    formats: [treat]

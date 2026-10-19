@@ -1,0 +1,23 @@
+id: dentleys
+name: Dentley's
+parent: petsmart
+markets: [US]
+aliases:
+  - Dentley  # printed without the s in FDA iRES event 79164
+firm_names:
+  - Pacific Coast Distributing, Inc.
+# PetSmart's GS1 company prefix (737257...), FDA iRES 79164 "UPC 737257479852".
+upc_prefixes: ["737257"]
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/united-pet-group-expands-voluntary-recall-multiple-brands-rawhide-chew-products-dogs-also-include"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/redbarn-pet-products-expands-voluntary-recall-dog-chews"
+notes: "PetSmart store brand; recalled chews made by United Pet Group (2017) and Redbarn (2018)."
+lines:
+  - id: rawhide
+    name: Rawhide
+    species: [dog]
+    formats: [treat]
+  - id: bully-sticks
+    name: Bully Sticks
+    species: [dog]
+    formats: [treat]

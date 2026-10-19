@@ -1,0 +1,28 @@
+id: triumph
+# 'Triumph' alone is a common word: only label aliases identify the brand.
+name: Triumph (Sunshine Mills)
+parent: sunshine-mills
+markets: [US]
+aliases:
+  - { text: Triumph Super Premium, kind: label }
+  - { text: Triumph Premium Cat Food, kind: label }
+  - { text: Triumph Wild Spirit, kind: label }
+  # Bare brand word: counts only when the recalling firm corroborates it.
+  - { text: Triumph, kind: short }
+firm_names:
+  - SUNSHINE MILLS INC
+  - Sunshine Mills, Inc.
+manufacturers:
+  - simmons-foods
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sunshine-mills-inc-issues-voluntary-recall-dry-dog-food-due-potentially-elevated-levels-vitamin-d"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sunshine-mills-inc-issues-voluntary-recall-certain-products-due-potentially-elevated-levels"
+lines:
+  - id: dry-dog
+    name: Dry dog food
+    species: [dog]
+    formats: [dry]
+  - id: canned
+    name: Canned
+    species: [dog, cat]
+    formats: [wet]

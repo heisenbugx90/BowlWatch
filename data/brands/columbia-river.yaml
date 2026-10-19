@@ -1,0 +1,17 @@
+id: columbia-river
+name: Columbia River Natural Pet Foods
+parent: columbia-river-natural-pet-foods
+markets: [US]
+firm_names:
+  - Columbia River Natural Pet Foods Inc
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/columbia-river-natural-pet-foods-inc-voluntarily-expands-recall-include-cow-pie-and-chicken"
+lines:
+  - id: cow-pie
+    name: Cow Pie
+    species: [dog, cat]
+    formats: [raw]
+  - id: chicken-and-vegetables
+    name: Chicken & Vegetables
+    species: [dog, cat]
+    formats: [raw]

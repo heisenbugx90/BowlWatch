@@ -1,0 +1,18 @@
+# Fromm's fresh/frozen brand. 2025 recall (FDA iRES 97982) filed by Fromm Family Foods.
+id: bonnihill-farms
+name: Bonnihill Farms
+parent: fromm-family-foods
+markets: [US]
+aliases:
+  - Bonnihill Farms Pet Foods
+firm_names:
+  - Fromm Family Foods
+  - Fromm Family Foods, LLC
+sources:
+  - https://www.bonnihillfarms.com/
+lines:
+  - id: beefibowls
+    name: BeefiBowls
+    aliases: [ChickiBowls, PorkiBowls, BonniBowls]
+    species: [dog]
+    formats: [raw, other]

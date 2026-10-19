@@ -1,0 +1,60 @@
+# Purina Pro Plan. Veterinary Diets is its own brand file (purina-pro-plan-veterinary-diets)
+# because notices and users name it separately and it has its own lines (EN, HA, NF...).
+# No bare "Purina" alias anywhere: Purina Animal Nutrition (Land O'Lakes) recalls feed.
+id: purina-pro-plan
+name: Purina Pro Plan
+parent: nestle-purina
+markets: [US, CA]
+aliases:
+  - Pro Plan
+  - Purina ProPlan
+firm_names:
+  - Nestle Purina PetCare Company
+  - Nestle Purina PetCare Co
+sources:
+  - https://www.purina.com/pro-plan
+  - https://www.purina.com/brands
+lines:
+  - id: complete-essentials
+    name: Complete Essentials
+    aliases:
+      - { text: "Pro Plan Complete Essentials", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: sensitive-skin-and-stomach
+    name: Sensitive Skin & Stomach
+    aliases:
+      - { text: "Pro Plan Sensitive Skin and Stomach", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: sport
+    name: Sport
+    aliases:
+      - { text: "Pro Plan Sport", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: specialized
+    name: Specialized
+    aliases:
+      - { text: "Pro Plan Specialized", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: prime-plus
+    name: Prime Plus
+    aliases:
+      - { text: "Pro Plan Prime Plus", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: liveclear
+    name: LiveClear
+    aliases:
+      - { text: "Pro Plan LiveClear", kind: label }
+    species: [cat]
+    formats: [dry]
+  - id: veterinary-supplements
+    name: Veterinary Supplements
+    aliases:
+      - FortiFlora
+      - { text: "Pro Plan Veterinary Supplements", kind: label }
+    species: [dog, cat]
+    formats: [other]

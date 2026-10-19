@@ -1,0 +1,11 @@
+id: beg-barker
+name: "Beg & Barker"
+parent: beg-barker-co
+markets: [US]
+manufacturers: ["stormberg-foods"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: chicken-breast-strips
+    name: "Chicken Breast Strips"
+    species: [dog, cat]
+    formats: [dry, wet]

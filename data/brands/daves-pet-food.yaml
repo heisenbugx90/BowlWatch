@@ -1,0 +1,19 @@
+id: daves-pet-food
+name: Dave's Pet Food
+parent: daves-pet-food
+markets: [US]
+aliases:
+  - { text: Dave's Dog Food, kind: label }
+firm_names:
+  - Dave's Soda And Pet City
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/daves-pet-food-voluntarily-recalls-95-premium-beef-canned-dog-food-due-potentially-elevated-levels"
+lines:
+  - id: 95-premium
+    name: 95% Premium
+    species: [dog]
+    formats: [wet]
+  - id: naturally-healthy
+    name: Naturally Healthy
+    species: [dog, cat]
+    formats: [wet, dry]

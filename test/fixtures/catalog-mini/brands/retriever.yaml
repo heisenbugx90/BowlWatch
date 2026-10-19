@@ -1,0 +1,11 @@
+id: retriever
+name: "Retriever"
+parent: tractor-supply
+markets: [US]
+manufacturers: ["tfp-nutrition"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: all-life-stages
+    name: "All Life Stages"
+    species: [dog, cat]
+    formats: [dry, wet]

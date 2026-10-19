@@ -1,0 +1,16 @@
+id: tuckers
+name: Tucker's
+parent: tuckers-raw-basics
+markets: [US]
+firm_names:
+  - Raw Basics, LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/raw-basics-llc-recalls-tuckers-5lb-pork-bison-box-because-possible-salmonella-health-risk"
+lines:
+  - id: raw-frozen
+    name: Raw Frozen
+    aliases:
+      - Pork-Bison Formula
+      - Pork-Bison
+    species: [dog]
+    formats: [raw]

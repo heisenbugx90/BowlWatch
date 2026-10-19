@@ -1,0 +1,24 @@
+id: zignature
+name: Zignature
+parent: pets-global
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Pets Global, Inc.
+  - Pets Global Inc
+sources:
+  - https://zignature.com/
+lines:
+  - id: limited-ingredient
+    name: Limited Ingredient
+    aliases: [Turkey Formula, Lamb Formula, Kangaroo Formula, Duck Formula]
+    species: [dog]
+    formats: [dry, wet]
+  - id: select-cuts
+    name: Select Cuts
+    species: [dog]
+    formats: [dry]
+  - id: small-bites
+    name: Small Bites
+    species: [dog]
+    formats: [dry]

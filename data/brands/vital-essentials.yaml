@@ -1,0 +1,21 @@
+id: vital-essentials
+name: Vital Essentials
+parent: carnivore-meat-company
+markets: [US, CA]
+firm_names:
+  - Carnivore Meat Company, LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/carnivore-meat-company-issues-voluntary-recall-vital-essentials-freeze-dried-beef-nibblets-entree"
+lines:
+  - id: freeze-dried
+    name: Freeze-Dried
+    species: [dog, cat]
+    formats: [freeze-dried, topper]
+  - id: frozen
+    name: Frozen
+    species: [dog, cat]
+    formats: [raw]
+  - id: treats
+    name: Freeze-Dried Treats
+    species: [dog, cat]
+    formats: [treat]

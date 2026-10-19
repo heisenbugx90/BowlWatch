@@ -1,0 +1,20 @@
+# 'Meridian' alone is a common word / place name.
+id: meridian
+name: Meridian (Midwestern Pet Foods)
+parent: midwestern-pet-foods
+markets: [US]
+aliases:
+  - { text: Meridian Dog Food, kind: label }
+  - { text: Meridian Cat Food, kind: label }
+  # Bare "Meridian" (fixture V-0104-2021) counts only with a Midwestern firm.
+  - { text: Meridian, kind: short }
+firm_names:
+  - Midwestern Pet Foods Inc.
+  - Midwestern Pet Foods Chickasha Operation
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/midwestern-pet-foods-voluntarily-recall-due-possible-salmonella-health-risk"
+lines:
+  - id: dry
+    name: Dry
+    species: [dog, cat]
+    formats: [dry]

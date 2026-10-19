@@ -1,0 +1,50 @@
+id: fromm
+name: Fromm
+parent: fromm-family-foods
+markets: [US, CA]
+aliases:
+  - Fromm Family Pet Food
+firm_names:
+  - Fromm Family Foods
+  - Fromm Family Foods, LLC
+sources:
+  - https://frommfamily.com/
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fromm-family-foods-voluntarily-recalls-four-star-shredded-entree-canned-food-dogs-due-elevated
+lines:
+  - id: gold
+    name: Gold
+    aliases:
+      - { text: "Fromm Gold", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: four-star-nutritionals
+    name: Four-Star Nutritionals
+    aliases:
+      - Four-Star
+      - { text: "Fromm Four-Star", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: classic
+    name: Classic
+    species: [dog, cat]
+    formats: [dry]
+  - id: pate
+    name: Pate
+    aliases: [Fromm Pate]
+    species: [dog, cat]
+    formats: [wet]
+  - id: frommbalaya
+    name: Frommbalaya
+    species: [dog]
+    formats: [wet]
+  - id: crunchy-os
+    name: Crunchy O's
+    species: [dog]
+    formats: [treat]
+  - id: diner-classics
+    name: Diner Classics
+    aliases:
+      - { text: "Fromm Diner Classics", kind: label }
+    species: [dog]
+    formats: [wet]
+    notes: FDA iRES event 99719 (2026) "Fromm Diner Classics Milo's Meatloaf Pate".

@@ -1,0 +1,17 @@
+id: digest-eeze
+name: Digest-eeze
+parent: spectrum-brands
+markets: [US]
+firm_names:
+  - Spectrum Brands Inc
+  - United Pet Group
+manufacturers:
+  - salix-animal-health
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/united-pet-group-expands-voluntary-recall-multiple-brands-rawhide-chew-products-dogs-also-include"
+notes: "Labels say 'Manufactured by Salix Animal Health'; recall run by United Pet Group. Spectrum's ownership of Salix brands as of 2026 not separately verified."
+lines:
+  - id: beefhide
+    name: Beefhide chews
+    species: [dog]
+    formats: [treat]

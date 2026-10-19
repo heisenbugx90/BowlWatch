@@ -1,0 +1,20 @@
+id: family-pet
+name: Family Pet (Sunshine Mills)
+parent: sunshine-mills
+markets: [US]
+aliases:
+  - { text: Family Pet brand, kind: label }
+  - { text: Family Pet Meaty Cuts, kind: label }
+  # Bare brand word: counts only when the recalling firm corroborates it.
+  - { text: Family Pet, kind: short }
+firm_names:
+  - SUNSHINE MILLS INC
+  - Sunshine Mills, Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sunshine-mills-inc-issues-voluntary-recall-certain-dog-food-products-due-potentially-elevated-levels"
+notes: "Value brand made by Sunshine Mills; whether Sunshine or a retailer owns the name was not verified. Possibly a Family Dollar store brand."
+lines:
+  - id: meaty-cuts
+    name: Meaty Cuts
+    species: [dog]
+    formats: [dry]

@@ -1,0 +1,6 @@
+id: hill-country-fare
+name: "Hill Country Fare"
+parent: texas-farm-products
+markets: [US]
+manufacturers: ["tfp-nutrition"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]

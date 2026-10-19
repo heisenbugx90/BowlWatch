@@ -1,0 +1,33 @@
+# Bravo Packing's own raw products sold without the Performance Dog name (FDA iRES 87408
+# '"Ground Beef" raw frozen dog food'; 87534 green tripe chubs and patties, smoked bones).
+# Never alias bare 'Bravo': the Bravo! raw diet brand is a different company.
+id: bravo-packing-house
+name: Bravo Packing
+parent: bravo-packing
+markets: [US]
+aliases:
+  # the printed company name; the same words are the recalling firm, so the full legal form is
+  # listed too (it must outrank the firm phrase)
+  - Bravo Packing, Inc.
+firm_names:
+  - Bravo Packing, Inc.
+  - Bravo Packing Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bravo-packing-inc-recalls-all-performance-dog-and-ground-beef-raw-pet-food-because-possible"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bravo-packing-inc-expands-previously-announced-voluntary-recall-pet-food-products-due-potential"
+lines:
+  - id: ground-beef
+    name: Ground Beef
+    aliases: [Beef]
+    species: [dog]
+    formats: [raw]
+  - id: green-tripe
+    name: Green Tripe
+    aliases: [Tripe]
+    species: [dog]
+    formats: [raw]
+  - id: bones
+    name: Smoked Bones
+    aliases: [Bone, Bones]
+    species: [dog]
+    formats: [treat]

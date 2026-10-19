@@ -1,0 +1,23 @@
+# Kroger store brand. 'Pet Pride' alone could be read as a phrase; only label aliases
+# identify it.
+id: pet-pride
+name: Pet Pride (Kroger)
+parent: kroger
+markets: [US]
+aliases:
+  # Two-word brand phrase; all 11 CVM occurrences 2016-2026 are this brand.
+  - { text: Pet Pride, kind: label }
+  - { text: Pet Pride Beefhide, kind: label }
+  - { text: Pet Pride Dog, kind: label }
+  - { text: Pet Pride Cat, kind: label }
+firm_names:
+  - The Kroger Company
+sources:
+  - "https://www.accessdata.fda.gov/scripts/ires/index.cfm?action=export.getExportCSVResult&view=AdvancedSearch&page=product&criteria=%5B%7B%22productdescriptiontxt%22%3A%22%22%7D%2C%7B%22codeinformation%22%3A%22%22%7D%2C%7B%22centercd%22%3A%5B%22CVM%22%5D%7D%2C%7B%22centerclassificationtypetxt%22%3Anull%7D%2C%7B%22firmlegalnam%22%3A%22%22%7D%2C%7B%22phasetxt%22%3Anull%7D%2C%7B%22recalleventid%22%3A%2277441%22%7D%2C%7B%22recallnum%22%3A%22%22%7D%2C%7B%22productshortreasontxt%22%3A%22%22%7D%2C%7B%22centerclassificationdtfrom%22%3A%2201%2F01%2F2016%22%7D%2C%7B%22centerclassificationdtto%22%3A%2212%2F31%2F2026%22%7D%5D"
+lines:
+  - id: beefhide
+    name: Beefhide
+    # rawhide bones, rings, rolls and basted chips, all beefhide chews (FDA iRES 77441)
+    aliases: [Rawhide, Basted Chips]
+    species: [dog]
+    formats: [treat]

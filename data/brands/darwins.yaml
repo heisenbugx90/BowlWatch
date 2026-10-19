@@ -1,0 +1,39 @@
+# Darwin's. 'Natural Selections' alone is too generic for a label alias; ZooLogics is
+# distinctive.
+id: darwins
+name: Darwin's Natural Pet Products
+parent: arrow-reliance
+markets: [US]
+aliases:
+  - Darwin's Natural Pet Product
+  - Darwin's Natural Selections
+firm_names:
+  - Arrow Reliance Inc
+  - Arrow Reliance, Inc
+  - Arrow Reliance Inc dba Darwin's Natural Pet Products
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/darwins-natural-pet-products-issues-voluntary-recalls-darwins-brand-dog-foods-due-contamination"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fda-announcement-certain-raw-pet-foods-made-arrow-reliance-inc-including-darwins-natural-pet"
+lines:
+  - id: natural-selections
+    name: Natural Selections
+    aliases:
+      - { text: Darwin's Natural Selections, kind: label }
+      # identifies the line when the recalling firm is Arrow Reliance (Darwin's)
+      - { text: Natural Selections, kind: short }
+    species: [dog, cat]
+    formats: [raw]
+    notes: Notices often print 'Natural Selections ... Meals for Dogs' with Darwin's only in the label text or firm dba.
+  - id: zoologics
+    name: ZooLogics
+    aliases:
+      - { text: ZooLogics, kind: label }
+      - Zoologics Meals
+    species: [dog, cat]
+    formats: [raw]
+  - id: biologics
+    name: BioLogics
+    aliases:
+      - { text: Darwin's BioLogics, kind: label }
+    species: [dog, cat]
+    formats: [raw]

@@ -1,0 +1,45 @@
+# K9 Natural / Feline Natural (New Zealand). Health Canada 2018 and FDA iRES
+# event 79829 (2018, firm "K9 Natural Food Ltd").
+id: k9-natural
+name: K9 Natural
+parent: natural-pet-food-group
+markets: [US, CA]
+aliases:
+  - K9 Feline Natural
+firm_names:
+  - K9 Natural Ltd
+  - K9 Natural Food Ltd
+  - Natural Pet Food Group Limited
+sources:
+  - https://k9felinenatural.com/
+  - https://recalls-rappels.canada.ca/en/alert-recall/k9-natural-ltd-recalls-k9-natural-frozen-chicken-feast-raw-pet-food-11lb-bags
+lines:
+  - id: freeze-dried
+    name: Freeze-Dried
+    species: [dog]
+    formats: [freeze-dried]
+  - id: frozen
+    name: Frozen
+    aliases:
+      - Feast
+    species: [dog]
+    formats: [raw]
+    notes: Frozen raw "Feast" (recalled 2018); not on the brand site in 2026-10.
+  - id: canned
+    name: Canned
+    species: [dog, cat]
+    formats: [wet]
+  - id: boosters
+    name: Boosters
+    species: [dog, cat]
+    formats: [topper]
+  - id: treats
+    name: Treats
+    species: [dog, cat]
+    formats: [treat]
+  - id: feline-natural
+    name: Feline Natural
+    aliases:
+      - { text: "Feline Natural", kind: label }
+    species: [cat]
+    formats: [freeze-dried, wet, treat]

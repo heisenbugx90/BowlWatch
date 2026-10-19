@@ -1,0 +1,23 @@
+id: milos-kitchen
+name: Milo's Kitchen
+parent: jm-smucker
+markets: [US]
+firm_names:
+  - Milo's Kitchen, LLC
+  - The J.M. Smucker Company, Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/limited-production-two-varieties-milos-kitchenr-dog-treats-voluntarily-recalled-due-potentially"
+notes: Current availability not verified.
+lines:
+  - id: grillers
+    name: Grillers
+    aliases:
+      - Steak Grillers
+    species: [dog]
+    formats: [treat]
+  - id: burger-bites
+    name: Burger Bites
+    aliases:
+      - Grilled Burger Bites
+    species: [dog]
+    formats: [treat]

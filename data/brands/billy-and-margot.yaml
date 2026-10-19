@@ -1,0 +1,19 @@
+id: billy-and-margot
+name: Billy + Margot
+parent: real-pet-food-company
+markets: [US]
+aliases:
+  - Billy+Margot
+  - Billy and Margot
+firm_names:
+  - "REAL PET FOOD COMPANY, LLC"
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/real-pet-food-company-phoenix-az-voluntarily-recalls-one-lot-billymargot-wild-kangaroo-and"
+  - "https://www.accessdata.fda.gov/scripts/ires/index.cfm?action=export.getExportCSVResult&view=AdvancedSearch&page=product&criteria=%5B%7B%22productdescriptiontxt%22%3A%22%22%7D%2C%7B%22codeinformation%22%3A%22%22%7D%2C%7B%22centercd%22%3A%5B%22CVM%22%5D%7D%2C%7B%22centerclassificationtypetxt%22%3Anull%7D%2C%7B%22firmlegalnam%22%3A%22%22%7D%2C%7B%22phasetxt%22%3Anull%7D%2C%7B%22recalleventid%22%3A%2286475%22%7D%2C%7B%22recallnum%22%3A%22%22%7D%2C%7B%22productshortreasontxt%22%3A%22%22%7D%2C%7B%22centerclassificationdtfrom%22%3A%2201%2F01%2F2016%22%7D%2C%7B%22centerclassificationdtto%22%3A%2212%2F31%2F2026%22%7D%5D"
+lines:
+  - id: dry-dog
+    name: Dry dog food
+    aliases:
+      - Wild Kangaroo + Superfoods Recipe
+    species: [dog]
+    formats: [dry]

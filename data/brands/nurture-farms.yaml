@@ -1,0 +1,23 @@
+# FDA spells it 'Nuture Farms' (iRES 88355) and 'Nature Farms' (2021 aflatoxin listing).
+# 'Nature Farms' is generic, so it counts only with a Sunshine Mills firm.
+id: nurture-farms
+name: Nurture Farms (Sunshine Mills)
+parent: sunshine-mills
+markets: [US]
+aliases:
+  - Nuture Farms
+  - { text: Nature Farms, kind: short }
+firm_names:
+  - SUNSHINE MILLS INC
+  - "Sunshine Mills, Inc."
+sources:
+  - "https://www.accessdata.fda.gov/scripts/ires/index.cfm?action=export.getExportCSVResult&view=AdvancedSearch&page=product&criteria=%5B%7B%22productdescriptiontxt%22%3A%22%22%7D%2C%7B%22codeinformation%22%3A%22%22%7D%2C%7B%22centercd%22%3A%5B%22CVM%22%5D%7D%2C%7B%22centerclassificationtypetxt%22%3Anull%7D%2C%7B%22firmlegalnam%22%3A%22%22%7D%2C%7B%22phasetxt%22%3Anull%7D%2C%7B%22recalleventid%22%3A%2288355%22%7D%2C%7B%22recallnum%22%3A%22%22%7D%2C%7B%22productshortreasontxt%22%3A%22%22%7D%2C%7B%22centerclassificationdtfrom%22%3A%2201%2F01%2F2016%22%7D%2C%7B%22centerclassificationdtto%22%3A%2212%2F31%2F2026%22%7D%5D"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sunshine-mills-inc-issues-voluntary-recall-certain-products-due-potentially-elevated-levels"
+lines:
+  - id: dry-dog
+    name: Dry dog food
+    aliases:
+      - "Deboned Chicken & Brown Rice"
+    species: [dog]
+    formats: [dry]
+notes: Sunshine Mills value brand per CURATION-LOG item 9; could be retailer-owned (not verified).

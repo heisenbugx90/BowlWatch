@@ -1,0 +1,28 @@
+id: whiskas
+name: Whiskas
+parent: mars
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Mars Petcare US
+  - Mars Petcare US Inc
+  - Mars Petcare USA
+sources:
+  - https://www.mars.com/made-by-mars/petcare
+lines:
+  - id: purrfectly
+    name: Purrfectly
+    species: [cat]
+    formats: [wet]
+  - id: meaty-selections
+    name: Meaty Selections
+    species: [cat]
+    formats: [dry, wet]
+  - id: perfect-portions
+    name: Perfect Portions
+    species: [cat]
+    formats: [wet]
+  - id: dry
+    name: Whiskas Dry
+    species: [cat]
+    formats: [dry]

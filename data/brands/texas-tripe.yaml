@@ -1,0 +1,19 @@
+id: texas-tripe
+name: Texas Tripe
+parent: texas-tripe
+markets: [US]
+firm_names:
+  - Texas Tripe
+  - Texas Tripe Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fda-cautions-pet-owners-not-feed-texas-tripe-inc-raw-pet-food-due-salmonella-listeria-monocytogenes"
+lines:
+  - id: raw
+    name: Raw frozen blends
+    aliases:
+      - Wolf Run
+      - Shepherd's Blend
+      - Beef Blend
+      - Green Tripe
+    species: [dog]
+    formats: [raw]

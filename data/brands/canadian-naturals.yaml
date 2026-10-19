@@ -1,0 +1,40 @@
+id: canadian-naturals
+name: Canadian Naturals
+parent: canadian-supreme-pet-foods
+markets: [CA]
+firm_names:
+  - Canadian Supreme Pet Foods
+sources:
+  - https://canadiannaturals.com/
+  - https://madeinca.ca/pet-products-canadian-naturals/
+lines:
+  - id: limited-ingredient
+    name: Limited Ingredient Diet
+    aliases:
+      - { text: "Canadian Naturals Limited Ingredient", kind: label }
+      - { text: "Canadian Naturals LID", kind: label }
+      - LID
+    species: [dog]
+    formats: [dry]
+  - id: omega-fresh
+    name: Omega Fresh
+    aliases:
+      - { text: "Canadian Naturals Omega Fresh", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: turkey-salmon
+    name: Turkey & Salmon
+    aliases:
+      - { text: "Canadian Naturals Turkey & Salmon", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: value-series
+    name: Value Series
+    aliases:
+      - { text: "Canadian Naturals Value Series", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: cat
+    name: Recipes for Cats
+    species: [cat]
+    formats: [dry]

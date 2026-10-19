@@ -1,0 +1,15 @@
+# BJ's Wholesale Club private label. Pig ears supplied by Dog Goods USA (2019).
+id: berkley-and-jensen
+name: "Berkley & Jensen (BJ's)"
+parent: bjs-wholesale-club
+markets: [US]
+aliases:
+  - "Berkley & Jensen"
+  - Berkley Jensen
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/dog-goods-usa-llc-expands-voluntary-recall-chef-toby-pig-ears-pet-treats-because-possible-salmonella"
+lines:
+  - id: pig-ears
+    name: Pig Ears
+    species: [dog]
+    formats: [treat]

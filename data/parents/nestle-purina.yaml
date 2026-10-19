@@ -1,0 +1,12 @@
+# Nestle Purina PetCare. NOT the same company as Purina Animal Nutrition LLC
+# (Land O'Lakes), which recalls livestock and horse feed under "Purina ...".
+# That is why no brand has a bare "Purina" alias.
+id: nestle-purina
+name: Nestlé Purina PetCare Company
+aliases:
+  - Nestle Purina PetCare Co
+  - Nestle Purina PetCare Canada
+sources:
+  - https://www.purina.com/brands
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nestle-purina-petcare-company-voluntarily-recalls-limited-amount-muse-wet-cat-food-natural-chicken
+notes: Subsidiary of Nestlé S.A. Acquired Merrick Pet Care (incl. Castor & Pollux) in 2015.

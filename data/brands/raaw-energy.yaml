@@ -1,0 +1,30 @@
+# Notices name only the recipe ('Dog Food - Chicken Medley', '4411'); brand evidence is
+# the firm name.
+id: raaw-energy
+name: Raaw Energy
+parent: raaw-energy
+markets: [US]
+firm_names:
+  - Raaw Energy, LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/raaw-energy-expands-recall-dog-food-because-listeria-monocytogenes-health-risk"
+lines:
+  - id: medleys
+    name: Medleys
+    aliases:
+      - Chicken Medley
+      - Turkey Medley
+      - Beef Chicken Medley
+      - "60/30/10"
+    species: [dog]
+    formats: [raw]
+  - id: blends
+    name: Blends
+    aliases:
+      - "4411"
+      - Dog's Best Friend
+      - Beefturducken
+      - American Bully
+      - Terrestrial
+    species: [dog]
+    formats: [raw]

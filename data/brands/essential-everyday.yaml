@@ -1,0 +1,15 @@
+# Supervalu/UNFI store brand used across many grocery categories; only pet items are
+# tracked here.
+id: essential-everyday
+name: Essential Everyday
+parent: unfi
+markets: [US]
+firm_names:
+  - Supervalu Inc
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/united-pet-group-expands-voluntary-recall-multiple-brands-rawhide-chew-products-dogs-also-include"
+lines:
+  - id: rawhide
+    name: Rawhide
+    species: [dog]
+    formats: [treat]

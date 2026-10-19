@@ -1,0 +1,20 @@
+# 'Icelandic+' normalizes to 'icelandic', too generic; 'Capelin' counts only with the IcelandicPlus firm.
+id: icelandicplus
+name: IcelandicPlus
+parent: icelandicplus
+markets: [US]
+aliases:
+  - Icelandic Plus
+firm_names:
+  - IcelandicPlus LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/icelandicplus-llc-voluntarily-recalls-whole-capelin-fish-pet-treats-because-product-exceeds-fda-size"
+  - "https://www.accessdata.fda.gov/scripts/ires/index.cfm?action=export.getExportCSVResult&view=AdvancedSearch&page=product&criteria=%5B%7B%22productdescriptiontxt%22%3A%22%22%7D%2C%7B%22codeinformation%22%3A%22%22%7D%2C%7B%22centercd%22%3A%5B%22CVM%22%5D%7D%2C%7B%22centerclassificationtypetxt%22%3Anull%7D%2C%7B%22firmlegalnam%22%3A%22%22%7D%2C%7B%22phasetxt%22%3Anull%7D%2C%7B%22recalleventid%22%3A%2285245%22%7D%2C%7B%22recallnum%22%3A%22%22%7D%2C%7B%22productshortreasontxt%22%3A%22%22%7D%2C%7B%22centerclassificationdtfrom%22%3A%2201%2F01%2F2016%22%7D%2C%7B%22centerclassificationdtto%22%3A%2212%2F31%2F2026%22%7D%5D"
+lines:
+  - id: whole-fish
+    name: Whole fish treats
+    aliases:
+      - { text: Capelin, kind: short }
+      - { text: Icelandic+ Whole Capelin, kind: label }
+    species: [dog, cat]
+    formats: [treat]

@@ -1,0 +1,32 @@
+# Notices also misspell it 'Sportman's Pride'.
+id: sportsmans-pride
+name: Sportsman's Pride
+parent: sunshine-mills
+markets: [US]
+aliases:
+  - Sportman's Pride
+firm_names:
+  - SUNSHINE MILLS INC
+  - Sunshine Mills, Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sunshine-mills-inc-issues-voluntary-recall-dry-dog-food-due-potentially-elevated-levels-vitamin-d"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sunshine-mills-inc-issues-voluntary-recall-certain-dog-food-products-because-possible-salmonella"
+lines:
+  - id: large-breed-puppy
+    name: Large Breed Puppy
+    species: [dog]
+    formats: [dry]
+  - id: maintenance
+    name: Maintenance Adult
+    species: [dog]
+    formats: [dry]
+  - id: professional
+    name: Professional 30/20
+    aliases:
+      - Professional Formula
+    species: [dog]
+    formats: [dry]
+  - id: high-protein
+    name: High Protein
+    species: [dog]
+    formats: [dry]

@@ -218,3 +218,20 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---- Node / Next.js / BowlWatch ----
+node_modules/
+.next/
+out/
+next-env.d.ts
+*.tsbuildinfo
+.vercel/
+# Every env file (Vercel/Next create .env.production, .env.development, ...); only the example is tracked.
+.env*
+!.env.example
+.pglite/
+coverage/
+npm-debug.log*
+.DS_Store
+# The Python template above ignores every "lib/" directory; our TS lib must be tracked.
+!src/lib/

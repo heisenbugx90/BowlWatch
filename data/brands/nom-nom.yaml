@@ -1,0 +1,24 @@
+id: nom-nom
+name: Nom Nom
+parent: mars
+markets: [US]
+aliases:
+  - NomNom
+  - NomNomNow
+firm_names:
+  - NomNomNow Inc.
+sources:
+  - "https://www.just-food.com/news/mars-adds-d2c-firm-nomnomnow-to-pet-care-portfolio/"
+  - "https://www.accessdata.fda.gov/scripts/ires/index.cfm?action=export.getExportCSVResult&view=AdvancedSearch&page=product&criteria=%5B%7B%22productdescriptiontxt%22%3A%22%22%7D%2C%7B%22codeinformation%22%3A%22%22%7D%2C%7B%22centercd%22%3A%5B%22CVM%22%5D%7D%2C%7B%22centerclassificationtypetxt%22%3Anull%7D%2C%7B%22firmlegalnam%22%3A%22%22%7D%2C%7B%22phasetxt%22%3Anull%7D%2C%7B%22recalleventid%22%3A%2288248%22%7D%2C%7B%22recallnum%22%3A%22%22%7D%2C%7B%22productshortreasontxt%22%3A%22%22%7D%2C%7B%22centerclassificationdtfrom%22%3A%2201%2F01%2F2016%22%7D%2C%7B%22centerclassificationdtto%22%3A%2212%2F31%2F2026%22%7D%5D"
+notes: "Fresh refrigerated food; 'other' format."
+lines:
+  - id: fresh-dog
+    name: Fresh dog food
+    species: [dog]
+    formats: [other]
+  - id: fresh-cat
+    name: Fresh cat food
+    aliases:
+      - Chicken Cuisine
+    species: [cat]
+    formats: [other]

@@ -1,0 +1,58 @@
+# Post Holdings since 2023-04-28. Earlier recalls name Ainsworth Pet Nutrition
+# (Smucker-owned 2018-2023); Ainsworth moved to Post with the brand.
+id: rachael-ray-nutrish
+name: Rachael Ray Nutrish
+parent: post-holdings
+markets: [US, CA]
+aliases:
+  - Nutrish
+firm_names:
+  - Post Consumer Brands
+  - Post Holdings, Inc.
+  - Post Brands Pet Care
+  - Ainsworth Pet Nutrition
+  - Ainsworth Pet Nutrition, LLC
+sources:
+  - https://www.nutrish.com/
+  - https://www.postholdings.com/post-holdings-completes-acquisition-of-rachael-ray-nutrish-natures-recipe-and-other-select-pet-food-brands/
+lines:
+  - id: natural
+    name: Natural
+    aliases: [Real Chicken & Veggies, Real Beef Pea & Brown Rice]
+    species: [dog, cat]
+    formats: [dry]
+  - id: zero-grain
+    name: Zero Grain
+    aliases:
+      - { text: "Nutrish Zero Grain", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: dish
+    name: Dish
+    aliases:
+      - { text: "Nutrish Dish", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: peak
+    name: Peak
+    aliases:
+      - { text: "Nutrish Peak", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: big-life
+    name: Big Life
+    species: [dog]
+    formats: [dry]
+  - id: indoor-complete
+    name: Indoor Complete
+    species: [cat]
+    formats: [dry]
+  - id: savory-favorites
+    name: Savory Favorites
+    aliases: [Purrfect Broths, Natural Wet Food]
+    species: [cat]
+    formats: [wet]
+  - id: just-6
+    name: Just 6
+    species: [dog]
+    formats: [dry]

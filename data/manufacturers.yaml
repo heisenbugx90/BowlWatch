@@ -1,0 +1,194 @@
+# Co-packers / contract manufacturers. A firm listed here recalls products for
+# brands it does not own, so its name must never be used to infer a brand.
+manufacturers:
+  - id: simmons-foods
+    name: Simmons Foods
+    firm_names:
+      - Simmons Foods Inc
+      - Simmons Foods, Inc.
+    evidence: >-
+      FDA iRES event 76403 (2017): recalling firm Simmons Foods Inc, product
+      "Blue Buffalo Homestyle Recipe Healthy Weight Chicken Dinner ... Distributed by Blue Buffalo Co., Ltd".
+  - id: sfd-opco
+    name: SFD Opco
+    firm_names:
+      - SFD Opco, LLC
+    sources:
+      - https://nemep.unl.edu/sfd-opco-llcgolden-pet-brands/
+    evidence: >-
+      FDA iRES event 95964 (2025, Seward NE): recalling firm SFD Opco, LLC,
+      products "Open Farm Freeze-Dried Raw ..." and bulk "Open Farm Red Meat Fiesta" morsels.
+  - id: elmira-pet-products
+    name: Elmira Pet Products
+    firm_names:
+      - Elmira Pet Products Ltd.
+    sources:
+      - https://www.elmirapet.com/
+    evidence: >-
+      Self-described "Canada's largest private label dry pet food manufacturer"
+      (Elmira ON); also owns Nutram.
+  - id: euro-can-manufacturing
+    name: Euro-Can Manufacturing
+    firm_names:
+      - Euro-Can Manufacturing Inc.
+    sources:
+      - https://recalls-rappels.canada.ca/en/alert-recall/euro-can-manufacturing-inc-recalls-bulk-and-prepackaged-junglemax-and-selection-brand
+    evidence: >-
+      Health Canada 2017 (NID 56943): Euro-Can made Junglemax and Metro
+      "Selection" pig ears plus its own bulk EuroCan pig ears.
+  - id: diamond-pet-foods
+    name: Diamond Pet Foods (contract manufacturing)
+    firm_names:
+      - Diamond Pet Foods
+      - Diamond Pet Foods Inc
+      - Schell & Kampeter Inc
+      - Schell and Kampeter Inc dba Diamond Pet Foods
+    sources:
+      - https://www.foodsafetynews.com/2012/05/fsn-video-diamond-pet-foods-salmonella-outbreak-and-recall
+    evidence: >-
+      2012 Salmonella recall from Diamond's Gaston SC plant covered Diamond's own
+      brands (Diamond, Taste of the Wild) and store/partner brands it makes
+      (Kirkland Signature, 4health, Canidae, Natural Balance, Solid Gold, others).
+      A Diamond firm name alone does not identify the brand.
+  - id: jm-smucker
+    name: The J.M. Smucker Company (contract and divested brands)
+    firm_names:
+      - The J.M. Smucker Company
+      - The J.M. Smucker Company, Inc.
+      - J M Smucker Co
+      - J.M Smuckers Company
+      - Big Heart Pet Brands
+    evidence: >-
+      FDA iRES event 79291 (2018): Smucker recalled Ol' Roy (distributed by
+      Wal-Mart) alongside Gravy Train; event 84423 (2020) Special Kitty; event
+      85961 (2020) Natural Balance Ultra Premium canned cat food (brand later sold
+      to Nexus / Ethos). Since 2023 9Lives, Kibbles 'n Bits, Gravy Train and
+      Rachael Ray Nutrish belong to Post Holdings, but their 2017-2022 recalls name Smucker.
+  - id: wet-noses
+    name: Wet Noses Natural Dog Treat Company
+    firm_names:
+      - Wet Noses Natural Dog Treats
+      - Wet Noses Natural Dog Treat Company
+    sources:
+      - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wet-noses-natural-dog-treat-companyr-voluntarily-recalls-simply-nourish-brand-frozen-dog-food-due
+    evidence: >-
+      FDA iRES event 88479 (2021, Monroe WA): recalling firm Wet Noses Natural Dog
+      Treats, product "Simply Nourish Fresh Market" frozen dog food (PetSmart brand).
+  - id: tejas-industries
+    name: Tejas Industries
+    firm_names:
+      - Tejas Industries - Amarillo Distribution
+      - Tejas Industries Inc
+    evidence: >-
+      FDA iRES event 87892 (2021): recalling firm Tejas Industries - Amarillo Distribution,
+      products "Zuke's Mini Naturals Dog Treats ... Distributed by Zuke's LLC Amarillo, TX".
+  - id: stormberg-foods
+    name: Stormberg Foods
+    firm_names:
+      - Stormberg Foods LLC
+    evidence: >-
+      FDA iRES event 90584 (2022): recalling firm Stormberg Foods LLC, chicken breast treats
+      "Sold under the brand names of Beg & Barker, Green Coast Pet".
+  - id: glacial-freeze-dry
+    name: Glacial Freeze Dry
+    firm_names:
+      - Glacial Freeze Dry, LLC
+      - Glacial Freeze Dry LLC
+    evidence: >-
+      FDA iRES event 97762 (2025): recalling firm Glacial Freeze Dry, LLC; products labelled
+      Raw Dog Barkery, BellePepper Cats, Kanu Pet, What's In The Bowl.
+  - id: cargill
+    name: Cargill
+    firm_names:
+      - Cargill, Inc
+      - Cargill, Inc. Corporate Headquarters
+      - Cargill Inc
+      - Cargill Meat Solutions Corp
+      - Cargill Animal Nutrition
+    evidence: >-
+      FDA iRES events 87553 (2021, Ranch Hound for Atwood Distributing), 92422 (2023, Best
+      Choice for Associated Wholesale Grocers), 86729 (2020, unbranded frozen beef dog food
+      by Cargill Meat Solutions).
+  - id: tfp-nutrition
+    name: Texas Farm Products Company (TFP Nutrition)
+    firm_names:
+      - Texas Farm Products Company dba TFP Nutrition
+      - Texas Farm Products Company
+      - TFP Nutrition
+    sources:
+      - "https://tfpnutrition.com/pet-food"
+    evidence: >-
+      FDA iRES events 91342, 93284, 93445 (2023-2024): TFP made H-E-B Texas Pets, Retriever
+      (Tractor Supply), Exclusive and Country Acres (Purina Animal Nutrition) and Member's
+      Mark products as well as its own Lone Star / Star Pro lines.
+  - id: sunshine-mills
+    name: Sunshine Mills
+    firm_names:
+      - Sunshine Mills, Inc.
+      - SUNSHINE MILLS INC
+      - Sunshine Mills Inc
+    sources:
+      - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/association-sunshine-mills-lidl-voluntarily-recalls-orlando-brand-grain-free-chicken-chickpea"
+    evidence: >-
+      Makes store brands for retailers (Lidl Orlando, Tractor Supply Retriever, Fleet Farm
+      Sprout) besides its own brands; FDA iRES events 81543, 86569, 88031.
+  - id: environmental-trade
+    name: Environmental Trade Inc
+    firm_names:
+      - Environmental Trade INC
+      - Environmental Trade Inc
+    evidence: >-
+      FDA iRES event 79388 (2018): recalling firm Environmental Trade INC, Eatonton GA, for
+      Blue Ridge Beef Kitten Grind and BRB Complete "Manufactured by Blue Ridge Beef;
+      Statesville, NC". Appears to be a distributor, not the brand owner.
+  - id: carolina-prime-pet
+    name: Carolina Prime Pet
+    firm_names:
+      - Carolina Prime Pet, Inc.
+      - Carolina Prime Pet Inc
+    sources:
+      - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/carolina-prime-pet-inc-recalls-hollywood-feed-carolina-made-chicken-chips-because-possible"
+    evidence: >-
+      FDA iRES events 95555, 95833 (2024): made Hollywood Feed Carolina Made chicken chips.
+  - id: hoosier-processing
+    name: Hoosier Processing
+    firm_names:
+      - Hoosier Processing LLC
+    evidence: >-
+      FDA iRES event 98912 (2026): recalling firm Hoosier Processing LLC, Fort Wayne IN, for
+      Albright's All Natural Raw Pet Food. Relationship to Albright's (owner vs. processor)
+      not verified.
+  - id: salix-animal-health
+    name: Salix Animal Health
+    firm_names:
+      - Salix Animal Health, LLC
+      - Salix Animal Health LLC
+    evidence: >-
+      FDA iRES event 77441 (2017): Digest-eeze and American Beefhide labels say
+      "Manufactured by: Salix Animal Health, LLC Deerfield Beach, FL"; recall run by United
+      Pet Group (Spectrum Brands).
+  - id: consumers-supply-distributing
+    name: Consumers Supply Distributing
+    firm_names:
+      - Consumers Supply Distributing, LLC
+      - Consumers Supply Distributing LLC
+    sources:
+      - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/consumers-supply-distributing-llc-recalls-country-vet-biscuits-dogs-due-possible-salmonella-health"
+    evidence: >-
+      FDA iRES event 98221 (2026): makes Country Vet biscuits (own brand) and Heartland
+      Harvest biscuits for Mid-States Distributing.
+  - id: montgomery-meats
+    name: Montgomery Meats
+    firm_names:
+      - Montgomery Meats
+    evidence: >-
+      Recalling firm for My Pet Carnivore and The Butcher's Hound raw pet food, FDA iRES event
+      98983 (2026, Listeria).
+  - id: united-pet-group
+    name: United Pet Group (Spectrum Brands), private-label chews
+    firm_names:
+      - United Pet Group
+      - United Pet Group, a division of Spectrum Brands, Inc.
+    evidence: >-
+      Made the Companion (Ahold) and other store-brand rawhide chews recalled with its own brands in
+      2017-2018 (FDA iRES 77441; listings of 2018-02-06 and 2018-02-08).

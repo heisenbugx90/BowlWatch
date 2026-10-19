@@ -1,0 +1,32 @@
+id: nulo
+name: Nulo
+parent: nulo
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Nulo, Inc.
+  - Nulo Pet Food
+sources:
+  - https://nulo.com/
+lines:
+  - id: freestyle
+    name: FreeStyle
+    aliases:
+      - { text: "Nulo FreeStyle", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet, freeze-dried, treat]
+  - id: medalseries
+    name: MedalSeries
+    aliases:
+      - { text: "Nulo MedalSeries", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: challenger
+    name: Challenger
+    species: [dog]
+    formats: [dry]
+  - id: limited-ingredient
+    name: Limited+
+    aliases: [Limited Ingredient]
+    species: [dog, cat]
+    formats: [dry]

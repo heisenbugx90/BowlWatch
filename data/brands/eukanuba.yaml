@@ -1,0 +1,33 @@
+id: eukanuba
+name: Eukanuba
+parent: mars
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Mars Petcare US
+  - Mars Petcare US Inc
+  - Mars Petcare USA
+  - The Iams Company
+sources:
+  - https://www.eukanuba.com/us
+  - https://www.mars.com/made-by-mars/petcare
+lines:
+  - id: adult
+    name: Adult
+    aliases: [Small Breed, Medium Breed, Large Breed]
+    species: [dog]
+    formats: [dry]
+  - id: puppy
+    name: Puppy
+    species: [dog]
+    formats: [dry]
+  - id: premium-performance
+    name: Premium Performance
+    aliases:
+      - { text: "Eukanuba Premium Performance", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: breed-specific
+    name: Breed Specific
+    species: [dog]
+    formats: [dry]

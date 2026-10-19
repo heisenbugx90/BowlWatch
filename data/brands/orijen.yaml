@@ -1,0 +1,35 @@
+# Champion Petfoods (Mars since 2023-02-28). US product made in Auburn, KY.
+id: orijen
+name: Orijen
+parent: mars
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Champion Petfoods LP
+  - Champion Petfoods USA Inc
+  - Champion Petfoods USA, Inc.
+sources:
+  - https://www.orijenpetfoods.com/
+  - https://www.torys.com/work/2022/11/903d8757-9a3f-4cc3-bcbc-2037680377db
+lines:
+  - id: original
+    name: Original
+    aliases: [Six Fish, Regional Red, Tundra, Fit & Trim, Senior, Puppy]
+    species: [dog, cat]
+    formats: [dry]
+  - id: amazing-grains
+    name: Amazing Grains
+    aliases:
+      - { text: "Orijen Amazing Grains", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: freeze-dried
+    name: Freeze-Dried
+    aliases: [Freeze Dried Food, Epic Bites]
+    species: [dog, cat]
+    formats: [freeze-dried, treat]
+  - id: wet
+    name: Orijen Wet
+    aliases: [Real Meat Shreds]
+    species: [dog, cat]
+    formats: [wet]

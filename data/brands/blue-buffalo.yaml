@@ -1,0 +1,55 @@
+# Blue Buffalo. Labels print "BLUE <line>". Do NOT add a bare "BLUE" alias:
+# it collides with Blue Ridge Beef, BLUE HILL feed, etc. Use line labels instead.
+id: blue-buffalo
+name: Blue Buffalo
+parent: general-mills
+markets: [US, CA]
+aliases:
+  - Blue Buffalo Pet Products
+firm_names:
+  - Blue Buffalo Company
+  - Blue Buffalo Company Ltd
+  - Blue Buffalo Co., Ltd
+manufacturers:
+  - simmons-foods
+sources:
+  - https://www.bluebuffalo.com/
+  - https://www.generalmills.com/our-food/brands/blue-buffalo
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blue-buffalo-voluntarily-recalls-one-lot-blue-wildernessr-rocky-mountain-recipe-tm-red-meat-dinner
+lines:
+  - id: life-protection-formula
+    name: Life Protection Formula
+    aliases:
+      - { text: "BLUE Life Protection Formula", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: wilderness
+    name: Wilderness
+    aliases:
+      - { text: "BLUE Wilderness", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet, treat]
+  - id: basics
+    name: Basics
+    aliases:
+      - { text: "BLUE Basics", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: freedom
+    name: Freedom
+    aliases:
+      - { text: "BLUE Freedom", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet, treat]
+  - id: homestyle-recipe
+    name: Homestyle Recipe
+    aliases:
+      - { text: "BLUE Homestyle Recipe", kind: label }
+    species: [dog]
+    formats: [wet]
+  - id: kitty-yums
+    name: Kitty Yums
+    aliases:
+      - { text: "BLUE Kitty Yums", kind: label }
+    species: [cat]
+    formats: [treat]

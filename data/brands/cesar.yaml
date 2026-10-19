@@ -1,0 +1,39 @@
+id: cesar
+name: Cesar
+parent: mars
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Mars Petcare US
+  - Mars Petcare US Inc
+  - Mars Petcare USA
+sources:
+  - https://www.cesar.com/
+  - https://www.mars.com/made-by-mars/petcare
+lines:
+  - id: classic-loaf-in-sauce
+    name: Classic Loaf in Sauce
+    aliases: [Classics]
+    species: [dog]
+    formats: [wet]
+    notes: FDA iRES event 75402 (2016) "CESAR Classics Filet Mignon Flavor".
+  - id: filets-in-gravy
+    name: Filets in Gravy
+    species: [dog]
+    formats: [wet]
+  - id: home-delights
+    name: Home Delights
+    species: [dog]
+    formats: [wet]
+  - id: simply-crafted
+    name: Simply Crafted
+    species: [dog]
+    formats: [topper]
+  - id: wholesome-bowls
+    name: Wholesome Bowls
+    species: [dog]
+    formats: [wet]
+  - id: dry
+    name: Cesar Dry
+    species: [dog]
+    formats: [dry]

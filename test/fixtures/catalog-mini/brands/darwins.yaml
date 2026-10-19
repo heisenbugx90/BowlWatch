@@ -1,0 +1,18 @@
+id: darwins
+name: "Darwin's"
+parent: arrow-reliance
+markets: [US]
+aliases: [{"text": "Darwin's Natural Pet Products", "kind": "dba"}]
+firm_names: ["Arrow Reliance Inc"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: natural-selections
+    name: "Natural Selections"
+    aliases: [{"text": "Darwin's Natural Selections", "kind": "label"}, {"text": "Natural Selections", "kind": "label"}]
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: zoologics
+    name: "ZooLogics"
+    aliases: [{"text": "ZooLogics", "kind": "label"}]
+    species: [dog, cat]
+    formats: [dry, wet]

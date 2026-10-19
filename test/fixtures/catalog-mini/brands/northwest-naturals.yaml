@@ -1,0 +1,11 @@
+id: northwest-naturals
+name: "Northwest Naturals"
+parent: northwest-naturals-co
+markets: [US]
+manufacturers: ["morasch-meats"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: raw-diet
+    name: "Raw Diet"
+    species: [dog, cat]
+    formats: [dry, wet]

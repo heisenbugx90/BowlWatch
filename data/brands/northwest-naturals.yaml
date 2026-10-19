@@ -1,0 +1,27 @@
+# Morasch Meats owns Northwest Naturals (and co-manufactures for others); it is the
+# brand owner here, not a co-packer.
+id: northwest-naturals
+name: Northwest Naturals
+parent: morasch-meats
+markets: [US]
+aliases:
+  - Northwest Natural brand
+firm_names:
+  - Northwest Naturals Inc
+  - Morasch Meats Inc
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/northwest-naturals-voluntarily-recalls-two-raw-pet-food-products-because-possible-salmonella"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/updated-northwest-naturals-voluntarily-recalls-5lb-frozen-chicken-and-salmon-pet-food-chubs-because"
+lines:
+  - id: raw-diet-dogs
+    name: Raw Diet for Dogs
+    species: [dog]
+    formats: [raw]
+  - id: raw-diet-cats
+    name: Raw Diet for Cats
+    species: [cat]
+    formats: [raw]
+  - id: freeze-dried
+    name: Freeze-Dried
+    species: [dog, cat]
+    formats: [freeze-dried, treat]

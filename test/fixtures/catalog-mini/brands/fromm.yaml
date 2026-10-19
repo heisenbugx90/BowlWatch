@@ -1,0 +1,11 @@
+id: fromm
+name: "Fromm"
+parent: fromm-family
+markets: [US]
+firm_names: ["Fromm Family Foods, LLC"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: pate
+    name: "Pate"
+    species: [dog, cat]
+    formats: [dry, wet]

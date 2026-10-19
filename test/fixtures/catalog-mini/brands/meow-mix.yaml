@@ -1,0 +1,12 @@
+id: meow-mix
+name: "Meow Mix"
+parent: jm-smucker
+markets: [US]
+firm_names: ["The J.M. Smucker Company, Inc."]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: original
+    name: "Original"
+    aliases: ["Original Choice"]
+    species: [dog, cat]
+    formats: [dry, wet]

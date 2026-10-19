@@ -1,0 +1,31 @@
+id: redbarn
+name: Redbarn
+parent: redbarn-pet-products
+markets: [US]
+aliases:
+  - Redbarn Pet Products
+firm_names:
+  - Redbarn Pet Products
+  - Redbarn Pet Products, LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/redbarn-pet-products-expands-voluntary-recall-dog-chews"
+# GS1 company prefix of Redbarn's UPCs (785184...), FDA iRES 79164.
+upc_prefixes: ["785184"]
+lines:
+  - id: bully-sticks
+    name: Bully Sticks
+    aliases: [Bully, Bully Stick]
+    species: [dog]
+    formats: [treat]
+  - id: steer-sticks
+    name: Steer Sticks
+    species: [dog]
+    formats: [treat]
+  - id: filled-bones
+    name: Filled Bones
+    species: [dog]
+    formats: [treat]
+  - id: naturals
+    name: Naturals
+    species: [cat]
+    formats: [wet]

@@ -1,0 +1,22 @@
+id: grreat-choice
+name: Grreat Choice
+parent: petsmart
+markets: [US]
+firm_names:
+  - Pacific Coast Distributing, Inc.
+  - Petsmart Inc
+manufacturers:
+  - simmons-foods
+# PetSmart's GS1 company prefix (737257...), shared by its store brands; FDA iRES 76403, 79164.
+upc_prefixes: ["737257"]
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/petsmart-voluntarily-recalls-single-lot-grreat-choicer-canned-dog-food-due-possible-health-risk"
+lines:
+  - id: canned-dog
+    name: Classic Ground canned
+    species: [dog]
+    formats: [wet]
+  - id: dry
+    name: Dry
+    species: [dog, cat]
+    formats: [dry]

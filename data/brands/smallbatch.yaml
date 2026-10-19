@@ -1,0 +1,29 @@
+id: smallbatch
+name: Smallbatch
+parent: smallbatch-pets
+markets: [US]
+aliases:
+  - Smallbatch Pets
+firm_names:
+  - Smallbatch Pets, Inc.
+  - Smallbatch Pets LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/smallbatch-pets-inc-voluntarily-recalls-frozen-2lb-chicken-blend-dogs-and-cats-due-possible"
+  - "https://smallbatchpets.com/"
+lines:
+  - id: frozen-blends
+    name: Frozen Blends
+    aliases:
+      - Chicken Blend
+    species: [dog, cat]
+    formats: [raw]
+  - id: patties
+    name: Patties
+    aliases:
+      - Recipe Patties
+    species: [dog, cat]
+    formats: [raw]
+  - id: freeze-dried
+    name: Freeze-Dried
+    species: [dog, cat]
+    formats: [freeze-dried]

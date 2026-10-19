@@ -1,0 +1,55 @@
+id: pedigree
+name: Pedigree
+parent: mars
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Mars Petcare US
+  - Mars Petcare US Inc
+  - Mars Petcare USA
+  - MARS PETCARE U.S INC   # spelling in FDA iRES event 94657 (2024)
+sources:
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/mars-petcare-us-inc-voluntarily-recalls-315-bags-pedigreer-adult-complete-nutrition-grilled-steak
+  - https://www.pedigree.com/
+  - https://www.mars.com/made-by-mars/petcare
+lines:
+  - id: complete-nutrition
+    name: Complete Nutrition
+    aliases:
+      - Adult Complete Nutrition
+      - { text: "Pedigree Complete Nutrition", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: high-protein
+    name: High Protein
+    aliases:
+      - { text: "Pedigree High Protein", kind: label }
+    species: [dog]
+    formats: [dry, wet]
+  - id: chopped-ground-dinner
+    name: Chopped Ground Dinner
+    species: [dog]
+    formats: [wet]
+  - id: choice-cuts
+    name: Choice Cuts in Gravy
+    aliases: [Choice Cuts]
+    species: [dog]
+    formats: [wet]
+  - id: puppy
+    name: Puppy
+    species: [dog]
+    formats: [dry, wet]
+  - id: small-dog
+    name: Small Dog
+    species: [dog]
+    formats: [dry, wet]
+  - id: dentastix
+    name: Dentastix
+    aliases:
+      - { text: "Pedigree Dentastix", kind: label }
+    species: [dog]
+    formats: [treat]
+  - id: marrobone
+    name: Marrobone
+    species: [dog]
+    formats: [treat]

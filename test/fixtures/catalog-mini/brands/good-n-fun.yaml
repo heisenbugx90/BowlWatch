@@ -1,0 +1,11 @@
+id: good-n-fun
+name: "Good 'n' Fun"
+parent: spectrum-brands
+markets: [US]
+firm_names: ["Spectrum Brands Inc"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: triple-flavor
+    name: "Triple Flavor"
+    species: [dog, cat]
+    formats: [dry, wet]

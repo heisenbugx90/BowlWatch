@@ -1,0 +1,35 @@
+# "Puppy Chow" alone is also a human snack mix name, so it is only a line alias.
+id: purina-dog-chow
+name: Purina Dog Chow
+parent: nestle-purina
+markets: [US, CA]
+aliases:
+  - Dog Chow
+firm_names:
+  - Nestle Purina PetCare Company
+  - Nestle Purina PetCare Co
+sources:
+  - https://www.purina.com/dog-chow
+lines:
+  - id: complete-adult
+    name: Complete Adult
+    aliases:
+      - { text: "Dog Chow Complete Adult", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: high-protein
+    name: High Protein
+    aliases:
+      - { text: "Dog Chow High Protein", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: tender-and-crunchy
+    name: Tender & Crunchy
+    species: [dog]
+    formats: [dry]
+  - id: puppy-chow
+    name: Puppy Chow
+    aliases:
+      - { text: "Purina Puppy Chow", kind: label }
+    species: [dog]
+    formats: [dry]

@@ -1,0 +1,15 @@
+id: sportstrail
+name: Sportstrail
+parent: midwestern-pet-foods
+markets: [US]
+firm_names:
+  - Midwestern Pet Foods Inc.
+  - Midwestern Pet Foods Chickasha Operation
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/midwestern-pet-foods-voluntarily-expands-recall-pet-food-aflatoxin-health-risk"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/midwestern-pet-foods-voluntarily-recall-due-possible-salmonella-health-risk"
+lines:
+  - id: bite-size
+    name: Bite Size
+    species: [dog]
+    formats: [dry]

@@ -1,0 +1,11 @@
+id: country-vet
+name: "Country Vet"
+parent: consumers-supply
+markets: [US]
+firm_names: ["Consumers Supply Distributing, LLC"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: biscuits
+    name: "Biscuits"
+    species: [dog, cat]
+    formats: [dry, wet]

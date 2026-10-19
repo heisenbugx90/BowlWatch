@@ -1,0 +1,45 @@
+id: oven-baked-tradition
+name: Oven-Baked Tradition
+parent: bio-biscuit
+markets: [CA, US]
+firm_names:
+  - Bio Biscuit Inc.
+  - Bio Biscuit Inc
+sources:
+  - https://www.ovenbakedtradition.com/
+  - https://trademark.justia.com/owners/bio-biscuit-inc-5674840
+lines:
+  - id: dry
+    name: Dry Food
+    species: [dog, cat]
+    formats: [dry]
+  - id: wet
+    name: Wet Food
+    aliases:
+      - Entree
+      - Pate
+    species: [dog, cat]
+    formats: [wet]
+  - id: semi-moist
+    name: Semi-Moist
+    species: [dog, cat]
+    formats: [other]
+  - id: care
+    name: Care
+    notes: Therapeutic-style sub-range (urinary tract, joints, low fat).
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: natures-code
+    name: Nature's Code
+    aliases:
+      - { text: "Oven-Baked Tradition Nature's Code", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: treats
+    name: Treats
+    aliases:
+      - { text: "Oven-Baked Tradition Cremia", kind: label }
+      - Cremia
+      - Fillet Treats
+    species: [dog, cat]
+    formats: [treat]

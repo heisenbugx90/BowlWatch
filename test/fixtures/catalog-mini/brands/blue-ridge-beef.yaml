@@ -1,0 +1,11 @@
+id: blue-ridge-beef
+name: "Blue Ridge Beef"
+parent: lea-way-farms
+markets: [US]
+firm_names: ["Lea-Way Farms Inc."]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: puppy-mix
+    name: "Puppy Mix"
+    species: [dog, cat]
+    formats: [dry, wet]

@@ -1,0 +1,13 @@
+id: brutus-and-barnaby
+name: Brutus & Barnaby
+parent: brutus-and-barnaby
+markets: [US]
+firm_names:
+  - Brutus and Barnaby, LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/brutus-barnaby-llc-recalls-all-size-bags-pig-ears-natural-treats-dogs-because-possible-salmonella"
+lines:
+  - id: pig-ears
+    name: Pig Ears
+    species: [dog]
+    formats: [treat]

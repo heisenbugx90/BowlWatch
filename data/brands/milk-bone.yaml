@@ -1,0 +1,36 @@
+id: milk-bone
+name: Milk-Bone
+parent: jm-smucker
+markets: [US, CA]
+aliases:
+  - Milkbone
+firm_names:
+  - The J.M. Smucker Company
+  - The J.M. Smucker Company, Inc.
+  - J M Smucker Co
+  - J.M Smuckers Company
+  - Big Heart Pet Brands
+sources:
+  - https://www.milkbone.com/
+lines:
+  - id: original
+    name: Original Dog Biscuits
+    aliases: [Original, Biscuits, Flavor Snacks]
+    species: [dog]
+    formats: [treat]
+  - id: marosnacks
+    name: MaroSnacks
+    species: [dog]
+    formats: [treat]
+  - id: soft-and-chewy
+    name: Soft & Chewy
+    species: [dog]
+    formats: [treat]
+  - id: brushing-chews
+    name: Brushing Chews
+    species: [dog]
+    formats: [treat]
+  - id: gravy-bones
+    name: Gravy Bones
+    species: [dog]
+    formats: [treat]

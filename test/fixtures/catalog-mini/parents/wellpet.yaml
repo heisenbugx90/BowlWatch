@@ -1,0 +1,4 @@
+id: wellpet
+name: "Wellness Pet Company"
+aliases: ["WellPet LLC", "Old Mother Hubbard, Inc."]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]

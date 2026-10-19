@@ -1,0 +1,48 @@
+id: fancy-feast
+name: Fancy Feast
+parent: nestle-purina
+markets: [US, CA]
+aliases:
+  - Purina Fancy Feast
+firm_names:
+  - Nestle Purina PetCare Company
+  - Nestle Purina PetCare Co
+sources:
+  - https://www.purina.com/fancy-feast
+lines:
+  - id: classic-pate
+    name: Classic Pate
+    species: [cat]
+    formats: [wet]
+  - id: gravy-lovers
+    name: Gravy Lovers
+    aliases:
+      - { text: "Fancy Feast Gravy Lovers", kind: label }
+    species: [cat]
+    formats: [wet]
+  - id: medleys
+    name: Medleys
+    aliases:
+      - { text: "Fancy Feast Medleys", kind: label }
+    species: [cat]
+    formats: [wet]
+  - id: petites
+    name: Petites
+    species: [cat]
+    formats: [wet]
+  - id: broths
+    name: Broths
+    aliases: [Classic Broths, Creamy Broths]
+    species: [cat]
+    formats: [topper]
+  - id: purely
+    name: Purely
+    aliases:
+      - { text: "Purely Fancy Feast", kind: label }
+    species: [cat]
+    formats: [wet]
+  - id: dry
+    name: Fancy Feast Dry
+    aliases: [Gourmet Dry]
+    species: [cat]
+    formats: [dry]

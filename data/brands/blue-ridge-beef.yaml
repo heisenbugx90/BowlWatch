@@ -1,0 +1,53 @@
+# Blue Ridge Beef. Distinct from Blue Buffalo: no bare 'Blue' anywhere.
+id: blue-ridge-beef
+name: Blue Ridge Beef
+parent: lea-way-farms
+markets: [US]
+aliases:
+  - Blue Ridge Beef Raw Pet Food
+firm_names:
+  - Lea-Way Farms Inc. dba Blue Ridge Beef
+  - Lea-Way Farms Inc.
+  - blue ridge beef
+manufacturers:
+  - environmental-trade
+# GS1 company prefix of Blue Ridge Beef's UPCs (854298...), FDA iRES 75919, 93641, 96096.
+upc_prefixes: ["854298"]
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blue-ridge-beef-issues-voluntary-recall-blue-ridge-beef-puppy-mix-due-salmonella-contamination"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blue-ridge-beef-recalls-kitten-grind-raw-pet-food-lotga1102-because-possible-contamination"
+lines:
+  - id: kitten-grind
+    name: Kitten Grind
+    species: [cat]
+    formats: [raw]
+  - id: kitten-mix
+    name: Kitten Mix
+    # FDA iRES 93641 V-0029; printed with a stray digit as 8542980013436 in 96096 and 96687.
+    upcs: ["854298001436"]
+    species: [cat]
+    formats: [raw]
+  - id: puppy-mix
+    name: Puppy Mix
+    species: [dog]
+    formats: [raw]
+  - id: natural-mix
+    name: Natural Mix
+    species: [dog]
+    formats: [raw]
+  - id: brb-complete
+    name: BRB Complete
+    aliases:
+      - { text: BRB Complete, kind: label }
+    species: [dog, cat]
+    formats: [raw]
+  - id: breeders-choice
+    name: Breeders Choice
+    aliases:
+      - Breeder's Choice
+    species: [dog]
+    formats: [raw]
+  - id: beef-for-dogs
+    name: Beef For Dogs
+    species: [dog]
+    formats: [raw]

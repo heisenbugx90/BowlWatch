@@ -1,0 +1,17 @@
+id: wild-coast-raw
+name: Wild Coast Raw
+parent: wild-coast
+markets: [US]
+firm_names:
+  - Wild Coast LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/voluntary-recall-wild-coast-raw-boneless-free-range-chicken-formula-raw-pet-food-because-possible"
+lines:
+  - id: feline
+    name: Feline Formula
+    species: [cat]
+    formats: [raw]
+  - id: canine
+    name: Canine Formula
+    species: [dog]
+    formats: [raw]

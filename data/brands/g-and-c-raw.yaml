@@ -1,0 +1,26 @@
+# Many G & C Raw rows name only the product ('Ground Lamb Dog Food'); brand evidence is
+# the firm name.
+id: g-and-c-raw
+name: G & C Raw
+parent: g-and-c-raw
+markets: [US]
+firm_names:
+  - G & C Raw, LLC
+  - G & C Raw LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/g-c-raw-llc-expanding-recall-include-all-product-lots-manufactured-february-27-2018-through-july-20"
+lines:
+  - id: dog-raw
+    name: Raw dog food (Ground / Veggie Mix)
+    aliases:
+      - Veggie Mix
+      - Kim's Special
+      - Shelby's Pork Organ Mix
+    species: [dog]
+    formats: [raw]
+  - id: pats-cat
+    name: Pat's Cat
+    aliases:
+      - { text: Pat's Cat, kind: label }
+    species: [cat]
+    formats: [raw]

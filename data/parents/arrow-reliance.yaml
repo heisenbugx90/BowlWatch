@@ -1,0 +1,10 @@
+id: arrow-reliance
+name: Arrow Reliance Inc. (Darwin's Natural Pet Products)
+aliases:
+  - Arrow Reliance Inc
+  - Arrow Reliance, Inc
+  - { text: Darwin's Natural Pet Products, kind: dba }
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/fda-announcement-certain-raw-pet-foods-made-arrow-reliance-inc-including-darwins-natural-pet"
+  - "https://www.fda.gov/animal-veterinary/outbreaks-and-advisories/fda-advisory-do-not-feed-certain-lots-darwins-natural-pet-products-dogs-cats-due-salmonella"
+notes: "Founder-owned (Gary Tashjian). No sale found as of 2026-10; an FDA complaint (2026) seeks to enjoin raw pet food production."

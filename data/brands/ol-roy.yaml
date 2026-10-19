@@ -1,0 +1,39 @@
+# Walmart store brand; recalls are filed by the contract maker (e.g. The J.M.
+# Smucker Company in the 2018 pentobarbital withdrawal, FDA iRES event 79291).
+id: ol-roy
+name: Ol' Roy
+parent: walmart
+markets: [US]
+aliases:
+  - Ol Roy
+  - Old Roy
+firm_names:
+  - Walmart Inc.
+  - Wal-Mart Stores, Inc.
+manufacturers:
+  - jm-smucker
+sources:
+  - https://corporate.walmart.com/
+lines:
+  - id: complete-nutrition
+    name: Complete Nutrition
+    species: [dog]
+    formats: [dry]
+  - id: high-protein
+    name: High Protein
+    species: [dog]
+    formats: [dry]
+  - id: soft-and-moist
+    name: Soft & Moist
+    species: [dog]
+    formats: [other]
+  - id: wet
+    name: Wet
+    aliases: [Strips in Gravy, Meaty Loaf, Chunks in Gravy]
+    species: [dog]
+    formats: [wet]
+  - id: treats
+    name: Treats
+    aliases: [Biscuits]
+    species: [dog]
+    formats: [treat]

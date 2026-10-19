@@ -1,0 +1,31 @@
+id: canidae
+name: Canidae
+parent: ethos-pet-brands
+markets: [US, CA]
+aliases: []
+firm_names:
+  - CANIDAE Corporation
+  - Canidae Pet Food Company
+  - Ethos Pet Brands
+sources:
+  - https://www.canidae.com/
+  - https://www.petfoodindustry.com/pet-food-market/market-trends-and-reports/article/15544383/natural-balance-and-canidae-merge-under-ethos-pet-brands
+lines:
+  - id: pure
+    name: PURE
+    aliases:
+      - { text: "Canidae PURE", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: all-life-stages
+    name: All Life Stages
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: goodness
+    name: Goodness
+    species: [dog, cat]
+    formats: [dry]
+  - id: under-the-sun
+    name: Under the Sun
+    species: [dog, cat]
+    formats: [dry]

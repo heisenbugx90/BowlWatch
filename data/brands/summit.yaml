@@ -1,0 +1,39 @@
+# Petcurean Summit. Bare "Summit" is a common word; recipes are identified by
+# "Summit <recipe>" labels.
+id: summit
+name: Summit Pet Food
+parent: petcurean
+markets: [CA, US]
+aliases:
+  - Petcurean Summit
+firm_names:
+  - Petcurean Pet Nutrition
+  - Petcurean Pet Nutrition Inc.
+sources:
+  - https://summitpetfood.com/en-ca
+  - https://www.petcurean.com/
+lines:
+  - id: coastal-grill
+    name: Coastal Grill
+    aliases:
+      - { text: "Summit Coastal Grill", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: farmstead-feast
+    name: Farmstead Feast
+    aliases:
+      - { text: "Summit Farmstead Feast", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: range-rotisserie
+    name: Range Rotisserie
+    aliases:
+      - { text: "Summit Range Rotisserie", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: meadow-roast
+    name: Meadow Roast
+    aliases:
+      - { text: "Summit Meadow Roast", kind: label }
+    species: [cat]
+    formats: [dry]

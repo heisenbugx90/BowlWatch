@@ -1,0 +1,27 @@
+# Country Acres is also a Purina Animal Nutrition livestock/rabbit feed name; only
+# dog/cat label aliases identify the pet food.
+id: country-acres
+name: Country Acres (Purina Animal Nutrition)
+parent: land-o-lakes
+markets: [US]
+aliases:
+  - { text: Country Acres Farm Dog, kind: label }
+  - { text: Country Acres Farm Cat, kind: label }
+  - { text: Country Acres Dog Food, kind: label }
+  - { text: Country Acres Cat Food, kind: label }
+firm_names:
+  - Purina Animal Nutrition LLC
+manufacturers:
+  - tfp-nutrition
+sources:
+  - "https://www.accessdata.fda.gov/scripts/ires/index.cfm?action=export.getExportCSVResult&view=AdvancedSearch&page=product&criteria=%5B%7B%22productdescriptiontxt%22%3A%22%22%7D%2C%7B%22codeinformation%22%3A%22%22%7D%2C%7B%22centercd%22%3A%5B%22CVM%22%5D%7D%2C%7B%22centerclassificationtypetxt%22%3Anull%7D%2C%7B%22firmlegalnam%22%3A%22%22%7D%2C%7B%22phasetxt%22%3Anull%7D%2C%7B%22recalleventid%22%3A%2293445%22%7D%2C%7B%22recallnum%22%3A%22%22%7D%2C%7B%22productshortreasontxt%22%3A%22%22%7D%2C%7B%22centerclassificationdtfrom%22%3A%2201%2F01%2F2016%22%7D%2C%7B%22centerclassificationdtto%22%3A%2212%2F31%2F2026%22%7D%5D"
+notes: "Owner inferred from retailer listings ('Purina Country Acres'); made by TFP Nutrition in 2023."
+lines:
+  - id: farm-dog
+    name: Farm Dog
+    species: [dog]
+    formats: [dry]
+  - id: farm-cat
+    name: Farm Cat All Life Stages
+    species: [cat]
+    formats: [dry]

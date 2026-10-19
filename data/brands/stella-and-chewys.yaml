@@ -1,0 +1,46 @@
+id: stella-and-chewys
+name: Stella & Chewy's
+parent: stella-and-chewys
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Stella & Chewy's, LLC
+  - Stella and Chewys
+sources:
+  - https://www.stellaandchewys.com/
+lines:
+  - id: freeze-dried-dinner-patties
+    name: Freeze-Dried Raw Dinner Patties
+    aliases: [Dinner Patties, Freeze-Dried Raw Dinner Morsels]
+    species: [dog, cat]
+    formats: [freeze-dried]
+  - id: meal-mixers
+    name: Meal Mixers
+    aliases:
+      - { text: "Stella's Meal Mixers", kind: label }
+    species: [dog, cat]
+    formats: [freeze-dried, topper]
+  - id: frozen-raw
+    name: Frozen Raw
+    aliases: [Frozen Raw Dinner Morsels, Frozen Raw Dinner Patties, Dinner Morsels]
+    species: [dog, cat]
+    formats: [raw]
+  - id: raw-coated-kibble
+    name: Raw Coated Kibble
+    species: [dog, cat]
+    formats: [dry]
+  - id: raw-blend-kibble
+    name: Raw Blend Kibble
+    aliases: [Raw Blend]
+    species: [dog, cat]
+    formats: [dry]
+    notes: FDA iRES event 86616 (2020) "Raw Blend Kibble + Wholesome Grains".
+  - id: stews
+    name: Stews
+    aliases: [Stella's Stews]
+    species: [dog]
+    formats: [wet]
+  - id: carnivore-cravings
+    name: Carnivore Cravings
+    species: [cat]
+    formats: [wet]

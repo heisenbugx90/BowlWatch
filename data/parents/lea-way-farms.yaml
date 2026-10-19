@@ -1,0 +1,8 @@
+id: lea-way-farms
+name: Lea-Way Farms Inc. (Blue Ridge Beef)
+aliases:
+  - Lea-Way Farms Inc.
+  - { text: Blue Ridge Beef, kind: dba }
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/blue-ridge-beef-issues-voluntary-recall-blue-ridge-beef-puppy-mix-due-salmonella-contamination"
+notes: Recalls since 2023 are filed as 'Lea-Way Farms Inc. dba Blue Ridge Beef', Statesville NC.

@@ -1,0 +1,13 @@
+id: blue-buffalo
+name: "Blue Buffalo"
+parent: general-mills
+markets: [US]
+firm_names: ["Blue Buffalo Co., Ltd"]
+manufacturers: ["simmons-foods"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: homestyle-recipe
+    name: "Homestyle Recipe"
+    aliases: [{"text": "BLUE Homestyle Recipe", "kind": "label"}]
+    species: [dog, cat]
+    formats: [dry, wet]

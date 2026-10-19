@@ -1,0 +1,8 @@
+id: predator-pet
+name: Predator Pet, Inc. (Savage Pet)
+aliases:
+  - Predator Pet, Inc.
+  - PREDATOR PET INC DBA SAVAGE PET
+  - { text: Savage Pet, kind: dba }
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/savage-pet-recalls-savage-cat-food-chicken-large-and-small-boxes-because-possible-bird-flu-health"

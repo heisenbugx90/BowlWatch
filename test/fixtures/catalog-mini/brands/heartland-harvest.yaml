@@ -1,0 +1,10 @@
+id: heartland-harvest
+name: "Heartland Harvest"
+parent: mid-states-distributing
+markets: [US]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: biscuits
+    name: "Biscuits"
+    species: [dog, cat]
+    formats: [dry, wet]

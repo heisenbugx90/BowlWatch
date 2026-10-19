@@ -1,0 +1,16 @@
+id: good-n-fit
+name: Good 'n' Fit
+parent: spectrum-brands
+markets: [US]
+aliases:
+  - Healthy Hide Good 'n' Fit
+firm_names:
+  - Spectrum Brands Inc
+  - United Pet Group
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/united-pet-group-expands-voluntary-recall-multiple-brands-rawhide-chew-products-dogs-also-include"
+lines:
+  - id: chews
+    name: Chews
+    species: [dog]
+    formats: [treat]

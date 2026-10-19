@@ -1,0 +1,13 @@
+id: doctors-foster-smith
+name: "Doctors Foster & Smith"
+parent: petco
+markets: [US]
+aliases: ["Doctors Fosters & Smith", "Drs. Foster & Smith"]
+firm_names: ["Foster & Smith, Inc."]
+manufacturers: ["simmons-foods"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: chicken-brown-rice-adult
+    name: "Chicken and Brown Rice Formula Adult"
+    species: [dog, cat]
+    formats: [dry, wet]

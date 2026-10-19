@@ -1,0 +1,40 @@
+id: purina-cat-chow
+name: Purina Cat Chow
+parent: nestle-purina
+markets: [US, CA]
+aliases:
+  - Cat Chow
+firm_names:
+  - Nestle Purina PetCare Company
+  - Nestle Purina PetCare Co
+sources:
+  - https://www.purina.com/cat-chow
+lines:
+  - id: complete
+    name: Complete
+    aliases:
+      - { text: "Cat Chow Complete", kind: label }
+    species: [cat]
+    formats: [dry]
+  - id: indoor
+    name: Indoor
+    aliases:
+      - { text: "Cat Chow Indoor", kind: label }
+    species: [cat]
+    formats: [dry]
+  - id: naturals
+    name: Naturals
+    aliases:
+      - { text: "Cat Chow Naturals", kind: label }
+    species: [cat]
+    formats: [dry]
+  - id: gentle
+    name: Gentle
+    species: [cat]
+    formats: [dry]
+  - id: kitten-chow
+    name: Kitten Chow
+    aliases:
+      - { text: "Purina Kitten Chow", kind: label }
+    species: [cat]
+    formats: [dry]

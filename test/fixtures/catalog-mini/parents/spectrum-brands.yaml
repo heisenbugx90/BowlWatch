@@ -1,0 +1,4 @@
+id: spectrum-brands
+name: "Spectrum Brands"
+aliases: ["United Pet Group"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]

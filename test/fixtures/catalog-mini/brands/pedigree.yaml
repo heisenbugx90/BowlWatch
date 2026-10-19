@@ -1,0 +1,15 @@
+id: pedigree
+name: "Pedigree"
+parent: mars
+markets: [US]
+firm_names: ["Mars Petcare US Inc", "MARS PETCARE U.S. INC"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: high-protein
+    name: "High Protein"
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: adult-complete-nutrition
+    name: "Adult Complete Nutrition"
+    species: [dog, cat]
+    formats: [dry, wet]

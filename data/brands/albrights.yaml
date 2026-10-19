@@ -1,0 +1,20 @@
+id: albrights
+name: Albright's
+parent: albrights
+markets: [US]
+aliases:
+  - Albright's Raw Dog Food
+  - Albright's Raw Pet Food
+firm_names:
+  - ALBRIGHTS RAW DOG FOOD
+manufacturers:
+  - hoosier-processing
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/albrights-raw-pet-food-announces-voluntary-recall-select-chicken-recipe-dogs-complete-and-balanced-1"
+lines:
+  - id: raw
+    name: Raw recipes
+    aliases:
+      - Chicken Recipe for Dogs
+    species: [dog, cat]
+    formats: [raw]

@@ -1,0 +1,10 @@
+id: spectrum-brands
+name: Spectrum Brands Holdings, Inc.
+aliases:
+  - Spectrum Brands Inc
+  - United Pet Group
+  - Spectrum Brands Pet LLC
+sources:
+  - "https://www.sec.gov/Archives/edgar/data/0000109177/000010917726000038/earningsreleaseexhibit991.htm"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/united-pet-group-expands-voluntary-recall-multiple-brands-rawhide-chew-products-dogs-also-include"
+notes: "Global Pet Care segment (United Pet Group) still reported by Spectrum in fiscal 2026; no sale found. Also made private-label rawhide chews for retailers."

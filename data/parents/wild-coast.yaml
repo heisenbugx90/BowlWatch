@@ -1,0 +1,7 @@
+id: wild-coast
+name: Wild Coast LLC (Wild Coast Raw)
+aliases:
+  - Wild Coast LLC
+  - { text: Wild Coast Raw, kind: dba }
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/voluntary-recall-wild-coast-raw-boneless-free-range-chicken-formula-raw-pet-food-because-possible"

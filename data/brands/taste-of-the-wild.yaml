@@ -1,0 +1,35 @@
+id: taste-of-the-wild
+name: Taste of the Wild
+parent: diamond-pet-foods
+markets: [US, CA]
+aliases:
+  - TOTW
+firm_names:
+  - Diamond Pet Foods
+  - Diamond Pet Foods Inc
+  - Schell & Kampeter Inc
+  - Schell and Kampeter Inc dba Diamond Pet Foods
+sources:
+  - https://www.tasteofthewildpetfood.com/
+lines:
+  - id: grain-free
+    name: Grain Free
+    aliases: [High Prairie, Pacific Stream, Sierra Mountain, Southwest Canyon, Wetlands, Pine Forest, Appalachian Valley, Canyon River, Rocky Mountain, Lowland Creek]
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: ancient-grains
+    name: Ancient Grains
+    aliases:
+      - { text: "Taste of the Wild Ancient Grains", kind: label }
+      - Ancient Prairie
+      - Ancient Stream
+      - Ancient Mountain
+      - Ancient Wetlands
+    species: [dog]
+    formats: [dry]
+  - id: prey
+    name: PREY
+    aliases:
+      - { text: "Taste of the Wild PREY", kind: label }
+    species: [dog, cat]
+    formats: [dry]

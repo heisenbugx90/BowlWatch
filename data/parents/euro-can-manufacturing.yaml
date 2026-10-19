@@ -1,0 +1,10 @@
+id: euro-can-manufacturing
+name: Euro-Can Manufacturing Inc.
+aliases:
+  - EuroCan Pet Products
+sources:
+  - https://recalls-rappels.canada.ca/en/alert-recall/euro-can-manufacturing-inc-recalls-bulk-and-prepackaged-junglemax-and-selection-brand
+  - https://www.petworldwide.net/content-1/news/2014/04/03/eurocan-celebrates-25-years-in-business.html
+notes: >-
+  New Hamburg ON treat maker. Also makes treats for other brands (Junglemax,
+  Metro "Selection"), so it is in manufacturers.yaml as well.

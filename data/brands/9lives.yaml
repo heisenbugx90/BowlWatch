@@ -1,0 +1,42 @@
+# Post Holdings since 2023-04-28. 2017-2021 recalls were filed by The J.M. Smucker
+# Company (covered by manufacturers.yaml jm-smucker, since that firm name belongs to
+# another parent now).
+id: 9lives
+name: 9Lives
+parent: post-holdings
+markets: [US]
+aliases:
+  - 9 Lives
+  - Nine Lives
+firm_names:
+  - Post Consumer Brands
+  - Post Holdings, Inc.
+  - Post Brands Pet Care
+sources:
+  - https://www.9lives.com/
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/jm-smucker-company-issues-voluntary-recall-specific-lots-9livesr-protein-plusr-wet-canned-cat-food
+lines:
+  - id: daily-essentials
+    name: Daily Essentials
+    species: [cat]
+    formats: [dry]
+  - id: indoor-complete
+    name: Indoor Complete
+    species: [cat]
+    formats: [dry]
+  - id: plus-care
+    name: Plus Care
+    species: [cat]
+    formats: [dry]
+  - id: protein-plus
+    name: Protein Plus
+    species: [cat]
+    formats: [dry, wet]
+  - id: meaty-pate
+    name: Meaty Pate
+    species: [cat]
+    formats: [wet]
+  - id: hearty-cuts
+    name: Hearty Cuts
+    species: [cat]
+    formats: [wet]

@@ -1,0 +1,76 @@
+# Farmina (Italy). Labels print "Farmina N&D <line>". "N&D" alone normalizes to
+# "n and d" and is too short to stand alone; each line has an "N&D <line>" label.
+id: farmina
+name: Farmina
+parent: farmina-pet-foods
+markets: [US, CA]
+aliases:
+  - Farmina Pet Foods
+  - Farmina Natural & Delicious
+firm_names:
+  - Farmina Pet Food USA LLC
+  - Farmina Pet Foods USA LLC
+sources:
+  - https://www.farmina.com/
+  - https://www.zoomark.it/en/2025-exhibitors-catalogue/exhibitor-detail/6135.html?id=9190
+lines:
+  - id: nd-prime
+    name: N&D Prime
+    aliases:
+      - { text: "N&D Prime", kind: label }
+      - Prime
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: nd-ocean
+    name: N&D Ocean
+    aliases:
+      - { text: "N&D Ocean", kind: label }
+      - Ocean
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: nd-pumpkin
+    name: N&D Pumpkin
+    aliases:
+      - { text: "N&D Pumpkin", kind: label }
+      - Pumpkin
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: nd-ancestral-grain
+    name: N&D Ancestral Grain
+    aliases:
+      - { text: "N&D Ancestral Grain", kind: label }
+      - Ancestral Grain
+    species: [dog, cat]
+    formats: [dry]
+  - id: nd-quinoa
+    name: N&D Quinoa
+    aliases:
+      - { text: "N&D Quinoa", kind: label }
+      - Quinoa
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: nd-tropical-selection
+    name: N&D Tropical Selection
+    aliases:
+      - { text: "N&D Tropical Selection", kind: label }
+      - Tropical Selection
+    species: [dog, cat]
+    formats: [dry]
+  - id: nd-white
+    name: N&D White
+    aliases:
+      - { text: "N&D White", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: nd-brown
+    name: N&D Brown
+    aliases:
+      - { text: "N&D Brown", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: vet-life
+    name: Vet Life
+    aliases:
+      - { text: "Farmina Vet Life", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]

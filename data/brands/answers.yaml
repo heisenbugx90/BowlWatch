@@ -1,0 +1,38 @@
+# 'Answers' alone is a common word; printed 'Answers Pet Food'.
+id: answers
+name: Answers Pet Food
+parent: lystn
+markets: [US]
+aliases:
+  - { text: Answers Additional, kind: label }
+  # Bare brand word: counts only when the recalling firm corroborates it.
+  - { text: Answers, kind: short }
+firm_names:
+  - Lystn LLC
+  - Lystn, LLC. d.b.a. ANSWERS
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/answers-pet-food-voluntarily-withdrawals-certain-limited-lots-beef-and-chicken-dog-foods-due"
+lines:
+  - id: detailed
+    name: Detailed Formula
+    aliases:
+      - { text: Answers Detailed, kind: label }
+      - Detailed
+    species: [dog, cat]
+    formats: [raw]
+  - id: straight
+    name: Straight Formula
+    aliases:
+      - { text: Answers Straight, kind: label }
+      # "Straight Chicken Formula", "Raw Beef Straight Formula"
+      - Straight
+    species: [dog, cat]
+    formats: [raw]
+  - id: additional
+    name: Additional Formula
+    species: [dog, cat]
+    formats: [raw]
+  - id: fermented
+    name: Fermented Raw Goat Milk / Fish Stock
+    species: [dog, cat]
+    formats: [topper]

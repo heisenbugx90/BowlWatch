@@ -1,0 +1,36 @@
+# "solid gold" can occur as a phrase; brand-only hits should be weighed with other evidence.
+id: solid-gold
+name: Solid Gold
+parent: health-and-happiness-group
+markets: [US, CA]
+aliases:
+  - Solid Gold Pet
+firm_names:
+  - Solid Gold Pet, LLC
+  - Solid Gold Pet LLC
+sources:
+  - https://www.solidgoldpet.com/
+  - https://www.petfoodindustry.com/pet-food-market/article/15467371/hh-group-of-hong-kong-acquires-us-based-solid-gold-pet
+lines:
+  - id: hund-n-flocken
+    name: Hund-N-Flocken
+    species: [dog]
+    formats: [dry]
+  - id: leaping-waters
+    name: Leaping Waters
+    species: [dog]
+    formats: [dry]
+  - id: nutrientboost
+    name: NutrientBoost
+    aliases: [Wolf King, Fit & Fabulous, Wee Bit, Mighty Mini, Holistique Blendz]
+    species: [dog, cat]
+    formats: [dry]
+  - id: indigo-moon
+    name: Indigo Moon
+    species: [cat]
+    formats: [dry]
+  - id: wet
+    name: Solid Gold Wet
+    aliases: [Gold Standard Bone Broth, Five Oceans]
+    species: [dog, cat]
+    formats: [wet, topper]

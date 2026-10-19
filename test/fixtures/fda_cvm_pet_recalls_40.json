@@ -1,0 +1,2115 @@
+[
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "10/05/2019",
+   "Event ID": "82018",
+   "Status": "Terminated",
+   "Recalling Firm": "Hill's Pet Nutrition Inc",
+   "Address1": "320 Ne Crane St",
+   "Address2": "N/A",
+   "City": "Topeka",
+   "State/Province": "KS",
+   "Postal Code": "66603-3613",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Telephone",
+   "Distribution Pattern": "Nationwide through retail pet food stores. Product was also distributed internationality to Antilles, Australia, Bahamas, Belgium, Bermuda, Bulgaria, Canada, Cayman Islands, Chile, Colombia, Costa Rica, Croatia, Curacao, Cyprus, Denmark, Dominican Republic, El Salvador, Estonia, Finland, France, Germany, Greece, Guatemala, Honduras, Hong Kong, Hungary, India, Indonesia, Ireland, Israel, Italy, Japan, Korea, Latvia, Lithuania, Luxembourg, Malaysia, Malta, Mexico, Netherlands, New Zealand, Norway, Panama, Paraguay, Peru, Philippines, Poland, Portugal, Puerto Rico, Romania, Russian Federation, Singapore, South Africa, Spain, St. George, St. Kitts, Sweden, Switzerland, Taiwan, Thailand, United Kingdom, Austria, Iceland,  Serbia and the United Arab Emirates.",
+   "Recall Number": "V-0015-2020",
+   "Classification": "Class I",
+   "Product Description": "Hill's Prescription Diet, Digestive Care, Chicken & Vegetable Stew, Manufactured by: Hill's Pet Nutrition, Topeka, KS packaged in the following cans in the following sizes:    1) SKU 3389, Net Wt. 12.5 oz (354 g), 12 cans per tray;    2) SKU 3390, Net Wt. 5.5 oz (156 g), 24 cans per tray;",
+   "Product Quantity": "N/A",
+   "Reason for Recall": "Product may contain elevated levels of vitamin D",
+   "Recall Initiation Date": "01/30/2019",
+   "Center Classification Date": "10/05/2019",
+   "Termination Date": "12/21/2021",
+   "Report Date": "07/24/2019",
+   "Code Info": "SKU 3389: 092020T28, 102020T04, 102020T10, 102020T19, 102020T20, 102020T21, 102020T24, 102020T25, 112020T04, 112020T05, 112020T10, and 112020T11     SKU 3390: 102020T11, 112020T23, and 122020T07"
+  },
+  "expected": {
+   "brands": [
+    "Hill's Prescription Diet"
+   ],
+   "parent": "Colgate-Palmolive (Hill's Pet Nutrition)",
+   "species": null,
+   "product_line": "Prescription Diet Digestive Care Chicken & Vegetable Stew",
+   "sizes": [
+    "12.5 oz",
+    "5.5 oz"
+   ],
+   "upcs": [],
+   "skus": [
+    "3389",
+    "3390"
+   ],
+   "lots": [
+    "092020T28",
+    "102020T04",
+    "102020T10",
+    "102020T19",
+    "102020T20",
+    "102020T21",
+    "102020T24",
+    "102020T25",
+    "112020T04",
+    "112020T05",
+    "112020T10",
+    "112020T11",
+    "102020T11",
+    "112020T23",
+    "122020T07"
+   ],
+   "best_by": [],
+   "code_kind": "enumerated_per_sku",
+   "notes": "No dog/cat word anywhere: keyword pet filter misses it (28 of 31 rows in event 82018). Lots are scoped per SKU inside Code Info. Codes look like MMYYYY+T+plant (interpretation unverified)."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "02/08/2021",
+   "Event ID": "87068",
+   "Status": "Terminated",
+   "Recalling Firm": "Midwestern Pet Foods Chickasha Operation",
+   "Address1": "913 N 9th St",
+   "Address2": "N/A",
+   "City": "Chickasha",
+   "State/Province": "OK",
+   "Postal Code": "73018-1817",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+   "Distribution Pattern": "Nationwide throughout the United States and   Bahrain,  Barbados,  Chile,  Costa Rica,  Curacao,  Cyprus,  Czech Republic,  Ecuador,  El Salvador,  French Polynesia,  Ghana,  Guatemala,  Honduras,  Hong Kong,  Iceland,  Indonesia,  Ireland,  Israel,  Korea,  Kuwait,  Lebanon,  Lithuania,  Malaysia,  Mexico,  New Zealand,  Nicaraugua,  Panama,  Peru,  Singapore,  Taiwan,  Trinidad,  Ukraine,  United Arab Emirates,  Uruguay,  Vietnam",
+   "Recall Number": "V-0039-2021",
+   "Classification": "Class I",
+   "Product Description": "Sportmix Premium Energy Plus Targeted Nutrition for Dogs UPC 034846700916 packaged in 50 pound bag and Sportmix Premium Energy Plus Targeted Nutrition for Dogs UPC 034846700725 packaged in 44 pound bag",
+   "Product Quantity": "22,497,832 pounds (11248.916 tons)",
+   "Reason for Recall": "Elevated levels of aflatoxin",
+   "Recall Initiation Date": "12/30/2020",
+   "Center Classification Date": "02/08/2021",
+   "Termination Date": "10/25/2021",
+   "Report Date": "01/27/2021",
+   "Code Info": "Lot #   01022021L2 05,  01022021L3 05,  01102021L2 05,  01102021L3 05,  01172021L2 05,  01172021L3 05,  01242021L2 05,  01252021L2 05,  01252021L3 05,  01312021L2 05,  01312021L3 05,  02072021L2 05,  02072021L3 05,  02082021L3 05,  02082021L3 05,  02132021L3 05,  02142021L2 05,  02192021L2 05,  02192021L2 05,  02202021L2 05,  02202021L3 05,  02202021L3 05,  02272021L2 05,  02282021L2 05,  02282021L3 05,  02282021L3 05,  03042021L2 05,  03042021L2 05,  03052021L2 05,  03052021L3 05,  03102021L2 05,  03112021L2 05,  03182021L2 05,  03182021L3 05,  03252021L2 05,  03252021L3 05,  04022021L2 05,  04022021L3 05,  04092021L2 05,  04092021L3 05,  04152021L2 05,  04152021L3 05,  04162021L2 05,  04222021L2 05,  04232021L2 05,  04302021L2 05,  04302021L3 05,  05062021L2 05,  05122021L3 05,  05122021L3 05,  05132021L2 05,  05132021L3 05,  05202021L2 05,  05202021L3 05,  05262021L3 05,  05262021L3 05,  05272021L2 05,  06042021L2 05,  06042021L3 05,  06102021L2 05,  06102021L3 05,  06112021L2 05,  06112021L3 05,  06182021L2 05,  06182021L3 05,  06182021L2 05,  06272021L2 05,  07032021L3 05,  07082021L2 05,  07082021L3 05,  07082021L3 05,  07142021L2 05,  07152021L2 05,  07152021L3 05,  07222021L3 05,  07222021L3 05,  07232021L2 05,  07282021L2 05,  07282021L2 05,  07292021L2 05,  07292021L3 05,  08052021L2 05,  08052021L3 05,  08052021L2 05,  08062021L3 05,  08112021L2 05,  08122021L2 05,  08122021L3 05,  08182021L3 05,  08192021L2 05,  08192021L3 05,  08262021L2 05,  08262021L3 05,  09042021L2 05,  09042021L3 05,  09112021L2 05,  09112021L3 05,  09182021L2 05,  09182021L3 05,  09182021L3 05,  09192021L2 05,  09252021L3 05,  09262021L2 05,  09262021L3 05,  10012021L2 05,  10012021L3 05,  10072021L3 05,  10082021L2 05,  10082021L3 05,  10152021L2 05,  10152021L3 05,  10222021L2 05,  10222021L3 05,  10282021L2 05,  10282021L2 05,  10292021L2 05,  10292021L3 05,  11062021L2 05,  11062021L3 05,  11132021L2 05,  11132021L3 05,  11202021L2 05,  11202021L3 05,  11272021L2 05,  11272021L3 05,  11272021L2 05,  12032021L2 05,  12032021L3 05,  12102021L2 05,  12102021L3 05,  12122021L2 05,  12122021L3 05,  12122021L3 05,  12222021L2 05,  12222021L2 05,  12232021L2 05,  12232021L3 05,  12232021L3 05,  01012022L2 05,  01012022L3 05,  01082022L2 05,  01082022L3 05,  01152022L2 05,  01152022L3 05,  01222022L3 05,  01232022L2 05,  01292022L3 05,  01302022L3 05,  02052022L3 05,  02062022L2 05,  02132022L2 05,  02132022L3 05,  02192022L2 05,  02192022L3 05,  02192022L3 05,  02262022L2 05,  02262022L3 05,  03022022L2 05,  03022022L3 05,  03032022L2 05,  03032022L3 05,  03102022L3 05,  03162022L2 05,  03232022L2 05,  03232022L3 05,  03302022L2 05,  03302022L3 05,  04012022L3 05,  04082022L2 05,  04132022L3 05,  04142022L3 05,  04142022L3 05,  04212022L2 05,  04212022L3 05,  04232022L2 05,  04282022L3 05,  04282022L3 05,  04292022L3 05,  05042022L2 05,  05042022L3 05,  05102022L2 05,  05112022L2 05,  05112022L3 05,  05182022L3 05,  05182022L3 05,  05242022L3 05,  05242022L3 05,  05252022L2 05,  01012021L3 05,  01022021L3 05,  01102021L3 05,  01172021L3 05,  01252021L2 05,  01252021L3 05,  01312021L3 05,  02072021L3 05,  02132021L2 05,  02132021L3 05,  02192021L3 05,  02202021L3 05,  02272021L3 05,  02282021L3 05,  03052021L3 05,  03102021L2 05,  03112021L3 05,  03172021L3 05,  03172021L3 05,  03182021L3 05,  03252021L3 05,  04022021L3 05,  04082021L3 05,  04092021L3 05,  04152021L3 05,  04222021L3 05,  04232021L2 05,  04232021L3 05,  04292021L3 05,  04292021L3 05,  04302021L3 05,  05052021L3 05,  05052021L3 05,  05062021L2 05,  05062021L3 05,  05122021L3 05,  05192021L3 05,  05202021L3 05,  05262021L2 05,  05262021L3 05,  06042021L3 05,  06102021L3 05,  06182021L3 05,  06272021L2 05,  06272021L3 05,  07032021L3 05,  07082021L3 05,  07142021L3 05,  07142021L3 05,  07152021L3 05,  07222021L2 05,  07222021L3 05,  07282021L3 05,  07292021L3 05,  08052021L3 05,  08112021L3 05,  08112021L3 05,  08122021L3 05,  08182021L3 05,  08262021L3 05,  09042021L3 05,  09102021L3 05,  09102021L3 05,  09112021L3 05,  09182021L3 05,  09252021L2 05,  09252021L3 05,  09302021L3 05,  10012021L3 05,  10072021L3 05,  10152021L3 05,  10222021L3 05,  10282021L3 05,  10282021L3 05,  11052021L3 05,  11062021L3 05,  11132021L3 05,  11202021L3 05,  11272021L3 05,  12022021L3 05,  12032021L3 05,  12092021L3 05,  12102021L2 05,  12102021L3 05,  12122021L3 05,  12232021L3 05,  01012022L2 05,  01012022L3 05,  01062022L3 05,  01062022L3 05,  01082022L3 05,  01142022L3 05,  01152022L3 05,  01222022L3 05,  01222022L3 05,  01292022L3 05,  02052022L3 05,  02052022L3 05,  02132022L3 05,  02192022L3 05,  02252022L3 05,  02252022L3 05,  03022022L3 05,  03102022L3 05,  03152022L3 05,  03152022L3 05,  03232022L3 05,  03292022L3 05,  03302022L3 05,  04012022L3 05,  04072022L3 05,  04072022L3 05,  04132022L3 05,  04132022L3 05,  04142022L3 05,  04212022L3 05,  04222022L3 05,  04232022L2 05,  04232022L3 05,  04282022L3 05,  05042022L3 05,  05102022L3 05,  05102022L3 05,  05112022L3 05,  05172022L3 05,  05182022L2 05,  05182022L3 05,  05242022L2 05,  05242022L3 05,  06022022L3 05,  06092022L3 05,  06102022L3 05,  06162022L3 05,  06222022L3 05,  06232022L3 05,  06302022L3 05,  07062022L2 05,  07072022L3 05,  06022022L2 05,  06022022L3 05,  0320222 L 05,  06032022L2 05,  06102022L2 05,  06102022L3 05,  06162022L2 05,  06162022L3 05,  06232022L2 05,  06232022L3 05,  06302022L2 05,  06302022L3 05,  07072022L2 05,  07072022L3 05"
+  },
+  "expected": {
+   "brands": [
+    "Sportmix"
+   ],
+   "parent": "Midwestern Pet Foods",
+   "species": "dog",
+   "product_line": "Sportmix Premium Energy Plus",
+   "sizes": [
+    "50 lb",
+    "44 lb"
+   ],
+   "upcs": [
+    "034846700916",
+    "034846700725"
+   ],
+   "lots": "many, format MMDDYYYY + L2|L3 + ' 05'",
+   "best_by": [],
+   "code_kind": "enumerated_long",
+   "notes": "Code Info is long (one per line/plant). The 8-digit prefix is an expiry date (2021-2022), embedded inside the lot. Firm name 'Midwestern Pet Foods Chickasha Operation' is a plant name."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "04/20/2021",
+   "Event ID": "87625",
+   "Status": "Terminated",
+   "Recalling Firm": "MIdwestern Pet Foods Inc.",
+   "Address1": "617 South D Street",
+   "Address2": "N/A",
+   "City": "Monmouth",
+   "State/Province": "IL",
+   "Postal Code": "61462-2157",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Press Release",
+   "Distribution Pattern": "Products were distributed to retail stores nationwide in the United States (including Puerto Rico) and to online retailers. Products were also exported to the following countries: Bahrain, Barbados, Chile, Costa Rica, Ghana, Honduras, Iceland, Indonesia, Ireland, Israel, Kuwait, Malaysia, New Zealand, Singapore, Taiwan, Trinidad and Tobago, United Arab Emirates, and Uruguay.",
+   "Recall Number": "V-0104-2021",
+   "Classification": "Class I",
+   "Product Description": "Certain dog and cat food brands including CanineX, Earthborn Holistic, Venture, Unrefined, Sportmix Wholesomes, Pro Pac, Pro Pac Ultimates, Sportstrail, Sportmix and Meridian; the products are packaged in paper or plastic bags of various sizes/weights ranging from 4lb-50lb.",
+   "Product Quantity": "6,509,819 lbs./ 224,400 units",
+   "Reason for Recall": "Product potentially contaminated with Salmonella spp.",
+   "Recall Initiation Date": "03/26/2021",
+   "Center Classification Date": "04/20/2021",
+   "Termination Date": "01/26/2022",
+   "Report Date": "04/14/2021",
+   "Code Info": "Multiple codes"
+  },
+  "expected": {
+   "brands": [
+    "CanineX",
+    "Earthborn Holistic",
+    "Venture",
+    "Unrefined",
+    "Sportmix Wholesomes",
+    "Pro Pac",
+    "Pro Pac Ultimates",
+    "Sportstrail",
+    "Sportmix",
+    "Meridian"
+   ],
+   "parent": "Midwestern Pet Foods",
+   "species": "dog,cat",
+   "product_line": null,
+   "sizes": [
+    "4lb-50lb"
+   ],
+   "upcs": [],
+   "lots": [],
+   "best_by": [],
+   "code_kind": "none_multiple_codes",
+   "notes": "One row = ten brands. Best possible match level is Heads-up/Alert by brand; no lot info ('Multiple codes'). Firm name typo 'MIdwestern'."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "",
+   "Event ID": "79291",
+   "Status": "Terminated",
+   "Recalling Firm": "The J.M. Smucker Company, Inc.",
+   "Address1": "1 Strawberry Ln",
+   "Address2": "N/A",
+   "City": "Orrville",
+   "State/Province": "OH",
+   "Postal Code": "44667-1241",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+   "Distribution Pattern": "Nationwide",
+   "Recall Number": "V-0057-2018",
+   "Classification": "Class III",
+   "Product Description": "Gravy Train With Lamb & Rice Chunks, packaged in metal cans with Net WT 13.2 OZ; UPC: 7910005430 on flat case and 7910052543 on cans; Distributed by: Big Heart Pet Brands, San Francisco, CA 94111",
+   "Product Quantity": "172,767 cs 12 cans/cs",
+   "Reason for Recall": "A TV station notified the firm and stated that certain varieties of their canned pet food products may contain Pentobarbital in low levels.  The firm performed a safety assessment and concluded that no threat to pet safety was present. The firm agreed to conduct a product withdrawal, but the FDA considered this to be a recall once data indicated that the tallow was contaminated with pentobarbital.",
+   "Recall Initiation Date": "02/12/2018",
+   "Center Classification Date": "03/14/2018",
+   "Termination Date": "12/07/2020",
+   "Report Date": "03/07/2018",
+   "Code Info": "Best By range 10 25 19 thru  02 09 2021;   Code range: 6299 through 8040, each with the suffix plant number 803"
+  },
+  "expected": {
+   "brands": [
+    "Gravy Train"
+   ],
+   "parent": "J.M. Smucker (Big Heart Pet Brands)",
+   "species": null,
+   "product_line": "Gravy Train With Lamb & Rice Chunks",
+   "sizes": [
+    "13.2 oz"
+   ],
+   "upcs": [
+    "7910005430 (case)",
+    "7910052543 (can)"
+   ],
+   "lots": "range 6299-8040 suffix 803",
+   "best_by": "range 2019-10-25..2021-02-09",
+   "code_kind": "range",
+   "notes": "Best-by written 'MM DD YY thru MM DD YYYY' with spaces. Case UPC differs from can UPC. 10-digit UPCs (no leading 0 / check digit)."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "",
+   "Event ID": "79291",
+   "Status": "Terminated",
+   "Recalling Firm": "The J.M. Smucker Company, Inc.",
+   "Address1": "1 Strawberry Ln",
+   "Address2": "N/A",
+   "City": "Orrville",
+   "State/Province": "OH",
+   "Postal Code": "44667-1241",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+   "Distribution Pattern": "Nationwide",
+   "Recall Number": "V-0062-2018",
+   "Classification": "Class III",
+   "Product Description": "Ol' Roy Dog Food Strips in Gravy With Turkey & Bacon; packaged in metal cans with Net Wt 13.2 OZ; UPC: 7910017570 on flat case and 8113117570 on cans; Distributed by: Wal-Mart Stores, Bentonville, AR 72712",
+   "Product Quantity": "107,003 cs, 12 cans/cs.",
+   "Reason for Recall": "A TV station notified the firm and stated that certain varieties of their canned pet food products may contain Pentobarbital in low levels.  The firm performed a safety assessment and concluded that no threat to pet safety was present. The firm agreed to conduct a product withdrawal, but the FDA considered this to be a recall once data indicated that the tallow was contaminated with pentobarbital.",
+   "Recall Initiation Date": "02/12/2018",
+   "Center Classification Date": "03/14/2018",
+   "Termination Date": "12/07/2020",
+   "Report Date": "03/07/2018",
+   "Code Info": "Code range: 6299 through 8040, each with the suffix plant number 803;   Best By range 10 25 19 thru  02 09 2021;"
+  },
+  "expected": {
+   "brands": [
+    "Ol' Roy"
+   ],
+   "parent": "Walmart (store brand), made by J.M. Smucker",
+   "species": "dog",
+   "product_line": "Ol' Roy Strips in Gravy With Turkey & Bacon",
+   "sizes": [
+    "13.2 oz"
+   ],
+   "upcs": [
+    "7910017570 (case)",
+    "8113117570 (can)"
+   ],
+   "lots": "range 6299-8040 suffix 803",
+   "best_by": "range 2019-10-25..2021-02-09",
+   "code_kind": "range",
+   "notes": "Recalling firm Smucker, distributor Wal-Mart, brand Ol' Roy: three different entities. Order of 'Code range' and 'Best By range' clauses varies between rows."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "",
+   "Event ID": "76403",
+   "Status": "Terminated",
+   "Recalling Firm": "Simmons Foods Inc",
+   "Address1": "601 N Hico St",
+   "Address2": "N/A",
+   "City": "Siloam Springs",
+   "State/Province": "AR",
+   "Postal Code": "72761",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Letter",
+   "Distribution Pattern": "Nationwide",
+   "Recall Number": "V-0113-2017",
+   "Classification": "Class II",
+   "Product Description": "Blue Buffalo Homestyle Recipe Healthy Weight Chicken Dinner With Garden Vegetable , Net Wt. 12.5  oz.  Distributed by Blue Buffalo Co., Ltd  11 River Rd. Wilson, CT 06897  UPC 8-40243-10017-0",
+   "Product Quantity": "2,535 cases",
+   "Reason for Recall": "This recall has been initiated due to receiving a notification of a consumer complaint regarding foreign material in Doctors Fosters and Smith Chicken and Brown Rice Dog Food.",
+   "Recall Initiation Date": "02/01/2017",
+   "Center Classification Date": "05/19/2017",
+   "Termination Date": "02/14/2018",
+   "Report Date": "05/31/2017",
+   "Code Info": "62HYCS1"
+  },
+  "expected": {
+   "brands": [
+    "Blue Buffalo"
+   ],
+   "parent": "General Mills",
+   "species": null,
+   "product_line": "Blue Buffalo Homestyle Recipe Healthy Weight Chicken Dinner",
+   "sizes": [
+    "12.5 oz"
+   ],
+   "upcs": [
+    "8-40243-10017-0"
+   ],
+   "lots": [
+    "62HYCS1"
+   ],
+   "best_by": [],
+   "code_kind": "enumerated",
+   "notes": "Co-packer recall: firm is Simmons Foods; one event (76403) spans Blue Buffalo, Wellness, 4Health, Doctors Foster & Smith. No dog/cat word in this row."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "",
+   "Event ID": "76403",
+   "Status": "Terminated",
+   "Recalling Firm": "Simmons Foods Inc",
+   "Address1": "601 N Hico St",
+   "Address2": "N/A",
+   "City": "Siloam Springs",
+   "State/Province": "AR",
+   "Postal Code": "72761",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Letter",
+   "Distribution Pattern": "Nationwide",
+   "Recall Number": "V-0128-2017",
+   "Classification": "Class II",
+   "Product Description": "Wellness Beef & Chicken Formula Net Wt. 12.5 oz.  Old Mother Hubbard, Inc.  Tewksbury, MA 01876  UPC 0-76344-08821-9",
+   "Product Quantity": "955 cases",
+   "Reason for Recall": "This recall has been initiated due to receiving a notification of a consumer complaint regarding foreign material in Drs Fosters and Smith Chicken and Brown Rice Dog Food.",
+   "Recall Initiation Date": "02/01/2017",
+   "Center Classification Date": "05/19/2017",
+   "Termination Date": "02/14/2018",
+   "Report Date": "05/31/2017",
+   "Code Info": "7WBCS1"
+  },
+  "expected": {
+   "brands": [
+    "Wellness"
+   ],
+   "parent": "WellPet LLC (labelled 'Old Mother Hubbard, Inc.')",
+   "species": null,
+   "product_line": "Wellness Beef & Chicken Formula (canned)",
+   "sizes": [
+    "12.5 oz"
+   ],
+   "upcs": [
+    "0-76344-08821-9"
+   ],
+   "lots": [
+    "7WBCS1"
+   ],
+   "best_by": [],
+   "code_kind": "enumerated",
+   "notes": "Label company is a legacy name (Old Mother Hubbard) not the brand. Co-packer Simmons."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "",
+   "Event ID": "76403",
+   "Status": "Terminated",
+   "Recalling Firm": "Simmons Foods Inc",
+   "Address1": "601 N Hico St",
+   "Address2": "N/A",
+   "City": "Siloam Springs",
+   "State/Province": "AR",
+   "Postal Code": "72761",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Letter",
+   "Distribution Pattern": "Nationwide",
+   "Recall Number": "V-0112-2017",
+   "Classification": "Class II",
+   "Product Description": "Doctors Fosters & Smith Chicken and Brown Rice Formula Adult  Dog Food Net Wt. 12.7 oz.  Distributed by Foster & Smith, Inc. Rhinelander, WI 54501-0100  UPC 8-25141-12020-8",
+   "Product Quantity": "910 cases",
+   "Reason for Recall": "This recall has been initiated due to receiving a notification of a consumer complaint regarding foreign material in Doctors Fosters and Smith Chicken and Brown Rice Dog Food.",
+   "Recall Initiation Date": "02/01/2017",
+   "Center Classification Date": "05/19/2017",
+   "Termination Date": "02/14/2018",
+   "Report Date": "05/31/2017",
+   "Code Info": "BATCH ID 32CDS116"
+  },
+  "expected": {
+   "brands": [
+    "Doctors Foster & Smith"
+   ],
+   "parent": "Petco (private label)",
+   "species": "dog",
+   "product_line": "Chicken and Brown Rice Formula Adult",
+   "sizes": [
+    "12.7 oz"
+   ],
+   "upcs": [
+    "8-25141-12020-8"
+   ],
+   "lots": [
+    "32CDS116"
+   ],
+   "best_by": [],
+   "code_kind": "enumerated",
+   "notes": "Misspelled 'Doctors Fosters & Smith'. 'BATCH ID' prefix instead of Lot. Parent attribution unverified."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "03/10/2023",
+   "Event ID": "91662",
+   "Status": "Terminated",
+   "Recalling Firm": "Nestle Purina PetCare Co",
+   "Address1": "1 Checkerboard Sq",
+   "Address2": "N/A",
+   "City": "Saint Louis",
+   "State/Province": "MO",
+   "Postal Code": "63164-0001",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+   "Distribution Pattern": "Distributors in GA, IL, NV, PA, TX",
+   "Recall Number": "V-0051-2023",
+   "Classification": "Class I",
+   "Product Description": "Purina Pro Plan Veterinary Diets EL Elemental prescription dry dog food packaged in 8lb (UPC 38100 19190) and 20lb (UPC 38100 19192) bags.",
+   "Product Quantity": "11,697-20lb bags, 9,632-8lb bags",
+   "Reason for Recall": "Prescription diet dry dog food may contain elevated levels of vitamin D.",
+   "Recall Initiation Date": "02/08/2023",
+   "Center Classification Date": "03/10/2023",
+   "Termination Date": "04/18/2023",
+   "Report Date": "02/22/2023",
+   "Code Info": "Lot codes containing production codes: 2249 1082, 2250 1082, 2276 1082, 2277 1082, 2290 1082, 2360 1082, 2361 1082 with Best Before Dates 09 2023 - 12 2023"
+  },
+  "expected": {
+   "brands": [
+    "Purina Pro Plan Veterinary Diets"
+   ],
+   "parent": "Nestle Purina PetCare",
+   "species": "dog",
+   "product_line": "EL Elemental",
+   "sizes": [
+    "8 lb",
+    "20 lb"
+   ],
+   "upcs": [
+    "38100 19190",
+    "38100 19192"
+   ],
+   "lots": [
+    "2249 1082",
+    "2250 1082",
+    "2276 1082",
+    "2277 1082",
+    "2290 1082",
+    "2360 1082",
+    "2361 1082"
+   ],
+   "best_by": "09 2023 - 12 2023 (month range)",
+   "code_kind": "enumerated_partial",
+   "notes": "'Lot codes containing production codes' = substring match, not equality. 2249 = YDDD julian (2022 day 249). UPCs given as 10-digit partial."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "07/21/2026",
+   "Event ID": "99362",
+   "Status": "Ongoing",
+   "Recalling Firm": "MARS PETCARE U.S. INC",
+   "Address1": "2013 Ovation Pkwy",
+   "Address2": "N/A",
+   "City": "Franklin",
+   "State/Province": "TN",
+   "Postal Code": "37067-1513",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+   "Distribution Pattern": "Complete distribution unknown.",
+   "Recall Number": "V-0182-2026",
+   "Classification": "Class II",
+   "Product Description": "Pedigree High Protein Chopped Ground Dinner Chicken & Duck Flavor Net Wt. 375g (13.2oz) UPC:023100137230. Packaged in cans and sold as single units.",
+   "Product Quantity": "unknown",
+   "Reason for Recall": "Potential fraudulent distribution of product which may contain foreign material (plastic & metal)",
+   "Recall Initiation Date": "07/02/2026",
+   "Center Classification Date": "07/21/2026",
+   "Termination Date": "N/A",
+   "Report Date": "07/22/2026",
+   "Code Info": "613C3KKCFC & 613C1KKCFC"
+  },
+  "expected": {
+   "brands": [
+    "Pedigree"
+   ],
+   "parent": "Mars Petcare",
+   "species": null,
+   "product_line": "Pedigree High Protein Chopped Ground Dinner Chicken & Duck",
+   "sizes": [
+    "375g",
+    "13.2oz"
+   ],
+   "upcs": [
+    "023100137230"
+   ],
+   "lots": [
+    "613C3KKCFC",
+    "613C1KKCFC"
+   ],
+   "best_by": [],
+   "code_kind": "enumerated",
+   "notes": "No dog/cat word: missed by keyword filter. Reason: fraudulent (counterfeit) distribution."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "06/21/2024",
+   "Event ID": "94657",
+   "Status": "Terminated",
+   "Recalling Firm": "MARS PETCARE U.S INC",
+   "Address1": "2013 Ovation Parkway",
+   "Address2": "N/A",
+   "City": "Franklin",
+   "State/Province": "TN",
+   "Postal Code": "37067-1632",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Telephone",
+   "Distribution Pattern": "Arkansas, Oklahoma, Texas and Louisiana.",
+   "Recall Number": "V-0123-2024",
+   "Classification": "Class II",
+   "Product Description": "44 lb. bag PEDIGREE¿ Adult Complete Nutrition Grilled Steak & Vegetable Flavor Dry Dog Food",
+   "Product Quantity": "N/A",
+   "Reason for Recall": "Potential Metal Contamination",
+   "Recall Initiation Date": "05/17/2024",
+   "Center Classification Date": "06/21/2024",
+   "Termination Date": "01/30/2025",
+   "Report Date": "06/19/2024",
+   "Code Info": "410B2TXT02 Best By March 4, 2025"
+  },
+  "expected": {
+   "brands": [
+    "Pedigree"
+   ],
+   "parent": "Mars Petcare",
+   "species": "dog",
+   "product_line": "Pedigree Adult Complete Nutrition Grilled Steak & Vegetable",
+   "sizes": [
+    "44 lb"
+   ],
+   "upcs": [],
+   "lots": [
+    "410B2TXT02"
+   ],
+   "best_by": [
+    "2025-03-04"
+   ],
+   "code_kind": "enumerated",
+   "notes": "Size precedes brand. Source text has 'PEDIGREE¿' (registered mark corrupted to U+00BF in the FDA export). Firm 'MARS PETCARE U.S INC' vs 'U.S. INC' in V-0182-2026."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "07/02/2026",
+   "Event ID": "99206",
+   "Status": "Terminated",
+   "Recalling Firm": "Go Raw, LLC DBA Steve's Real Food",
+   "Address1": "2034 E Fort Union Blvd",
+   "Address2": "N/A",
+   "City": "Cottonwood",
+   "State/Province": "UT",
+   "Postal Code": "84121-3144",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+   "Distribution Pattern": "Distributed to distributors in IL, CA, FL, GA, MN, PA, RI, CO, and WA.",
+   "Recall Number": "V-0140-2026",
+   "Classification": "Class I",
+   "Product Description": "Steves Real Food Chicken Recipe Freeze Dried Net Wt 1.25 lbs (20oz) UPC: 6-91730-18103-1. Packaged in plastic bags, 6 bags per case.",
+   "Product Quantity": "203 cases",
+   "Reason for Recall": "Inadequate levels of thiamine for cats.",
+   "Recall Initiation Date": "06/08/2026",
+   "Center Classification Date": "07/02/2026",
+   "Termination Date": "08/14/2026",
+   "Report Date": "06/17/2026",
+   "Code Info": "Lot C26022, Best By: 1/22/2028"
+  },
+  "expected": {
+   "brands": [
+    "Steve's Real Food"
+   ],
+   "parent": "Go Raw, LLC",
+   "species": null,
+   "product_line": "Steve's Real Food Chicken Recipe Freeze Dried",
+   "sizes": [
+    "1.25 lbs",
+    "20oz"
+   ],
+   "upcs": [
+    "6-91730-18103-1"
+   ],
+   "lots": [
+    "C26022"
+   ],
+   "best_by": [
+    "2028-01-22"
+   ],
+   "code_kind": "enumerated",
+   "notes": "Brand spelled 'Steves' (no apostrophe). No species word in description; reason text says cats."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "09/22/2026",
+   "Event ID": "99786",
+   "Status": "Completed",
+   "Recalling Firm": "Morasch Meats Inc",
+   "Address1": "4050 Ne 158th Ave",
+   "Address2": "N/A",
+   "City": "Portland",
+   "State/Province": "OR",
+   "Postal Code": "97230-5003",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "E-Mail",
+   "Distribution Pattern": "Distributed nationwide.",
+   "Recall Number": "V-0195-2026",
+   "Classification": "Class I",
+   "Product Description": "Northwest Naturals Chicken Recipe Raw Diet for Cats, Complete and Balanced Topper for Dogs Raw Frozen Net Weight 2 lbs (907.18 g) UPC 087316384956. Packaged in plastic bags, 12 bags per case.",
+   "Product Quantity": "52 cases",
+   "Reason for Recall": "Product may be contaminated with Salmonella",
+   "Recall Initiation Date": "08/28/2026",
+   "Center Classification Date": "09/22/2026",
+   "Termination Date": "N/A",
+   "Report Date": "09/09/2026",
+   "Code Info": "Lot B-5  Best By 01/26/2028"
+  },
+  "expected": {
+   "brands": [
+    "Northwest Naturals"
+   ],
+   "parent": "Northwest Naturals (co-packer/recalling firm Morasch Meats Inc)",
+   "species": "cat,dog",
+   "product_line": "Northwest Naturals Raw Diet for Cats Chicken Recipe",
+   "sizes": [
+    "2 lbs"
+   ],
+   "upcs": [
+    "087316384956"
+   ],
+   "lots": [
+    "B-5"
+   ],
+   "best_by": [
+    "2028-01-26"
+   ],
+   "code_kind": "enumerated",
+   "notes": "Recalling firm (Morasch Meats) is not the brand. Present in iRES, classified 09/22/2026."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "12/22/2025",
+   "Event ID": "97982",
+   "Status": "Terminated",
+   "Recalling Firm": "Fromm Family Foods, LLC",
+   "Address1": "13145 Green Bay Rd",
+   "Address2": "N/A",
+   "City": "Mequon",
+   "State/Province": "WI",
+   "Postal Code": "53097-2206",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+   "Distribution Pattern": "Distributed to consignees in IL, TX, CA and Canada.",
+   "Recall Number": "V-0027-2026",
+   "Classification": "Class I",
+   "Product Description": "Bonnihill Farms Pet Foods BeefiBowls Beef Recipe Dog Food, Net Wt 16 oz (454g) UPC: 172705135004. Packaged in plastic retail chubs.   3, 16 oz chubs packaged in plastic bag. UPC: 072705135011 4, 3lb bags packages in a case  UPC is: 072705135028",
+   "Product Quantity": "300 cases",
+   "Reason for Recall": "Potential foreign material (plastic)",
+   "Recall Initiation Date": "10/10/2025",
+   "Center Classification Date": "12/21/2025",
+   "Termination Date": "03/13/2026",
+   "Report Date": "11/26/2025",
+   "Code Info": "12/25/2026B01"
+  },
+  "expected": {
+   "brands": [
+    "Bonnihill Farms"
+   ],
+   "parent": "Fromm Family Foods",
+   "species": "dog",
+   "product_line": "BeefiBowls Beef Recipe",
+   "sizes": [
+    "16 oz",
+    "3 lb"
+   ],
+   "upcs": [
+    "172705135004 (sic)",
+    "072705135011",
+    "072705135028"
+   ],
+   "lots": [
+    "B01"
+   ],
+   "best_by": [
+    "2026-12-25"
+   ],
+   "code_kind": "date_glued_to_lot",
+   "notes": "Best-by and lot glued: '12/25/2026B01'. First UPC appears mistyped (172705... vs 072705...). Brand differs from firm."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "09/03/2026",
+   "Event ID": "99719",
+   "Status": "Ongoing",
+   "Recalling Firm": "Fromm Family Foods, LLC",
+   "Address1": "13145 Green Bay Rd",
+   "Address2": "N/A",
+   "City": "Mequon",
+   "State/Province": "WI",
+   "Postal Code": "53097-2206",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+   "Distribution Pattern": "Distributed nationwide and in Canada.",
+   "Recall Number": "V-0192-2026",
+   "Classification": "Class I",
+   "Product Description": "Fromm Pate Turkey Pate Net Wt 12.2 oz.(345 G). Wet dog food packaged in cans, 12 cans per case.  Individual can- item code: 11870, UPC: 072705118700 Case- item code: 11871, UPC: 072705118717",
+   "Product Quantity": "3,852 cases",
+   "Reason for Recall": "Potential foreign material (metal) contamination.",
+   "Recall Initiation Date": "08/21/2026",
+   "Center Classification Date": "09/03/2026",
+   "Termination Date": "N/A",
+   "Report Date": "09/02/2026",
+   "Code Info": "EP2A3306 551006  Best By 032029"
+  },
+  "expected": {
+   "brands": [
+    "Fromm"
+   ],
+   "parent": "Fromm Family Foods",
+   "species": "dog",
+   "product_line": "Fromm Pate Turkey Pate",
+   "sizes": [
+    "12.2 oz"
+   ],
+   "upcs": [
+    "072705118700",
+    "072705118717 (case)"
+   ],
+   "lots": [
+    "EP2A3306 551006"
+   ],
+   "best_by": [
+    "2029-03 (MMYYYY '032029')"
+   ],
+   "code_kind": "enumerated",
+   "notes": "Best By '032029' is MMYYYY; compare '090626' (MMDDYY) in V-0030-2026. Item codes alongside UPCs."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "10/21/2020",
+   "Event ID": "86569",
+   "Status": "Terminated",
+   "Recalling Firm": "SUNSHINE MILLS INC",
+   "Address1": "500 6th St Sw",
+   "Address2": "N/A",
+   "City": "Red Bay",
+   "State/Province": "AL",
+   "Postal Code": "35582-4084",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "E-Mail",
+   "Distribution Pattern": "Products were distributed to the following states: AL, AZ, AR, CA, FL, GA, IN, IL, IA, KY, LA, MN, MS, MO, NY, NC, OK, TN, TX, UT, VA, WA, & WI.    Products were also distributed to the following countries: Colombia and Japan.",
+   "Recall Number": "V-0004-2021",
+   "Classification": "Class I",
+   "Product Description": "Champ brand Mini Chunk Dog Food Beef and Chicken Flavor in 12 lb. bags.  UPC: 7328315416",
+   "Product Quantity": "2,912 units.",
+   "Reason for Recall": "Potential for elevated levels of aflatoxin in the product.",
+   "Recall Initiation Date": "10/07/2020",
+   "Center Classification Date": "10/21/2020",
+   "Termination Date": "04/12/2021",
+   "Report Date": "10/21/2020",
+   "Code Info": "Lot: TC2 3/APRIL/2020  Best By: 03 April 2021"
+  },
+  "expected": {
+   "brands": [
+    "Champ"
+   ],
+   "parent": "Sunshine Mills",
+   "species": "dog",
+   "product_line": "Champ Mini Chunk Beef and Chicken",
+   "sizes": [
+    "12 lb"
+   ],
+   "upcs": [
+    "7328315416"
+   ],
+   "lots": [
+    "TC2 3/APRIL/2020"
+   ],
+   "best_by": [
+    "2021-04-03"
+   ],
+   "code_kind": "enumerated",
+   "notes": "Store/value brand. Lot includes production date 'D/MONTH/YYYY'. 10-digit UPC."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "11/21/2023",
+   "Event ID": "93284",
+   "Status": "Completed",
+   "Recalling Firm": "Texas Farm Products Company dba TFP Nutrition",
+   "Address1": "915 S Fredonia St",
+   "Address2": "N/A",
+   "City": "Nacogdoches",
+   "State/Province": "TX",
+   "Postal Code": "75964-5913",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Telephone",
+   "Distribution Pattern": "Product was distributed to Tractor Supply Company Distribution Centers in LA, TX, NM. AZ.  This product is sold retail exclusively in Tractor Supply Stores",
+   "Recall Number": "V-0021-2024",
+   "Classification": "Class I",
+   "Product Description": "Retriever All Life Stages Mini Chunk Chicken Recipe Dry Dog Food, Lot numbers: BEST BY 10 2024 3277 TFP and BEST BY 10 2024 3278 TFP",
+   "Product Quantity": "8,434 bags",
+   "Reason for Recall": "potential salmonella",
+   "Recall Initiation Date": "10/20/2023",
+   "Center Classification Date": "11/21/2023",
+   "Termination Date": "N/A",
+   "Report Date": "11/15/2023",
+   "Code Info": "BEST BY 10 2024 3277 TFP and BEST BY 10 2024 3278 TFP"
+  },
+  "expected": {
+   "brands": [
+    "Retriever"
+   ],
+   "parent": "Tractor Supply (private label), made by Texas Farm Products / TFP Nutrition",
+   "species": "dog",
+   "product_line": "Retriever All Life Stages Mini Chunk Chicken",
+   "sizes": [],
+   "upcs": [],
+   "lots": [
+    "3277 TFP",
+    "3278 TFP"
+   ],
+   "best_by": [
+    "2024-10 (month)"
+   ],
+   "code_kind": "enumerated",
+   "notes": "Lot codes appear in Product Description too. 3277 = julian 2023 day 277. Firm name has 'dba'."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "01/23/2024",
+   "Event ID": "93445",
+   "Status": "Terminated",
+   "Recalling Firm": "Texas Farm Products Company dba TFP Nutrition",
+   "Address1": "915 S Fredonia St",
+   "Address2": "N/A",
+   "City": "Nacogdoches",
+   "State/Province": "TX",
+   "Postal Code": "75964-5913",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Telephone",
+   "Distribution Pattern": "Products are distributed Nationwide",
+   "Recall Number": "V-0026-2024",
+   "Classification": "Class I",
+   "Product Description": "Country Acres Farm Dog 55lb 23233TFP 18 -23316TFP 18 Exclusive Red Flannel Adult Formula Dog Food 40lb 23233TFP 18- 23316TFP 18; Exclusive Red Flannel Bites & Bones Dog Food 50lb 23233TFP 18- 23316TFP 18; Exclusive Signature Adult Dog Chicken & Rice Formula 5lb 23233TFP 18 -23316TFP 18; Exclusive Signature Adult Dog Chicken & Rice Formula 15lb 23233TFP 18- 23316TFP 18; Exclusive Signature Adult Dog Chicken & Rice Formula 30lb 23233TFP 18- 23316TFP 18; Exclusive Signature Lamb & Rice Adult 5lb 23233TFP 18 23316TFP 18; Exclusive Signature Lamb & Rice Adult 15lb 23233TFP 18 23316TFP 18;  Exclusive Signature Lamb & Rice Adult 30lb 23233TFP 18 23316TFP 18, Exclusive Signature Large Breed Puppy Food Chicken and Brown Rice Formula 30lb 23233TFP 18 23316TFP 18; H-E-B Texas Pets Chicken Flavor Large Breed Dry Dog Food 30lb 21 AUG 23-12 NOV 23; H-E-B Texas Pets Chicken Flavor Large Breed Dry Dog Food 50lb 21 AUG 23 -12 NOV 23 H-E-B Texas Pets Small Bites Dry Dog Food 8lb 21 AUG 23 -12 NOV 23 H-E-B Texas Pets Small Bites Dry Dog Food 15.5lb 21 AUG 23 12 NOV 23 ; H-E-B Texas Pets Sporting Beef & Chicken Flavor Dry Dog Food 20lb 21 AUG 23 12 NOV 23 ; H-E-B Texas Pets Sporting Beef & Chicken Flavor Dry Dog Food 50lb 21 AUG 23 12 NOV 23 TX;  Hill Country Fare Bite Size Dry Dog Food 20lb 21 AUG 23 12 NOV 23 TX; Hill Country Fare Bite Size Dry Dog Food 50lb 21 AUG 23 12 NOV 23; Lone Star Hi Pro Plus 50lb 21 AUG 23 12 NOV 23 ; Lone Star Mini Chunk 22% 18lb 21 AUG 23 12 NOV 23 ; Lone Star Mini Chunk 22% 40lb 21 AUG 23 12 NOV 23 ; Member s Mark Chicken and Rice Recipe Dog Food 35lb 21 AUG 23 12 NOV 23 ; Member s Mark Chicken and Rice Recipe Dog Food 40lb 21 AUG 23 12 NOV 23 ;C, ND, NE, NH, NJ, NM, NV, NY, OH, OK, PA, PR, SC, SD, TN, TX, UT, VA, WI, WV, WY, PR Retriever Hi Protein Chicken and Beef Recipe Dry Dog Food 50lb 3233 TFP 3316 TFP AR, AZ, CA, HI, KS, LA, MS, NM, NV, OK, OR, TX, UT, WA Retriever Bites and Bones Adult Savory Chicken Recipe Dry Dog Food 50lb 3233 TFP 3316 TFP AR, AZ, CA, HI, KS, LA, MS, NM, NV, OK, OR, TX, UT, WA Retriever Choice Chops Hearty Meat Flavor Dog Food 50lb 3233 TFP 3316 TFP AR, AZ, CA, HI, KS, LA, MS, NM, NV, OK, OR, TX, UT, WA Retriever Mini Chunk Chicken Recipe Dry Dog Food 50lb 3233 TFP 3316 TFP AR, AZ, CA, HI, KS, LA, MS, NM, NV, OK, OR, TX, UT, WA Retriever Puppy Blend Savory Chicken Flavor Dry Dog Food 15lb 3233 TFP 3316 TFP AR, AZ, CA, HI, KS, LA, MS, NM, NV, OK, OR, TX, UT, WA Retriever Puppy Blend Savory Chicken Flavor Dry Dog Food 40lb 3233 TFP 3316 TFP AR, AZ, CA, HI, KS, LA, MS, NM, NV, OK, OR, TX, UT, WA Star Pro Hi-Energy Formula 50lb 21 AUG 23 12 NOV 23 LA, MS, TX Star Pro Maintenance Formula 50lb 21 AUG 23 12 NOV 23 LA, TX Star Pro Performance Formula 40lb 21 AUG 23 12 NOV 23 LA, MS, TX Star Pro Professional Formula 50lb 21 AUG 23 12 NOV 23 LA, TX Star Pro Puppy Formula 20lb 21 AUG 23 12 NOV 23 LA, TX Star Pro Puppy Formula 40lb 21 AUG 23 12 NOV 23 LA, TX Lone Star Floating Catfish Food 50lb 21 AUG 23 12 NOV 23 LA, MS, TX Country Acres Farm Cat All Life Stages Cat Food 40lb 23233TFP 18 23316TFP 18 CA, CO, FL, GA, IA, IL, IN, LA, MN, MO, NC, NE, OH, OK, OR, PA, SD, TX, WA, WI Economax Dry Cat Food 3lb 21 AUG 23 12 NOV 23 TX Economax Dry Cat Food 36lb 21 AUG 23 12 NOV 23 TX Exclusive Red Flannel Cat Formula 20lb 23233TFP 18 23316TFP 18 CA, CO, FL, GA, IA, IL, IN, LA, MN, MO, NC, NE, OH, OK, OR, PA, SD, TX, WA, WI Exclusive Signature Adult Cat Food Weight Management & Hairball Care Chicken & Brown Rice Formula 5lb 23233TFP 18 23316TFP 18 CA, CO, FL, GA, IA, IL, IN, LA, MN, MO, NC, NE, OH, OK, OR, PA, SD, TX, WA, WI Exclusive Signature Adult Cat Food Weight Management & Hairball Care Chicken & Brown Rice Formula 15lb 23233TFP 18 23316TFP 18 CA, CO, FL, GA, IA, IL, IN, LA, MN, MO, NC, NE, OH, OK, OR, PA, SD, TX, WA, WI Feline Medley Formula Cat Food 20lb 23233TFP 18 23316TFP 18 CA, CO, FL, GA, IA, IL, IN, LA, MN, MO, NC, NE, OH, OK, OR, PA, SD, TX, WA, WI H-E-B Texas Pets 4 Flavor Morsels Dry Cat Food",
+   "Product Quantity": "22,831.30 tons",
+   "Reason for Recall": "Positive Salmonella Sample",
+   "Recall Initiation Date": "11/13/2023",
+   "Center Classification Date": "01/23/2024",
+   "Termination Date": "03/03/2025",
+   "Report Date": "12/20/2023",
+   "Code Info": "Best By 10/05/2024- 11/06/2024"
+  },
+  "expected": {
+   "brands": [
+    "Country Acres",
+    "Exclusive"
+   ],
+   "parent": "Texas Farm Products / TFP Nutrition",
+   "species": "dog",
+   "product_line": "many lines in one row (Red Flannel, Signature ...)",
+   "sizes": [
+    "55lb",
+    "40lb",
+    "50lb",
+    "5lb",
+    "15lb",
+    "30lb"
+   ],
+   "upcs": [],
+   "lots": "range 23233TFP 18 - 23316TFP 18 (in Product Description)",
+   "best_by": "range 2024-10-05..2024-11-06",
+   "code_kind": "range",
+   "notes": "One row lists many products, each followed by its lot range; must split on ';'. Brand casing 'Exclusive' (Red Flannel/Signature are lines)."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "01/09/2023",
+   "Event ID": "91342",
+   "Status": "Terminated",
+   "Recalling Firm": "Texas Farm Products Company dba TFP Nutrition",
+   "Address1": "915 S Fredonia St",
+   "Address2": "N/A",
+   "City": "Nacogdoches",
+   "State/Province": "TX",
+   "Postal Code": "75964-5913",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+   "Distribution Pattern": "Texas",
+   "Recall Number": "V-0023-2023",
+   "Classification": "Class I",
+   "Product Description": "H-E-B Texas Pets Indoor Complete Formulated especially for Indoor Cats NET WT 16 LBS packaged in a poly-woven sewn bag UPC 4122081223",
+   "Product Quantity": "3272 bags",
+   "Reason for Recall": "Potential Salmonella contamination of dry cat food",
+   "Recall Initiation Date": "12/15/2022",
+   "Center Classification Date": "01/08/2023",
+   "Termination Date": "01/23/2023",
+   "Report Date": "12/28/2022",
+   "Code Info": "MFG 13 NOV 22"
+  },
+  "expected": {
+   "brands": [
+    "H-E-B Texas Pets"
+   ],
+   "parent": "H-E-B (private label), made by TFP Nutrition",
+   "species": "cat",
+   "product_line": "Indoor Complete",
+   "sizes": [
+    "16 LBS"
+   ],
+   "upcs": [
+    "4122081223"
+   ],
+   "lots": [],
+   "best_by": [],
+   "code_kind": "production_date_only",
+   "notes": "Only 'MFG 13 NOV 22'; Stop-level needs mfg date match, not lot."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "01/23/2024",
+   "Event ID": "93641",
+   "Status": "Ongoing",
+   "Recalling Firm": "Lea-Way Farms Inc. dba Blue Ridge Beef",
+   "Address1": "417 Garden Valley Rd",
+   "Address2": "N/A",
+   "City": "Statesville",
+   "State/Province": "NC",
+   "Postal Code": "28625-9427",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Press Release",
+   "Distribution Pattern": "Product was shipped to the following states: CT, FL, IA, IL, MA, MD, MI, NC, NY, OH, OR, PA, RI, TN, VA & WI.",
+   "Recall Number": "V-0027-2024",
+   "Classification": "Class I",
+   "Product Description": "BLUE RIDGE BEEF RAW PET FOOD Puppy Mix For Dogs Net Wt. 2 lbs. (.91kg) Manufactured by: Blue Ridge Beef PO Box 7261, Statesville, NC 28687 UPC 8 54298 00169 6",
+   "Product Quantity": "590cs/15/2lb tubes",
+   "Reason for Recall": "The firm was notified by North Carolina Department of Agriculture and Consumer Services that the products tested positive for Salmonella and Listeria.",
+   "Recall Initiation Date": "12/15/2023",
+   "Center Classification Date": "01/23/2024",
+   "Termination Date": "N/A",
+   "Report Date": "01/17/2024",
+   "Code Info": "All lots between N24 1124 to N24 1224"
+  },
+  "expected": {
+   "brands": [
+    "Blue Ridge Beef"
+   ],
+   "parent": "Lea-Way Farms Inc.",
+   "species": "dog",
+   "product_line": "Puppy Mix",
+   "sizes": [
+    "2 lbs"
+   ],
+   "upcs": [
+    "8 54298 00169 6"
+   ],
+   "lots": "range N24 1124 .. N24 1224",
+   "best_by": [],
+   "code_kind": "range",
+   "notes": "Firm 'Lea-Way Farms Inc. dba Blue Ridge Beef'; earlier rows use firm 'blue ridge beef' (lowercase) and 'Environmental Trade INC'."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "05/02/2019",
+   "Event ID": "82268",
+   "Status": "Terminated",
+   "Recalling Firm": "Arrow Reliance Inc dba Darwin's Natural Pet Products",
+   "Address1": "350 Treck Dr",
+   "Address2": "N/A",
+   "City": "Tukwila",
+   "State/Province": "WA",
+   "Postal Code": "98188-7604",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "E-Mail",
+   "Distribution Pattern": "Unknown",
+   "Recall Number": "V-0128-2019",
+   "Classification": "Class I",
+   "Product Description": "Natural Selections Chicken and Vegetable Meals for Dogs, frozen, raw dog meals, packaged in 2 lbs. thermo-formed sealed plastic package, divided into 8 oz. portions.",
+   "Product Quantity": "2,337 units (Lot # 5309) and 6,662 units (Lot # 5375)",
+   "Reason for Recall": "Natural Selections Chicken and Vegetable Meals for Dogs are recalled due to a potential contamination with Salmonella.",
+   "Recall Initiation Date": "02/07/2019",
+   "Center Classification Date": "05/02/2019",
+   "Termination Date": "09/30/2019",
+   "Report Date": "04/10/2019",
+   "Code Info": "Lot # 5309, manufactured on 10/19/18 (listed as 5309(11)181019 on label).    Lot # 5375, manufactured on 11/6/18 (listed as 5375(11)181106 on label)."
+  },
+  "expected": {
+   "brands": [
+    "Darwin's Natural Selections"
+   ],
+   "parent": "Arrow Reliance Inc",
+   "species": "dog",
+   "product_line": "Natural Selections Chicken and Vegetable Meals for Dogs",
+   "sizes": [
+    "2 lbs",
+    "8 oz"
+   ],
+   "upcs": [],
+   "lots": [
+    "5309",
+    "5375"
+   ],
+   "best_by": [],
+   "code_kind": "enumerated",
+   "notes": "Lot also shown in label form '5309(11)181019' (lot + (11) + YYMMDD mfg date, GS1-style). Brand 'Darwin's' only appears in firm dba."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "",
+   "Event ID": "79188",
+   "Status": "Terminated",
+   "Recalling Firm": "Arrow Reliance Inc",
+   "Address1": "350 Treck Dr",
+   "Address2": "N/A",
+   "City": "Tukwila",
+   "State/Province": "WA",
+   "Postal Code": "98188-7604",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "E-Mail",
+   "Distribution Pattern": "direct internet customers nationwide and in Canada.",
+   "Recall Number": "V-0075-2018",
+   "Classification": "Class I",
+   "Product Description": "ZooLogics Chicken Meals for Dogs, Darwin's Natural Pet Products, each package contains 4 /8 oz. quadrants, Net wt: 2 lbs. No UPC.",
+   "Product Quantity": "4974 packages",
+   "Reason for Recall": "ZooLogics Chicken Meals for Dogs is recalled due to the potential for contamination with Salmonella.",
+   "Recall Initiation Date": "02/10/2018",
+   "Center Classification Date": "03/15/2018",
+   "Termination Date": "04/02/2018",
+   "Report Date": "03/07/2018",
+   "Code Info": "Lot # 41567, manufacture date 11/2/2017"
+  },
+  "expected": {
+   "brands": [
+    "ZooLogics"
+   ],
+   "parent": "Arrow Reliance (Darwin's)",
+   "species": "dog",
+   "product_line": "ZooLogics Chicken Meals for Dogs",
+   "sizes": [
+    "2 lbs",
+    "8 oz"
+   ],
+   "upcs": [],
+   "lots": [
+    "41567"
+   ],
+   "best_by": [],
+   "code_kind": "enumerated",
+   "notes": "Sub-brand of Darwin's; 'No UPC.'"
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "04/06/2021",
+   "Event ID": "87553",
+   "Status": "Terminated",
+   "Recalling Firm": "Cargill, Inc         Corporate Headquarters",
+   "Address1": "15407 McGinty Rd W",
+   "Address2": "N/A",
+   "City": "Wayzata",
+   "State/Province": "MN",
+   "Postal Code": "55391-2365",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Telephone",
+   "Distribution Pattern": "Distributed to a distribution center in Texas",
+   "Recall Number": "V-0100-2021",
+   "Classification": "Class I",
+   "Product Description": "Ranch Hound Maintenance Mini-Chunk Dog Food UPC 7 22304 39123 2, Manufactured for Atwood Distributing, L.P., Enid, OK.  40 lb. bag",
+   "Product Quantity": "3 bags",
+   "Reason for Recall": "Dog food product tested positive for Salmonella",
+   "Recall Initiation Date": "03/17/2021",
+   "Center Classification Date": "04/06/2021",
+   "Termination Date": "06/16/2021",
+   "Report Date": "03/31/2021",
+   "Code Info": "Lots E1066 and E1067, best by 3/7/2022 and 3/8/2022"
+  },
+  "expected": {
+   "brands": [
+    "Ranch Hound"
+   ],
+   "parent": "Atwood Distributing (private label), made by Cargill",
+   "species": "dog",
+   "product_line": "Ranch Hound Maintenance Mini-Chunk",
+   "sizes": [
+    "40 lb"
+   ],
+   "upcs": [
+    "7 22304 39123 2"
+   ],
+   "lots": [
+    "E1066",
+    "E1067"
+   ],
+   "best_by": [
+    "2022-03-07",
+    "2022-03-08"
+   ],
+   "code_kind": "enumerated",
+   "notes": "Firm name has run of spaces: 'Cargill, Inc         Corporate Headquarters'. Lot->best-by paired positionally."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "04/05/2022",
+   "Event ID": "89627",
+   "Status": "Terminated",
+   "Recalling Firm": "Dollar Tree Distribution, Inc.",
+   "Address1": "500 Volvo Pkwy",
+   "Address2": "N/A",
+   "City": "Chesapeake",
+   "State/Province": "VA",
+   "Postal Code": "23320-1604",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+   "Distribution Pattern": "Alabama, Arkansas, Louisiana, Mississippi, Missouri and Tennessee",
+   "Recall Number": "V-0063-2022",
+   "Classification": "Class II",
+   "Product Description": "Pet food and treats purchased from Family Dollar retail stores in Alabama, Arkansas, Louisiana, Mississippi, Missouri and Tennessee that are packaged in material other than glass or metal can",
+   "Product Quantity": "Unknown",
+   "Reason for Recall": "Potential exposure to rodents and rodent activity in the distribution center.",
+   "Recall Initiation Date": "02/18/2022",
+   "Center Classification Date": "04/05/2022",
+   "Termination Date": "06/24/2024",
+   "Report Date": "03/09/2022",
+   "Code Info": "All food products purchased from Family Dollar retail stores located in AL, AR, LA, MS, MO, and TN from January 1, 2021 to present",
+   "More Code Info": ""
+  },
+  "expected": {
+   "brands": [],
+   "parent": "Family Dollar / Dollar Tree (retailer)",
+   "species": null,
+   "product_line": null,
+   "sizes": [],
+   "upcs": [],
+   "lots": [],
+   "best_by": "purchase window 2021-01-01..present",
+   "code_kind": "blanket_retailer",
+   "notes": "No brand at all: 'all pet food bought at Family Dollar in AL, AR, LA, MS, MO, TN'. Matcher cannot map to the table; needs a retailer-scope rule or review queue."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "01/15/2026",
+   "Event ID": "98224",
+   "Status": "Ongoing",
+   "Recalling Firm": "GOLD STAR DISTRIBUTION INC",
+   "Address1": "1000 Humboldt Ave N",
+   "Address2": "N/A",
+   "City": "Minneapolis",
+   "State/Province": "MN",
+   "Postal Code": "55411-3964",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Press Release",
+   "Distribution Pattern": "IN, MN, ND",
+   "Recall Number": "V-0029-2026",
+   "Classification": "Class II",
+   "Product Description": "Pet food and treats purchased from this distributor August 1 thru November 24, 2025.",
+   "Product Quantity": "unknown",
+   "Reason for Recall": "Potential exposure of rodents and rodent activity in the distribution center.",
+   "Recall Initiation Date": "12/26/2025",
+   "Center Classification Date": "01/14/2026",
+   "Termination Date": "N/A",
+   "Report Date": "01/14/2026",
+   "Code Info": "All pet food and treats purchased from this firm between 8/1/2025 and 11/24/2025."
+  },
+  "expected": {
+   "brands": [],
+   "parent": "Gold Star Distribution (distributor)",
+   "species": null,
+   "product_line": null,
+   "sizes": [],
+   "upcs": [],
+   "lots": [],
+   "best_by": "purchase window 2025-08-01..2025-11-24",
+   "code_kind": "blanket_retailer",
+   "notes": "Distributor-wide recall; no brands named."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "01/20/2026",
+   "Event ID": "98221",
+   "Status": "Terminated",
+   "Recalling Firm": "Consumers Supply Distributing, LLC",
+   "Address1": "5101 Harbor Dr",
+   "Address2": "N/A",
+   "City": "Sioux City",
+   "State/Province": "IA",
+   "Postal Code": "51111-1109",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Press Release",
+   "Distribution Pattern": "CO, IA, KS, MO, MT, NE, TX",
+   "Recall Number": "V-0030-2026",
+   "Classification": "Class I",
+   "Product Description": "1) Country Vet Biscuits Original Meaty Flavor with Chicken, Medium Size, Net Weight 4 LBS. (1.81 KG.) bag, UPC 899623000463, Manufactured by Consumers Supply Distributing, North Sioux City, SD 57049, packed 8 bags per case  2) Heartland Harvest Dog Biscuits, Meaty Flavor with Chicken, Medium Size, Net Weight 4 LBS. (1,8 KG.) bag, UPC 840227340691, Manufactured for Mid-States Distributing, LLC, Fort Worth, TX 76137, packed 8 bags per case",
+   "Product Quantity": "1) 113 cases; 2) 432 cases; 545 cases TOTAL",
+   "Reason for Recall": "Potential contamination with Salmonella",
+   "Recall Initiation Date": "12/24/2025",
+   "Center Classification Date": "01/20/2026",
+   "Termination Date": "02/24/2026",
+   "Report Date": "01/28/2026",
+   "Code Info": "1) Lot 40906513; Best By 090626; Product Code (on case): P1035 2) Lot 40906513; Best By 090626; Item Code (on case): P1150"
+  },
+  "expected": {
+   "brands": [
+    "Country Vet",
+    "Heartland Harvest"
+   ],
+   "parent": "Consumers Supply Distributing / Mid-States Distributing",
+   "species": "dog",
+   "product_line": "Biscuits Meaty Flavor with Chicken, Medium",
+   "sizes": [
+    "4 LBS"
+   ],
+   "upcs": [
+    "899623000463",
+    "840227340691"
+   ],
+   "lots": [
+    "40906513"
+   ],
+   "best_by": [
+    "090626 (likely 2026-09-06, MMDDYY; unverified)"
+   ],
+   "code_kind": "enumerated_numbered",
+   "notes": "Numbered '1) ... 2) ...' items in both fields; Code Info item N belongs to Product Description item N. Two brands in one row."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "09/28/2023",
+   "Event ID": "92990",
+   "Status": "Ongoing",
+   "Recalling Firm": "Mid America Pet Food LLC",
+   "Address1": "2024 N Frontage Rd",
+   "Address2": "N/A",
+   "City": "Mount Pleasant",
+   "State/Province": "TX",
+   "Postal Code": "75455-6474",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+   "Distribution Pattern": "Throughout the USA",
+   "Recall Number": "N/A",
+   "Classification": "Class I",
+   "Product Description": "Victor Super Premium Dog Food, Hi-Pro Plus packaged in 5lb poly bag; UPC 94308 00214",
+   "Product Quantity": "644 cases",
+   "Reason for Recall": "Positive Salmonella Sample",
+   "Recall Initiation Date": "09/02/2023",
+   "Center Classification Date": "09/28/2023",
+   "Termination Date": "N/A",
+   "Report Date": "09/20/2023",
+   "Code Info": "Lot: 1000016385 Best By Date 4/30/2024"
+  },
+  "expected": {
+   "brands": [
+    "Victor"
+   ],
+   "parent": "Mid America Pet Food",
+   "species": "dog",
+   "product_line": "Victor Super Premium Hi-Pro Plus",
+   "sizes": [
+    "5lb"
+   ],
+   "upcs": [
+    "94308 00214"
+   ],
+   "lots": [
+    "1000016385"
+   ],
+   "best_by": [
+    "2024-04-30"
+   ],
+   "code_kind": "enumerated",
+   "notes": "Recall Number is literally 'N/A' although classified Class I: cannot be the primary key."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "",
+   "Event ID": "95340",
+   "Status": "Terminated",
+   "Recalling Firm": "Lystn LLC",
+   "Address1": "356 Maidencreek Rd",
+   "Address2": "N/A",
+   "City": "Fleetwood",
+   "State/Province": "PA",
+   "Postal Code": "19522-8628",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Press Release",
+   "Distribution Pattern": "Distributed nationwide.",
+   "Recall Number": "V-0019-2025",
+   "Classification": "Class I",
+   "Product Description": "Answers Pet Food Raw Beef Detailed Formula  Net Wt. 4 lb (64 oz) (1.8 kg) UPC:856554002102. Packaged in 4-pound (half gallon) cartons. Frozen product. 10 cartons per case.",
+   "Product Quantity": "100 cases (4,000 lbs.)",
+   "Reason for Recall": "Potential Salmonella Newport and Listeria monocytogenes contamination",
+   "Recall Initiation Date": "09/22/2024",
+   "Center Classification Date": "10/21/2024",
+   "Termination Date": "02/06/2025",
+   "Report Date": "10/30/2024",
+   "Code Info": "BUBD: MAY 06, 2026"
+  },
+  "expected": {
+   "brands": [
+    "Answers"
+   ],
+   "parent": "Lystn LLC",
+   "species": null,
+   "product_line": "Answers Raw Beef Detailed Formula",
+   "sizes": [
+    "4 lb"
+   ],
+   "upcs": [
+    "856554002102"
+   ],
+   "lots": [],
+   "best_by": [
+    "2026-05-06"
+   ],
+   "code_kind": "bestby_only",
+   "notes": "'BUBD' (best used by date) abbreviation; firm name Lystn differs from brand."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "07/01/2021",
+   "Event ID": "88102",
+   "Status": "Terminated",
+   "Recalling Firm": "Freshpet Inc.",
+   "Address1": "176 N Commerce Way",
+   "Address2": "N/A",
+   "City": "Bethlehem",
+   "State/Province": "PA",
+   "Postal Code": "18017-8614",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+   "Distribution Pattern": "Distributed to distribution centers in CA, WA, and FL.",
+   "Recall Number": "V-0142-2021",
+   "Classification": "Class I",
+   "Product Description": "Freshpet Select Small Dog Bite Size Beef & Egg Recipe NET WT 1 LB (454 g) Keep Refrigerated UPC: 627975012939. Sell By 10/30/2021 L2",
+   "Product Quantity": "2,471 cases",
+   "Reason for Recall": "Possible salmonella contamination.",
+   "Recall Initiation Date": "06/10/2021",
+   "Center Classification Date": "07/01/2021",
+   "Termination Date": "03/04/2022",
+   "Report Date": "06/23/2021",
+   "Code Info": "Lot # 1421FBP0101"
+  },
+  "expected": {
+   "brands": [
+    "Freshpet Select"
+   ],
+   "parent": "Freshpet",
+   "species": "dog",
+   "product_line": "Freshpet Select Small Dog Bite Size Beef & Egg",
+   "sizes": [
+    "1 LB"
+   ],
+   "upcs": [
+    "627975012939"
+   ],
+   "lots": [
+    "1421FBP0101"
+   ],
+   "best_by": [
+    "2021-10-30 (sell by, in Product Description)"
+   ],
+   "code_kind": "enumerated",
+   "notes": "Sell-by date is in Product Description, lot in Code Info."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "04/27/2021",
+   "Event ID": "87691",
+   "Status": "Terminated",
+   "Recalling Firm": "The J.M. Smucker Company, Inc.",
+   "Address1": "830 N Mill St",
+   "Address2": "N/A",
+   "City": "Orrville",
+   "State/Province": "OH",
+   "Postal Code": "44667",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+   "Distribution Pattern": "10 Walmart locations located in: IL, OK, NE, WY, MO, WI, UT, NM",
+   "Recall Number": "V-0106-2021",
+   "Classification": "Class I",
+   "Product Description": "Meow Mix Original Cat Food, 30 pound bags",
+   "Product Quantity": "33,592 bags",
+   "Reason for Recall": "Presumptive positive for Salmonella placed on hold was inadvertently released.",
+   "Recall Initiation Date": "04/08/2021",
+   "Center Classification Date": "04/27/2021",
+   "Termination Date": "06/01/2021",
+   "Report Date": "04/21/2021",
+   "Code Info": "Lot No. 1081804 and 1082804  Product No 29274 and 52099  Best Buy Date 09/14/2022 and 09/15/2022"
+  },
+  "expected": {
+   "brands": [
+    "Meow Mix"
+   ],
+   "parent": "J.M. Smucker",
+   "species": "cat",
+   "product_line": "Meow Mix Original",
+   "sizes": [
+    "30 pound"
+   ],
+   "upcs": [],
+   "lots": [
+    "1081804",
+    "1082804"
+   ],
+   "best_by": [
+    "2022-09-14",
+    "2022-09-15"
+   ],
+   "code_kind": "enumerated",
+   "notes": "'Best Buy Date' misspelling; product numbers 29274/52099."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "10/05/2019",
+   "Event ID": "83261",
+   "Status": "Terminated",
+   "Recalling Firm": "Pet Supplies Plus",
+   "Address1": "17197 N Laurel Park Dr",
+   "Address2": "N/A",
+   "City": "Livonia",
+   "State/Province": "MI",
+   "Postal Code": "48152-2680",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Other",
+   "Distribution Pattern": "AL, AR, CA, CO, CT, DE, FL, GA, IA, IL, IN, KS, KY, MA, MD, MI, MN, MO, NC, NE, NH, NJ, NY, OH, OK, PA, RI, SC, TN, TX, VA, WI and WV",
+   "Recall Number": "V-0005-2020",
+   "Classification": "Class I",
+   "Product Description": "Pig ears - pet treat.  unpackaged. sold from self-serve bulk bins",
+   "Product Quantity": "1,608,800 individual bulk pig ears",
+   "Reason for Recall": "Bulk pig ear products supplied to all locations by several different vendors are being recalled due to the potential of Salmonella contamination",
+   "Recall Initiation Date": "06/25/2019",
+   "Center Classification Date": "10/05/2019",
+   "Termination Date": "05/11/2020",
+   "Report Date": "09/04/2019",
+   "Code Info": "PLU 15033"
+  },
+  "expected": {
+   "brands": [],
+   "parent": "Pet Supplies Plus (retailer)",
+   "species": null,
+   "product_line": "bulk pig ears",
+   "sizes": [],
+   "upcs": [],
+   "lots": [
+    "PLU 15033"
+   ],
+   "best_by": [],
+   "code_kind": "retailer_plu",
+   "notes": "Unbranded bulk treat; only a store PLU."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "06/11/2021",
+   "Event ID": "87892",
+   "Status": "Terminated",
+   "Recalling Firm": "Tejas Industries - Amarillo Distribution",
+   "Address1": "101 Se 11th Ave",
+   "Address2": "N/A",
+   "City": "Amarillo",
+   "State/Province": "TX",
+   "Postal Code": "79101-3415",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Telephone",
+   "Distribution Pattern": "Distributed to pet food distributors and retailers in AZ, CA, CO, CT, DE, FL, GA, ID, IL, IN, KS, KY, MA, MD, MI, MN, MO, MS, MT, NC, NE, NJ, NV, NY, OH, OR, PA, RI, SC, TN, TX, UT, VA, WA, WI, WV, WY and Canada.",
+   "Recall Number": "V-0118-2021",
+   "Classification": "Class II",
+   "Product Description": "Zuke's Mini Naturals Dog Treats Chicken Recipe Distributed by Zuke's LLC Amarillo, TX packaged in 6 oz (UPC 0 13423 33051 7) and 16 oz (UPC 0 13423 33021 0) bags",
+   "Product Quantity": "43,362 cases (16 oz); 19,224 case (6 oz)",
+   "Reason for Recall": "Pet treat products show presence of mold.",
+   "Recall Initiation Date": "04/30/2021",
+   "Center Classification Date": "06/11/2021",
+   "Termination Date": "10/03/2021",
+   "Report Date": "06/09/2021",
+   "Code Info": "16 oz: 3450, 3460, 0431, 0441, 0451, 0461, 0761, 0771, 0781  6 oz: 3370, 0121, 0131, 0371, 0711, 0721, 0731"
+  },
+  "expected": {
+   "brands": [
+    "Zuke's"
+   ],
+   "parent": "Zuke's LLC (Nestle Purina at the time; unverified), co-packer Tejas Industries",
+   "species": "dog",
+   "product_line": "Zuke's Mini Naturals Chicken Recipe",
+   "sizes": [
+    "6 oz",
+    "16 oz"
+   ],
+   "upcs": [
+    "0 13423 33051 7",
+    "0 13423 33021 0"
+   ],
+   "lots": "per size: 16 oz [3450,3460,0431,...]; 6 oz [3370,0121,...]",
+   "best_by": [],
+   "code_kind": "enumerated_per_size",
+   "notes": "Lots keyed by size prefix '16 oz:' / '6 oz:'."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "04/01/2022",
+   "Event ID": "86870",
+   "Status": "Terminated",
+   "Recalling Firm": "Petsmart Inc",
+   "Address1": "Attn: Intl Transportation Dept",
+   "Address2": "19601 N 27th Ave",
+   "City": "Phoenix",
+   "State/Province": "AZ",
+   "Postal Code": "85027-4008",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Other",
+   "Distribution Pattern": "Nationwide.",
+   "Recall Number": "V-0034-2021",
+   "Classification": "Class II",
+   "Product Description": "Authority Savory Blends Chicken Formula Cat Food, Adult Ages 1-7, UPC 7 37257 83108 3.5 lb. bag, and UPC 7 37257 83107 7 lb. bag",
+   "Product Quantity": "12,984 bags",
+   "Reason for Recall": "Product samples contain elevated levels of the mycotoxin Zearalenone.",
+   "Recall Initiation Date": "11/11/2020",
+   "Center Classification Date": "12/17/2020",
+   "Termination Date": "04/01/2022",
+   "Report Date": "12/16/2020",
+   "Code Info": "All lot codes"
+  },
+  "expected": {
+   "brands": [
+    "Authority"
+   ],
+   "parent": "PetSmart (private label)",
+   "species": "cat",
+   "product_line": "Authority Savory Blends Chicken Formula Adult",
+   "sizes": [
+    "3.5 lb",
+    "7 lb"
+   ],
+   "upcs": [
+    "7 37257 83108",
+    "7 37257 83107"
+   ],
+   "lots": [],
+   "best_by": [],
+   "code_kind": "blanket_all_lots",
+   "notes": "'All lot codes': Alert-level match is effectively Stop for this line. UPC formatting: size text interleaved with UPC."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "10/05/2019",
+   "Event ID": "81543",
+   "Status": "Terminated",
+   "Recalling Firm": "Lidl US TRADING",
+   "Address1": "3500 S Clark Pl",
+   "Address2": "N/A",
+   "City": "Arlington",
+   "State/Province": "VA",
+   "Postal Code": "22202-4033",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Two or more of the following: Email, Fax, Letter, Press Release, Telephone, Visit",
+   "Distribution Pattern": "Product was sold at Lidl Distribution Centers and  retail grocery locations in the following states: Virginia, Delaware, New Jersey, Maryland, Georgia, North Carolina, South Carolina.",
+   "Recall Number": "V-0009-2020",
+   "Classification": "Class I",
+   "Product Description": "Orlando Grain Free, Chicken & Chickpea Super Food Recipe Dog Food, 10 lbs Bag, UPC 20735302",
+   "Product Quantity": "5000 Retail Units",
+   "Reason for Recall": "Lidl US, LLC has initiated a recall because their supplier notified them of elevated Vitamin D in the following products Nutrisca Life and Chicken pea Dry Dog Food  and Natural Life Chicken and Potato Dry Dog Food .",
+   "Recall Initiation Date": "11/06/2018",
+   "Center Classification Date": "10/05/2019",
+   "Termination Date": "01/15/2021",
+   "Report Date": "05/29/2019",
+   "Code Info": "TI1 3 Mar 2019  TB2 21 Mar 2019  TB3 21 Mar 2019   TA2 19 Apr 2019   TB1 15 May 2019   TB2 15 May 2019    Best Buy Dates  03/03/2019 / 03/ 21/2019"
+  },
+  "expected": {
+   "brands": [
+    "Orlando"
+   ],
+   "parent": "Lidl (private label)",
+   "species": "dog",
+   "product_line": "Orlando Grain Free Chicken & Chickpea",
+   "sizes": [
+    "10 lbs"
+   ],
+   "upcs": [
+    "20735302"
+   ],
+   "lots": [
+    "TI1 3 Mar 2019",
+    "TB2 21 Mar 2019",
+    "TB3 21 Mar 2019",
+    "TA2 19 Apr 2019",
+    "TB1 15 May 2019",
+    "TB2 15 May 2019"
+   ],
+   "best_by": [
+    "2019-03-03",
+    "2019-03-21"
+   ],
+   "code_kind": "enumerated",
+   "notes": "8-digit store UPC. Lot = line code + date. Supplier (Sunshine Mills) not named."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "",
+   "Event ID": "77441",
+   "Status": "Terminated",
+   "Recalling Firm": "Spectrum Brands Inc",
+   "Address1": "3001 Commerce St",
+   "Address2": "N/A",
+   "City": "Blacksburg",
+   "State/Province": "VA",
+   "Postal Code": "24060-6671",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Telephone",
+   "Distribution Pattern": "Multiple states nationwide and Canada. States include AL, AR, AZ, CA, CO, CT, DE, FL, GA, IA, ID, IL, IN, KS, KY, LA, MA, MD, ME, MI, MN, MO, MS, NC, NE, NJ, NV, NY, OH, OK, OR, PA, RI, SC, TN, TX, UT, VA, WA, WI, and WV",
+   "Recall Number": "V-0158-2017",
+   "Classification": "Class II",
+   "Product Description": "Good 'n' Fun, Triple Flavor Chews, United Pet Group, a Division of Spectrum Brands, Blacksburg, VA, packaged in 2 count 7'' rolls, UPC 0 91093 82243 3;",
+   "Product Quantity": "Unknown",
+   "Reason for Recall": "Investigation of complaints of an off odor on the product revealed that the product is potentially contaminated with an equipment sanitizer (quaternary ammonium).",
+   "Recall Initiation Date": "06/05/2017",
+   "Center Classification Date": "07/11/2017",
+   "Termination Date": "02/02/2018",
+   "Report Date": "07/19/2017",
+   "Code Info": "All codes beginning with AH, AV, A, AI, AO, AB and expiration dates between 6/1/2019 and 5/31/2020"
+  },
+  "expected": {
+   "brands": [
+    "Good 'n' Fun"
+   ],
+   "parent": "Spectrum Brands (United Pet Group)",
+   "species": null,
+   "product_line": "Good 'n' Fun Triple Flavor Chews",
+   "sizes": [
+    "2 count 7'' rolls"
+   ],
+   "upcs": [
+    "0 91093 82243 3"
+   ],
+   "lots": "prefix AH|AV|A|AI|AO|AB",
+   "best_by": "range 2019-06-01..2020-05-31",
+   "code_kind": "prefix_rule",
+   "notes": "Lot rule is 'codes beginning with ...' (prefix match). Event 77441 has 33 rows, mostly without dog/cat words."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "07/10/2026",
+   "Event ID": "99033",
+   "Status": "Ongoing",
+   "Recalling Firm": "Raaw Energy, LLC",
+   "Address1": "967 Route 524",
+   "Address2": "N/A",
+   "City": "Adelphia",
+   "State/Province": "NJ",
+   "Postal Code": "07710",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Telephone",
+   "Distribution Pattern": "Distributed to customers in CT, DE, MA, MD, NH, NJ, NY, PA, and VA",
+   "Recall Number": "V-0142-2026",
+   "Classification": "Class I",
+   "Product Description": "4411 (Beef, Tripe, Duck Necks, and Chicken) packaged in 5-lb and 2-lb tubes. Frozen. Product sold in 50 lb boxes containing 5-lb tubes, 20 lb boxes containing 2-lb tubes, and 10 lb boxes containing 2-lb tubes.",
+   "Product Quantity": "Approximately 8,010 lbs/236 boxes",
+   "Reason for Recall": "Potential Listeria monocytogenes contamination",
+   "Recall Initiation Date": "05/19/2026",
+   "Center Classification Date": "07/10/2026",
+   "Termination Date": "N/A",
+   "Report Date": "06/24/2026",
+   "Code Info": "Production dates: 9.9.25, 9.23.25, 10.14.25, 10.15.25"
+  },
+  "expected": {
+   "brands": [
+    "Raaw Energy"
+   ],
+   "parent": "Raaw Energy, LLC",
+   "species": null,
+   "product_line": "4411 (Beef, Tripe, Duck Necks, and Chicken)",
+   "sizes": [
+    "5-lb",
+    "2-lb"
+   ],
+   "upcs": [],
+   "lots": [],
+   "best_by": [],
+   "code_kind": "production_date_only",
+   "notes": "Brand appears only in firm name; product is a number '4411'. Dates 'M.D.YY'."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "08/27/2020",
+   "Event ID": "86229",
+   "Status": "Terminated",
+   "Recalling Firm": "Boehringer Ingelheim Animal Health USA Inc",
+   "Address1": "3239 Satellite Blvd",
+   "Address2": "N/A",
+   "City": "Duluth",
+   "State/Province": "GA",
+   "Postal Code": "30096-4640",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Letter",
+   "Distribution Pattern": "United States",
+   "Recall Number": "V-0468-2020",
+   "Classification": "Class III",
+   "Product Description": "Heartgard (ivermectin)  For Dogs Up To 25 lbs 6 Tablets Each tablet contains 68 mcg ivermectin Marketed by Boehringer Ingelheim Animal Health USA Inc. Duluth, GA 30096 UPC 3 50604 40231 2",
+   "Product Quantity": "5400 cartons",
+   "Reason for Recall": "Out of specification for impurity.",
+   "Recall Initiation Date": "08/13/2020",
+   "Center Classification Date": "08/27/2020",
+   "Termination Date": "06/08/2021",
+   "Report Date": "09/02/2020",
+   "Code Info": "Batch Number: B195313 Exp. 11/21"
+  },
+  "expected": {
+   "brands": [
+    "Heartgard"
+   ],
+   "parent": "Boehringer Ingelheim",
+   "species": "dog",
+   "product_line": null,
+   "sizes": [],
+   "upcs": [
+    "3 50604 40231 2"
+   ],
+   "lots": [
+    "B195313"
+   ],
+   "best_by": [
+    "2021-11"
+   ],
+   "code_kind": "enumerated",
+   "negative": true,
+   "notes": "NEGATIVE fixture: a drug, not food. Passes a dog/cat keyword filter; must be excluded (CVM export mixes drugs, devices, feed)."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "08/23/2022",
+   "Event ID": "90584",
+   "Status": "Ongoing",
+   "Recalling Firm": "Stormberg Foods LLC",
+   "Address1": "1002b Sunburst Dr",
+   "Address2": "N/A",
+   "City": "Goldsboro",
+   "State/Province": "NC",
+   "Postal Code": "27534-8667",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Telephone",
+   "Distribution Pattern": "Product was shipped to the following states: CA, MN, NC & RI.",
+   "Recall Number": "V-0218-2022",
+   "Classification": "Class I",
+   "Product Description": "100% CHICKEN BREAST NO FILLERS, CHICKEN BREAST STRIPS, Human Grade Dogs Treats, NET WT 1 oz, UPC 8 50025 54628 7 4 oz (113g), UPC 8 50025 54611 9 & 10 OZ (283g), UPC 8 50025 54610 1 Sold under the brand names of Beg & Barker, Green Coast Pet CHICKEN CRISPS NET WT. 4 OZ (113g) UPC 8 60001 92832 7 DISTRIBUTED BY: GREEN COAST PET Pasadena, CA 91101",
+   "Product Quantity": "B&B Strips 1oz, 0, 848/4oz bgs, & 834/10oz bgs; GCP Crisps 204/4oz bgs, & 684/8oz bgs",
+   "Reason for Recall": "The firm was notified by the NCDA & CS that they received positive test results for Salmonella in various dog treats.",
+   "Recall Initiation Date": "07/08/2022",
+   "Center Classification Date": "08/23/2022",
+   "Termination Date": "N/A",
+   "Report Date": "07/27/2022",
+   "Code Info": "Beg & Barker Chicken Breast Strips Dog Treats, 1oz, Product #, BE0C0101, Exp. Date, 6/17/2023 Exp. Batch No., 72235001 & Date 6/21/2023, Batch No. 72244077. Beg & Barker Chicken Breast Strips Dog Treats, 4oz, Product #, BE0C0104, Exp. Date, 6/8/2023 Exp. Batch No., 72224014 & Date 6/14/2023, Batch No. 72235001. Beg & Barker Chicken Breast Strips Dog Treat, 10oz, Product #, BE0C0110, Exp. Date, 6/6/2023 Batch No. 72224014, Exp. Date 6/8/2020 Batch No. 72224014, Exp. Date 6/14/2023 Batch No. 72235001 & Exp. Date 6/21/2023, Batch No. 72244007.  Green Coast Pets Chicken Crisps Dog Treats, 4oz, Product #, GCP0C0604, Exp. Date, 6/16/2023, Batch No., 72222002 & Exp. Date, 6/16/2023, Batch No. 72232003. Green Coast Pets Chicken Crisps Dog Treats, 8oz, Product #, GCP0C0608, Exp. Date, 6/16/2023 Batch No. 72222002, Exp. Date 6/17/2023 Batch No. 72222002 & Exp. Date 6/16/2023, Batch No. 72232003.",
+   "More Code Info": ""
+  },
+  "expected": {
+   "brands": [
+    "Beg & Barker",
+    "Green Coast Pet"
+   ],
+   "parent": "Stormberg Foods (co-packer)",
+   "species": "dog",
+   "product_line": "Chicken Breast Strips / Chicken Crisps",
+   "sizes": [
+    "1 oz",
+    "4 oz",
+    "10 oz"
+   ],
+   "upcs": [
+    "8 50025 54628 7",
+    "8 50025 54611 9",
+    "8 50025 54610 1",
+    "8 60001 92832 7"
+   ],
+   "lots": "batch numbers per product, e.g. 72235001, 72244077",
+   "best_by": "per batch exp dates, e.g. 2023-06-17",
+   "code_kind": "enumerated_per_product",
+   "notes": "'Sold under the brand names of ...'. Code Info repeats product names to scope each batch."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "12/20/2018",
+   "Event ID": "80683",
+   "Status": "Terminated",
+   "Recalling Firm": "G & C Raw, LLC",
+   "Address1": "225 N West St",
+   "Address2": "N/A",
+   "City": "Versailles",
+   "State/Province": "OH",
+   "Postal Code": "45380-1359",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "E-Mail",
+   "Distribution Pattern": "Product distributed to individual consumers in: OH, MI, IN, PA, KY, NC, SC, GA",
+   "Recall Number": "V-0049-2019",
+   "Classification": "Class I",
+   "Product Description": "Ground Lamb Dog Food packaged in clear plastic containers",
+   "Product Quantity": "N/A",
+   "Reason for Recall": "Positive for Listeria monocytogenes",
+   "Recall Initiation Date": "07/30/2018",
+   "Center Classification Date": "12/20/2018",
+   "Termination Date": "12/20/2019",
+   "Report Date": "10/31/2018",
+   "Code Info": "All products with lot numbers that end in 022718 through 072018."
+  },
+  "expected": {
+   "brands": [
+    "G & C Raw"
+   ],
+   "parent": "G & C Raw, LLC",
+   "species": "dog",
+   "product_line": "Ground Lamb",
+   "sizes": [],
+   "upcs": [],
+   "lots": "suffix range: lot numbers ending in 022718 through 072018",
+   "best_by": [],
+   "code_kind": "suffix_range",
+   "notes": "Lot rule is a suffix (MMDDYY) range; brand only in firm name."
+  }
+ },
+ {
+  "source": "fda_ires_enforcement_csv_export",
+  "source_query": "centercd=CVM, centerclassificationdt by calendar year",
+  "fetched": "2026-10-18",
+  "raw": {
+   "Product Type": "Veterinary",
+   "Recently Updated Record": "No",
+   "Last Modified Date": "",
+   "Event ID": "76385",
+   "Status": "Terminated",
+   "Recalling Firm": "Evanger's Dog & Cat Food Co",
+   "Address1": "221 Wheeling Rd",
+   "Address2": "N/A",
+   "City": "Wheeling",
+   "State/Province": "IL",
+   "Postal Code": "60090-4809",
+   "Country": "United States",
+   "Voluntary/Mandated": "Voluntary: Firm initiated",
+   "Initial Firm Notification of Consignee or Public": "Letter",
+   "Distribution Pattern": "AZ, CA, FL, GA, HI, IL, IN, MA, MD, MI, MN, NV, NY, OH, PA, SC, WA, WI, British Columbia (Canada)",
+   "Recall Number": "V-0273-2017",
+   "Classification": "Class I",
+   "Product Description": "Evanger's Hand Packed Hunk of Beef Au Jus; Grain and Gluten Free; NET WT 12 OZ; Manufactured in the USA by Evanger's Dog & Cat Food Co., Inc. Markham, IL 60428",
+   "Product Quantity": "3,165 cases (12 cans per case)",
+   "Reason for Recall": "Product is potentially contaminated with the barbiturate pentobarbital.",
+   "Recall Initiation Date": "02/03/2017",
+   "Center Classification Date": "08/03/2017",
+   "Termination Date": "12/07/2023",
+   "Report Date": "08/09/2017",
+   "Code Info": "All product manufactured between December 1, 2015 and January 14, 2017 and bearing expiration dates of December 2019 through January 2021    Second part of UPC Code:  20109"
+  },
+  "expected": {
+   "brands": [
+    "Evanger's"
+   ],
+   "parent": "Evanger's Dog & Cat Food Co",
+   "species": null,
+   "product_line": "Hand Packed Hunk of Beef Au Jus",
+   "sizes": [
+    "12 OZ"
+   ],
+   "upcs": "partial: 'Second part of UPC Code: 20109'",
+   "lots": [],
+   "best_by": "range 2019-12..2021-01 (expiry); mfg 2015-12-01..2017-01-14",
+   "code_kind": "range",
+   "notes": "Firm name contains 'Dog & Cat' so a firm keyword filter would pass everything from it. Partial UPC only."
+  }
+ }
+]

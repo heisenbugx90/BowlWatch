@@ -1,0 +1,22 @@
+# Kroger store brand; the 2018 vitamin D recall product was made by Sunshine Mills.
+id: abound
+name: Abound (Kroger)
+parent: kroger
+markets: [US]
+aliases:
+  - Abound
+firm_names:
+  - The Kroger Co
+manufacturers:
+  - sunshine-mills
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/kroger-louisville-division-recalls-abound-chicken-and-brown-rice-dog-food-because-elevated-vitamin-d"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/king-soopers-and-city-market-recalls-abound-chicken-and-brown-rice-dog-food-because-elevated-vitamin"
+  - "https://www.accessdata.fda.gov/scripts/ires/index.cfm?action=export.getExportCSVResult&view=AdvancedSearch&page=product&criteria=%5B%7B%22productdescriptiontxt%22%3A%22%22%7D%2C%7B%22codeinformation%22%3A%22%22%7D%2C%7B%22centercd%22%3A%5B%22CVM%22%5D%7D%2C%7B%22centerclassificationtypetxt%22%3Anull%7D%2C%7B%22firmlegalnam%22%3A%22%22%7D%2C%7B%22phasetxt%22%3Anull%7D%2C%7B%22recalleventid%22%3A%2281726%22%7D%2C%7B%22recallnum%22%3A%22%22%7D%2C%7B%22productshortreasontxt%22%3A%22%22%7D%2C%7B%22centerclassificationdtfrom%22%3A%2201%2F01%2F2016%22%7D%2C%7B%22centerclassificationdtto%22%3A%2212%2F31%2F2026%22%7D%5D"
+lines:
+  - id: dry-dog
+    name: Dry dog food
+    aliases:
+      - "Chicken & Brown Rice Recipe"
+    species: [dog]
+    formats: [dry]

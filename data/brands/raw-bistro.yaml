@@ -1,0 +1,21 @@
+id: raw-bistro
+name: Raw Bistro
+parent: raw-bistro
+markets: [US]
+aliases:
+  - Raw Bistro Pet Fare
+firm_names:
+  - Raw Bistro, Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/raw-bistro-pet-fare-voluntarily-recalls-frozen-beef-entree-because-possible-salmonella-health-risk"
+lines:
+  - id: dog-fare
+    name: Dog Fare
+    aliases:
+      - { text: Raw Bistro Dog Fare, kind: label }
+    species: [dog]
+    formats: [raw]
+  - id: cat-fare
+    name: Cat Fare
+    species: [cat]
+    formats: [raw]

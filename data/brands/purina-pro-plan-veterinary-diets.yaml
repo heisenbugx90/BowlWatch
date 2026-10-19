@@ -1,0 +1,62 @@
+# Prescription diets. Labels read "Purina Pro Plan Veterinary Diets EN Gastroenteric ...";
+# older labels "Purina Veterinary Diets". Line names are the two-letter codes plus name.
+id: purina-pro-plan-veterinary-diets
+name: Purina Pro Plan Veterinary Diets
+parent: nestle-purina
+markets: [US, CA]
+aliases:
+  - Pro Plan Veterinary Diets
+  - Purina Veterinary Diets
+  - Pro Plan Vet Diets
+firm_names:
+  - Nestle Purina PetCare Company
+  - Nestle Purina PetCare Co
+sources:
+  - https://www.purinaveterinarydiets.com/
+lines:
+  - id: en-gastroenteric
+    name: EN Gastroenteric
+    aliases: [Gastroenteric]
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: ha-hydrolyzed
+    name: HA Hydrolyzed
+    aliases: [Hydrolyzed]
+    species: [dog, cat]
+    formats: [dry, wet, treat]
+  - id: el-elemental
+    name: EL Elemental
+    aliases: [Elemental]
+    species: [dog]
+    formats: [dry]
+  - id: nf-kidney-function
+    name: NF Kidney Function
+    aliases: [Kidney Function]
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: ur-urinary
+    name: UR Urinary
+    aliases: [UR Urinary St/Ox]
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: om-overweight-management
+    name: OM Overweight Management
+    aliases: [OM Metabolic Response]
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: dm-dietetic-management
+    name: DM Dietetic Management
+    species: [cat]
+    formats: [dry, wet]
+  - id: jm-joint-mobility
+    name: JM Joint Mobility
+    species: [dog]
+    formats: [dry]
+  - id: cn-critical-nutrition
+    name: CN Critical Nutrition
+    species: [dog, cat]
+    formats: [wet]
+  - id: nc-neurocare
+    name: NC NeuroCare
+    species: [dog]
+    formats: [dry]

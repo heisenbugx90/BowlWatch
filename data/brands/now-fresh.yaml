@@ -1,0 +1,26 @@
+# Petcurean Now Fresh. Labels print "NOW FRESH".
+id: now-fresh
+name: Now Fresh
+parent: petcurean
+markets: [CA, US]
+aliases:
+  - Petcurean Now Fresh
+firm_names:
+  - Petcurean Pet Nutrition
+  - Petcurean Pet Nutrition Inc.
+sources:
+  - https://nowfresh.com/en-ca
+  - https://www.petcurean.com/
+lines:
+  - id: grain-free
+    name: Grain Free
+    aliases:
+      - { text: "Now Fresh Grain Free", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: good-gravy
+    name: Good Gravy
+    aliases:
+      - { text: "Now Fresh Good Gravy", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]

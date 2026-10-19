@@ -1,0 +1,30 @@
+# 'Elm' alone is a street name, so it is a short alias: it counts only when the recalling firm is
+# Elm Pet Foods or its co-packer Sunshine Mills.
+id: elm
+name: Elm (Elm Pet Foods)
+parent: elm-pet-foods
+markets: [US]
+aliases:
+  - ELM Pet Foods
+  - { text: Elm, kind: short }
+firm_names:
+  - Elm Pet Foods
+manufacturers:
+  - sunshine-mills
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/elm-pet-foods-recall-dry-dog-food-due-elevated-levels-vitamin-d"
+  - "https://www.accessdata.fda.gov/scripts/ires/index.cfm?action=export.getExportCSVResult&view=AdvancedSearch&page=product&criteria=%5B%7B%22productdescriptiontxt%22%3A%22%22%7D%2C%7B%22codeinformation%22%3A%22%22%7D%2C%7B%22centercd%22%3A%5B%22CVM%22%5D%7D%2C%7B%22centerclassificationtypetxt%22%3Anull%7D%2C%7B%22firmlegalnam%22%3A%22%22%7D%2C%7B%22phasetxt%22%3Anull%7D%2C%7B%22recalleventid%22%3A%2281526%22%7D%2C%7B%22recallnum%22%3A%22%22%7D%2C%7B%22productshortreasontxt%22%3A%22%22%7D%2C%7B%22centerclassificationdtfrom%22%3A%2201%2F01%2F2016%22%7D%2C%7B%22centerclassificationdtto%22%3A%2212%2F31%2F2026%22%7D%5D"
+  - "https://www.accessdata.fda.gov/scripts/ires/index.cfm?action=export.getExportCSVResult&view=AdvancedSearch&page=product&criteria=%5B%7B%22productdescriptiontxt%22%3A%22%22%7D%2C%7B%22codeinformation%22%3A%22%22%7D%2C%7B%22centercd%22%3A%5B%22CVM%22%5D%7D%2C%7B%22centerclassificationtypetxt%22%3Anull%7D%2C%7B%22firmlegalnam%22%3A%22%22%7D%2C%7B%22phasetxt%22%3Anull%7D%2C%7B%22recalleventid%22%3A%2288355%22%7D%2C%7B%22recallnum%22%3A%22%22%7D%2C%7B%22productshortreasontxt%22%3A%22%22%7D%2C%7B%22centerclassificationdtfrom%22%3A%2201%2F01%2F2016%22%7D%2C%7B%22centerclassificationdtto%22%3A%2212%2F31%2F2026%22%7D%5D"
+lines:
+  - id: chicken-and-chickpea
+    name: Chicken and Chickpea Recipe
+    aliases:
+      - { text: ELM Chicken and Chickpea, kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: naturals
+    name: Elm Naturals
+    aliases:
+      - { text: Elm Naturals, kind: label }
+    species: [dog]
+    formats: [dry]

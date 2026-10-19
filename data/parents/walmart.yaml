@@ -1,0 +1,8 @@
+id: walmart
+name: Walmart Inc.
+aliases:
+  - Wal-Mart Stores, Inc.
+sources:
+  - https://corporate.walmart.com/
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/j-m-smucker-company-issues-voluntary-recall-specific-lots-special-kittyr-wet-canned-cat-food-due
+notes: Store brands Ol' Roy, Special Kitty, Pure Balance; recalls are usually filed by the contract manufacturer.

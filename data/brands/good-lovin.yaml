@@ -1,0 +1,18 @@
+id: good-lovin
+name: Good Lovin'
+parent: petco
+markets: [US]
+firm_names:
+  - International Pet Supplies and Distribution, Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/united-pet-group-expands-voluntary-recall-multiple-brands-rawhide-chew-products-dogs-also-include"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/redbarn-pet-products-expands-voluntary-recall-dog-chews"
+lines:
+  - id: rawhide
+    name: Rawhide
+    species: [dog]
+    formats: [treat]
+  - id: bully-sticks
+    name: Bully Sticks
+    species: [dog]
+    formats: [treat]

@@ -1,0 +1,102 @@
+# Open Farm (Toronto). Freeze-dried products are co-packed (FDA iRES event 95964,
+# 2025, recalling firm SFD Opco, LLC).
+id: open-farm
+name: Open Farm
+parent: open-farm
+markets: [CA, US]
+aliases:
+  - Open Farm Pet
+firm_names:
+  - Open Farm Inc.
+manufacturers:
+  - sfd-opco
+sources:
+  - https://openfarmpet.com/
+  - https://www.mccarthy.ca/en/experience/general-atlantic-completes-an-equity-investment-in-pet-food-company-open-farm
+lines:
+  - id: rawmix
+    name: RawMix
+    aliases:
+      - { text: "Open Farm RawMix", kind: label }
+      - Raw Mix
+    species: [dog, cat]
+    formats: [dry, freeze-dried]
+  - id: epic-blend
+    name: Epic Blend
+    aliases:
+      - { text: "Open Farm Epic Blend", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: ancient-grains
+    name: Ancient Grains
+    aliases:
+      - { text: "Open Farm Ancient Grains", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: grain-free
+    name: Grain-Free
+    aliases:
+      - { text: "Open Farm Grain-Free", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: goodgut
+    name: GoodGut
+    aliases:
+      - { text: "Open Farm GoodGut", kind: label }
+      - Good Gut
+    species: [dog]
+    formats: [dry, other]
+  - id: goodbowl
+    name: Goodbowl
+    aliases:
+      - { text: "Open Farm Goodbowl", kind: label }
+      - { text: "Open Farm Good Bowl", kind: label }
+      - Good Bowl
+    species: [dog, cat]
+    formats: [dry, freeze-dried, wet]
+  - id: tailored-needs
+    name: Tailored Needs
+    aliases:
+      - { text: "Open Farm Tailored Needs", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: freeze-dried-raw
+    name: Freeze-Dried Raw
+    aliases:
+      - { text: "Open Farm Freeze-Dried Raw", kind: label }
+      - Freeze Dried Raw
+      - Morsels
+      - Patties
+    species: [dog, cat]
+    formats: [freeze-dried]
+  - id: fresh
+    name: Fresh
+    aliases:
+      - { text: "Open Farm Fresh", kind: label }
+      - Gently Cooked
+      - Freshly Crafted
+    species: [dog]
+    formats: [other]
+  - id: wet
+    name: Wet Food
+    aliases:
+      - Pate
+      - Rustic Stew
+      - Rustic Blend
+    species: [dog, cat]
+    formats: [wet]
+  - id: treats
+    name: Treats
+    aliases:
+      - { text: "Open Farm Be Good Bites", kind: label }
+      - Be Good Bites
+      - Better Biscuits
+      - Jerky Strips
+    species: [dog, cat]
+    formats: [treat]
+  - id: bone-broth
+    name: Bone Broth
+    aliases:
+      - { text: "Open Farm Bone Broth", kind: label }
+    species: [dog, cat]
+    formats: [topper]

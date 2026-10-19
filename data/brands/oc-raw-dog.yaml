@@ -1,0 +1,22 @@
+id: oc-raw-dog
+name: OC Raw Dog
+parent: oc-raw-dog
+markets: [US]
+firm_names:
+  - OC Raw Dog, LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/oc-raw-dog-llc-recalls-one-lot-chicken-fish-produce-because-possible-health-risk"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/oc-raw-dog-llc-recalls-freeze-dried-sardines-because-product-exceeds-fda-size-restrictions"
+lines:
+  - id: frozen
+    name: Frozen raw (Meaty Rox, Sliders, Doggie Dozen Patties)
+    aliases:
+      - Meaty Rox
+      - Slider
+      - Doggie Dozen
+    species: [dog]
+    formats: [raw]
+  - id: freeze-dried
+    name: Freeze Dried
+    species: [dog]
+    formats: [freeze-dried, treat]

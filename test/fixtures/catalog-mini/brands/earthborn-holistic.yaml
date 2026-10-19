@@ -1,0 +1,5 @@
+id: earthborn-holistic
+name: "Earthborn Holistic"
+parent: midwestern-pet-foods
+markets: [US]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]

@@ -1,0 +1,11 @@
+id: champ
+name: "Champ"
+parent: champ-brands
+markets: [US]
+manufacturers: ["sunshine-mills"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: mini-chunk
+    name: "Mini Chunk"
+    species: [dog, cat]
+    formats: [dry, wet]

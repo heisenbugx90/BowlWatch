@@ -1,0 +1,18 @@
+# Rad Cat Raw Diet. Radagast Pet Food ceased production 2018-10-15.
+id: rad-cat
+name: Rad Cat Raw Diet
+parent: radagast-pet-food
+markets: [US, CA]
+aliases:
+  - Rad Cat
+firm_names:
+  - Radagast Pet Food, Inc.
+sources:
+  - https://www.catster.com/guides/rad-cat-raw-diet-shuts-down-production
+  - https://recalls-rappels.canada.ca/en/alert-recall/radagast-pet-food-inc-recalls-various-rad-cat-raw-diet-pet-food
+lines:
+  - id: raw-diet
+    name: Raw Diet
+    species: [cat]
+    formats: [raw]
+    discontinued: true

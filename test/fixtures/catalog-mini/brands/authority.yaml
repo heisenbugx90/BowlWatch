@@ -1,0 +1,11 @@
+id: authority
+name: "Authority"
+parent: petsmart
+markets: [US]
+firm_names: ["Petsmart Inc"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: savory-blends
+    name: "Savory Blends"
+    species: [dog, cat]
+    formats: [dry, wet]

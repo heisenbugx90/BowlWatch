@@ -1,0 +1,33 @@
+id: simply-nourish
+name: Simply Nourish
+parent: petsmart
+markets: [US, CA]
+aliases: []
+firm_names:
+  - PetSmart Inc
+  - PetSmart LLC
+manufacturers:
+  - wet-noses
+sources:
+  - https://www.petsmart.com/featured-brands/simply-nourish/
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wet-noses-natural-dog-treat-companyr-voluntarily-recalls-simply-nourish-brand-frozen-dog-food-due
+lines:
+  - id: original
+    name: Original
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: limited-ingredient-diet
+    name: Limited Ingredient Diet
+    species: [dog, cat]
+    formats: [dry]
+  - id: fresh-market
+    name: Fresh Market
+    aliases:
+      - { text: "Simply Nourish Fresh Market", kind: label }
+    species: [dog]
+    formats: [other]
+    notes: Frozen gently cooked; FDA iRES event 88479 (2021).
+  - id: source
+    name: Source
+    species: [dog, cat]
+    formats: [dry]

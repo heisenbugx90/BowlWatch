@@ -1,0 +1,19 @@
+# Printed 'Natural Life ...'; 'natural life' is too generic as a standalone alias.
+id: natural-life
+name: Natural Life Pet Products
+parent: whitebridge-pet-brands
+markets: [US]
+aliases:
+  - { text: Natural Life Chicken & Potato, kind: label }
+firm_names:
+  - Whitebridge Pet Brands Llc
+  - Natural Life Pet Products
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/natural-life-pet-products-expands-recall-dry-food-due-elevated-levels-vitamin-d"
+lines:
+  - id: dry-dog
+    name: Dry dog food
+    aliases:
+      - Chicken & Potato
+    species: [dog]
+    formats: [dry]

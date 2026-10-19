@@ -1,0 +1,11 @@
+id: wellness
+name: "Wellness"
+parent: wellpet
+markets: [US]
+manufacturers: ["simmons-foods"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: beef-chicken-formula
+    name: "Beef & Chicken Formula"
+    species: [dog, cat]
+    formats: [dry, wet]

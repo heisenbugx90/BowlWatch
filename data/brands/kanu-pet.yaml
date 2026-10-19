@@ -1,0 +1,17 @@
+id: kanu-pet
+name: Kanu Pet
+parent: foodynamics
+markets: [US]
+aliases:
+  - Kanu Pets
+  - Kanu Pets brand
+manufacturers:
+  - glacial-freeze-dry
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/correction-foodynamics-recalls-raw-dog-barkery-bellepepper-cats-and-kanu-pets-brand-freeze-dried-pet"
+notes: "Assigned to Foodynamics as named in the FDA notice; brand ownership not otherwise verified."
+lines:
+  - id: freeze-dried
+    name: Freeze Dried treats
+    species: [dog, cat]
+    formats: [treat, freeze-dried]

@@ -1,0 +1,30 @@
+# Test-only catalog for src/match tests. Not real curation data; see data/ for that.
+manufacturers:
+  - id: simmons-foods
+    name: "Simmons Foods"
+    firm_names: ["Simmons Foods Inc"]
+    evidence: test fixture
+  - id: morasch-meats
+    name: "Morasch Meats"
+    firm_names: ["Morasch Meats Inc"]
+    evidence: test fixture
+  - id: stormberg-foods
+    name: "Stormberg Foods"
+    firm_names: ["Stormberg Foods LLC"]
+    evidence: test fixture
+  - id: tejas-industries
+    name: "Tejas Industries"
+    firm_names: ["Tejas Industries - Amarillo Distribution"]
+    evidence: test fixture
+  - id: cargill
+    name: "Cargill"
+    firm_names: ["Cargill, Inc"]
+    evidence: test fixture
+  - id: tfp-nutrition
+    name: "TFP Nutrition"
+    firm_names: ["Texas Farm Products Company", "Texas Farm Products Company dba TFP Nutrition"]
+    evidence: test fixture
+  - id: sunshine-mills
+    name: "Sunshine Mills"
+    firm_names: ["Sunshine Mills Inc"]
+    evidence: test fixture

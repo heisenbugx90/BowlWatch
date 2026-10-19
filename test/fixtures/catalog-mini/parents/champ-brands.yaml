@@ -1,0 +1,3 @@
+id: champ-brands
+name: "Champ brand owner (test)"
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]

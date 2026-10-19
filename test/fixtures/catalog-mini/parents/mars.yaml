@@ -1,0 +1,4 @@
+id: mars
+name: "Mars, Incorporated"
+aliases: ["Mars Petcare"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]

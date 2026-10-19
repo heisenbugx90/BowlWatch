@@ -1,0 +1,37 @@
+# Petco-labelled store products. Brand name 'Petco' also identifies the retailer.
+id: petco-brand
+name: Petco (store brand)
+parent: petco
+markets: [US]
+aliases:
+  - { text: Petco Prime Cuts, kind: label }
+  - { text: Petco Classic Rawhide, kind: label }
+  - { text: Petco Granulated Rawhide, kind: label }
+firm_names:
+  - International Pet Supplies and Distribution, Inc.
+sources:
+  - "https://www.accessdata.fda.gov/scripts/ires/index.cfm?action=export.getExportCSVResult&view=AdvancedSearch&page=product&criteria=%5B%7B%22productdescriptiontxt%22%3A%22%22%7D%2C%7B%22codeinformation%22%3A%22%22%7D%2C%7B%22centercd%22%3A%5B%22CVM%22%5D%7D%2C%7B%22centerclassificationtypetxt%22%3Anull%7D%2C%7B%22firmlegalnam%22%3A%22%22%7D%2C%7B%22phasetxt%22%3Anull%7D%2C%7B%22recalleventid%22%3A%2277441%22%7D%2C%7B%22recallnum%22%3A%22%22%7D%2C%7B%22productshortreasontxt%22%3A%22%22%7D%2C%7B%22centerclassificationdtfrom%22%3A%2201%2F01%2F2016%22%7D%2C%7B%22centerclassificationdtto%22%3A%2212%2F31%2F2026%22%7D%5D"
+  - "https://www.accessdata.fda.gov/scripts/ires/index.cfm?action=export.getExportCSVResult&view=AdvancedSearch&page=product&criteria=%5B%7B%22productdescriptiontxt%22%3A%22%22%7D%2C%7B%22codeinformation%22%3A%22%22%7D%2C%7B%22centercd%22%3A%5B%22CVM%22%5D%7D%2C%7B%22centerclassificationtypetxt%22%3Anull%7D%2C%7B%22firmlegalnam%22%3A%22%22%7D%2C%7B%22phasetxt%22%3Anull%7D%2C%7B%22recalleventid%22%3A%2279164%22%7D%2C%7B%22recallnum%22%3A%22%22%7D%2C%7B%22productshortreasontxt%22%3A%22%22%7D%2C%7B%22centerclassificationdtfrom%22%3A%2201%2F01%2F2016%22%7D%2C%7B%22centerclassificationdtto%22%3A%2212%2F31%2F2026%22%7D%5D"
+lines:
+  - id: prime-cuts
+    name: Prime Cuts
+    species: [dog]
+    formats: [treat]
+  - id: rawhide
+    name: Granulated Rawhide
+    species: [dog]
+    formats: [treat]
+  - id: whole-hearted
+    name: WholeHearted
+    aliases:
+      - { text: "Whole Hearted", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet, treat]
+    notes: Petco's own brand; air-puffed treats made by Loving Pets were recalled in 2018.
+  - id: time-for-joy
+    name: Time for Joy
+    aliases:
+      - { text: Time for Joy Holiday, kind: label }
+    species: [dog]
+    formats: [treat]
+    notes: "Holiday chew in the Redbarn recall with a Petco (800443) UPC; Petco ownership inferred from the UPC prefix."

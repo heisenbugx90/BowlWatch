@@ -1,0 +1,35 @@
+# Petcurean Gather. Bare "Gather" is a common word, so the brand name carries
+# "Pet Food" and recipes are identified by "Gather <recipe>" labels.
+id: gather
+name: Gather Pet Food
+parent: petcurean
+markets: [CA, US]
+aliases:
+  - Petcurean Gather
+firm_names:
+  - Petcurean Pet Nutrition
+  - Petcurean Pet Nutrition Inc.
+sources:
+  - https://gatherpetfood.com/en-ca
+  - https://www.petcurean.com/
+lines:
+  - id: free-acres
+    name: Free Acres
+    aliases:
+      - { text: "Gather Free Acres", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: endless-valley
+    name: Endless Valley
+    aliases:
+      - { text: "Gather Endless Valley", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: wild-ocean
+    name: Wild Ocean
+    aliases:
+      - { text: "Gather Wild Ocean", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+    discontinued: true
+    notes: Not on gatherpetfood.com in 2026-10; kept for older notices.

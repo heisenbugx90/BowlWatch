@@ -1,0 +1,11 @@
+id: pro-pac
+name: "Pro Pac"
+parent: midwestern-pet-foods
+markets: [US]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: ultimates
+    name: "Ultimates"
+    aliases: [{"text": "Pro Pac Ultimates", "kind": "label"}]
+    species: [dog, cat]
+    formats: [dry, wet]

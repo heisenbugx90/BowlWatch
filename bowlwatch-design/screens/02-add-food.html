@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Add a food — brand profile</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+body{margin:0}
+a{color:#1E5A45}a:hover{color:#174736}
+</style>
+</head>
+<body>
+<div style="min-height: 100vh; box-sizing: border-box; background: #F5F3EE; color: #16201B; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 15px; line-height: 1.5; display: flex; flex-direction: column">
+
+  <header style="background: #FFFFFF; border-bottom: 1px solid #D9D6CE">
+    <nav aria-label="App" style="max-width: 1120px; margin: 0 auto; padding: 0 24px; min-height: 60px; display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px">
+      <a href="Main.dc.html" style="font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 20px; letter-spacing: -0.02em; color: #16201B; text-decoration: none; display: inline-flex; align-items: center; gap: 10px"><span aria-hidden="true" style="width: 12px; height: 12px; border-radius: 50% 50% 4px 50%; background: #1E5A45; display: inline-block"></span>BowlWatch</a>
+      <a href="Home.dc.html" style="color: #16201B; text-decoration: none; font-weight: 500; min-height: 44px; display: inline-flex; align-items: center">Your foods</a>
+      <a href="AddFood.dc.html" aria-current="page" style="color: #16201B; text-decoration: none; font-weight: 700; min-height: 44px; display: inline-flex; align-items: center; border-bottom: 2px solid #1E5A45">Add a food</a>
+      <a href="#settings" style="color: #16201B; text-decoration: none; font-weight: 500; min-height: 44px; display: inline-flex; align-items: center">Settings</a>
+      <span style="margin-left: auto; font-size: 13px; color: #4A554F">you@example.com</span>
+    </nav>
+  </header>
+
+  <main style="max-width: 1120px; width: 100%; box-sizing: border-box; margin: 0 auto; padding: 40px 24px 64px; display: flex; flex-direction: column; gap: 32px">
+
+    <div style="display: flex; flex-direction: column; gap: 8px">
+      <div style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #4A554F">Step 2 of 2 · Maple, dog</div>
+      <h1 style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 36px; line-height: 1.05; letter-spacing: -0.02em">What does Maple eat?</h1>
+      <p style="margin: 0; color: #4A554F; max-width: 60ch">Type the brand and the line on the bag the way you’d say it. We match it to our table of brands and product lines, so spelling doesn’t need to be exact.</p>
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 32px; align-items: start">
+
+      <section aria-label="Find the food" style="flex: 1 1 380px; min-width: 0; display: flex; flex-direction: column; gap: 20px">
+        <div style="display: flex; flex-direction: column; gap: 8px">
+          <label for="food-search" style="font-weight: 600">Brand and product line</label>
+          <input id="food-search" type="search" value="harrow finch chicken" style="font: inherit; font-size: 17px; min-height: 52px; padding: 0 16px; border-radius: 8px; border: 2px solid #1E5A45; background: #FFFFFF; color: #16201B; width: 100%; box-sizing: border-box">
+        </div>
+
+        <ul aria-label="Matches" style="list-style: none; margin: 0; padding: 0; border: 1px solid #D9D6CE; border-radius: 12px; background: #FFFFFF; overflow: hidden">
+          <li>
+            <button type="button" aria-pressed="true" style="font: inherit; text-align: left; width: 100%; box-sizing: border-box; min-height: 44px; padding: 14px 16px; border: 0; border-bottom: 1px solid #D9D6CE; background: #E3F1E8; color: #16201B; cursor: pointer; display: flex; flex-direction: column; gap: 2px">
+              <span style="font-weight: 600">Everyday Adult · Chicken &amp; Brown Rice</span>
+              <span style="font-size: 13px; color: #4A554F">Harrow &amp; Finch · Ridgeline Pet Foods · dry dog</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" aria-pressed="false" style="font: inherit; text-align: left; width: 100%; box-sizing: border-box; min-height: 44px; padding: 14px 16px; border: 0; border-bottom: 1px solid #D9D6CE; background: transparent; color: #16201B; cursor: pointer; display: flex; flex-direction: column; gap: 2px">
+              <span style="font-weight: 600">Everyday Puppy · Chicken &amp; Oatmeal</span>
+              <span style="font-size: 13px; color: #4A554F">Harrow &amp; Finch · Ridgeline Pet Foods · dry dog</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" aria-pressed="false" style="font: inherit; text-align: left; width: 100%; box-sizing: border-box; min-height: 44px; padding: 14px 16px; border: 0; border-bottom: 1px solid #D9D6CE; background: transparent; color: #16201B; cursor: pointer; display: flex; flex-direction: column; gap: 2px">
+              <span style="font-weight: 600">Grain-Free Chicken Recipe</span>
+              <span style="font-size: 13px; color: #4A554F">Harrow &amp; Finch · Ridgeline Pet Foods · dry dog</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" style="font: inherit; text-align: left; width: 100%; box-sizing: border-box; min-height: 44px; padding: 14px 16px; border: 0; background: transparent; color: #1E5A45; font-weight: 600; cursor: pointer">Not here? Tell us what’s on the bag →</button>
+          </li>
+        </ul>
+
+        <fieldset style="margin: 0; padding: 20px; border: 1px solid #D9D6CE; border-radius: 12px; background: #FFFFFF; display: flex; flex-direction: column; gap: 16px">
+          <legend style="padding: 0 6px; font-weight: 600">From the bag <span style="font-weight: 400; color: #4A554F">(optional, but lets us say “stop” instead of “check”)</span></legend>
+          <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(160px, 100%), 1fr)); gap: 12px">
+            <div style="display: flex; flex-direction: column; gap: 6px">
+              <label for="lot" style="font-size: 13px; font-weight: 600">Lot number</label>
+              <input id="lot" type="text" placeholder="e.g. 24A17" style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 15px; min-height: 44px; padding: 0 12px; border-radius: 8px; border: 1px solid #B8B4AA; background: #FFFFFF; color: #16201B">
+            </div>
+            <div style="display: flex; flex-direction: column; gap: 6px">
+              <label for="bestby" style="font-size: 13px; font-weight: 600">Best by</label>
+              <input id="bestby" type="date" style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 15px; min-height: 44px; padding: 0 12px; border-radius: 8px; border: 1px solid #B8B4AA; background: #FFFFFF; color: #16201B">
+            </div>
+          </div>
+          <p style="margin: 0; font-size: 13px; color: #4A554F">Usually printed near the best-by date, often on the bottom seam. We never ask for a photo.</p>
+        </fieldset>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 12px; align-items: center">
+          <a href="Home.dc.html" style="font-weight: 600; min-height: 48px; padding: 0 22px; border-radius: 8px; background: #1E5A45; color: #FFFFFF; text-decoration: none; display: inline-flex; align-items: center">Add to Maple’s foods</a>
+          <a href="Home.dc.html" style="font-weight: 600; min-height: 48px; padding: 0 12px; color: #16201B; display: inline-flex; align-items: center">Skip for now</a>
+        </div>
+      </section>
+
+      <aside aria-label="What is on file for Harrow &amp; Finch" style="flex: 1 1 420px; min-width: 0; background: #FFFFFF; border: 1px solid #D9D6CE; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column">
+        <div style="padding: 20px 24px; border-bottom: 1px solid #D9D6CE; display: flex; flex-direction: column; gap: 12px">
+          <div style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #4A554F">On file · Harrow &amp; Finch</div>
+          <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px">
+            <h2 style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 24px; line-height: 1.1; letter-spacing: -0.02em">Everyday Adult · Chicken &amp; Brown Rice</h2>
+          </div>
+          <div style="display: inline-flex; align-self: flex-start; align-items: center; gap: 10px; padding: 8px 14px; border-radius: 8px; background: #FBEBCB; color: #6E4100; font-weight: 700">
+            <span aria-hidden="true" style="width: 10px; height: 10px; border-radius: 50%; background: #C77700"></span>Amber · older recalls at this brand, not this line
+          </div>
+          <p style="margin: 0; font-size: 13px; color: #4A554F">Green means nothing on file in 5 years. Red means this product line was recalled in the last 12 months. This is a record, not a rating.</p>
+        </div>
+
+        <div style="padding: 20px 24px; border-bottom: 1px solid #D9D6CE; display: flex; flex-direction: column; gap: 14px">
+          <h3 style="margin: 0; font-size: 15px; font-weight: 700">Recalls at Harrow &amp; Finch</h3>
+          <div style="display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px">
+            <div style="padding: 12px; border-radius: 8px; background: #F5F3EE; display: flex; flex-direction: column; gap: 2px">
+              <span style="font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 28px; line-height: 1">0</span>
+              <span style="font-size: 12px; color: #4A554F">last year</span>
+            </div>
+            <div style="padding: 12px; border-radius: 8px; background: #F5F3EE; display: flex; flex-direction: column; gap: 2px">
+              <span style="font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 28px; line-height: 1">1</span>
+              <span style="font-size: 12px; color: #4A554F">last 3 years</span>
+            </div>
+            <div style="padding: 12px; border-radius: 8px; background: #F5F3EE; display: flex; flex-direction: column; gap: 2px">
+              <span style="font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 28px; line-height: 1">2</span>
+              <span style="font-size: 12px; color: #4A554F">last 10 years</span>
+            </div>
+          </div>
+          <ul style="list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 12px">
+            <li style="display: flex; flex-direction: column; gap: 4px; padding-top: 12px; border-top: 1px solid #D9D6CE">
+              <div style="display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline">
+                <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #4A554F">2024-06</span>
+                <span style="font-weight: 600">Everyday Puppy · Chicken &amp; Oatmeal</span>
+                <span style="font-size: 13px; color: #4A554F">not your line</span>
+              </div>
+              <div style="font-size: 14px">Reason given: elevated vitamin D. Voluntary, 3 lots.</div>
+              <a href="#notice" style="font-size: 14px; font-weight: 600; text-underline-offset: 3px">FDA notice ↗</a>
+            </li>
+            <li style="display: flex; flex-direction: column; gap: 4px; padding-top: 12px; border-top: 1px solid #D9D6CE">
+              <div style="display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: baseline">
+                <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #4A554F">2019-02</span>
+                <span style="font-weight: 600">Grain-Free Chicken Recipe</span>
+                <span style="font-size: 13px; color: #4A554F">not your line</span>
+              </div>
+              <div style="font-size: 14px">Reason given: possible Salmonella contamination.</div>
+              <a href="#notice" style="font-size: 14px; font-weight: 600; text-underline-offset: 3px">FDA notice ↗</a>
+            </li>
+          </ul>
+        </div>
+
+        <div style="padding: 20px 24px; display: flex; flex-direction: column; gap: 14px">
+          <div style="display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 12px">
+            <h3 style="margin: 0; font-size: 15px; font-weight: 700">Manufacturing and nutrition practices</h3>
+            <span style="font-size: 12px; color: #4A554F">WSAVA questions · reviewed <span style="font-family: 'JetBrains Mono', ui-monospace, monospace">2026-Q3</span></span>
+          </div>
+          <table style="width: 100%; border-collapse: collapse; font-size: 14px">
+            <tbody>
+              <tr>
+                <td style="padding: 10px 0; border-bottom: 1px solid #D9D6CE">Full-time qualified nutritionist on staff</td>
+                <td style="padding: 10px 8px; border-bottom: 1px solid #D9D6CE; font-weight: 700; text-align: right; white-space: nowrap">Yes</td>
+                <td style="padding: 10px 0 10px 8px; border-bottom: 1px solid #D9D6CE; text-align: right; white-space: nowrap"><a href="#source" style="font-size: 13px">source ↗</a></td>
+              </tr>
+              <tr>
+                <td style="padding: 10px 0; border-bottom: 1px solid #D9D6CE">Owns manufacturing plants</td>
+                <td style="padding: 10px 8px; border-bottom: 1px solid #D9D6CE; font-weight: 700; text-align: right; white-space: nowrap">Partly</td>
+                <td style="padding: 10px 0 10px 8px; border-bottom: 1px solid #D9D6CE; text-align: right; white-space: nowrap"><a href="#source" style="font-size: 13px">source ↗</a></td>
+              </tr>
+              <tr>
+                <td style="padding: 10px 0; border-bottom: 1px solid #D9D6CE">Runs AAFCO feeding trials</td>
+                <td style="padding: 10px 8px; border-bottom: 1px solid #D9D6CE; font-weight: 700; text-align: right; white-space: nowrap">No</td>
+                <td style="padding: 10px 0 10px 8px; border-bottom: 1px solid #D9D6CE; text-align: right; white-space: nowrap"><a href="#source" style="font-size: 13px">source ↗</a></td>
+              </tr>
+              <tr>
+                <td style="padding: 10px 0; border-bottom: 1px solid #D9D6CE">Publishes complete nutrient analysis on request</td>
+                <td style="padding: 10px 8px; border-bottom: 1px solid #D9D6CE; font-weight: 700; text-align: right; white-space: nowrap">Yes</td>
+                <td style="padding: 10px 0 10px 8px; border-bottom: 1px solid #D9D6CE; text-align: right; white-space: nowrap"><a href="#source" style="font-size: 13px">source ↗</a></td>
+              </tr>
+              <tr>
+                <td style="padding: 10px 0">Publishes peer-reviewed research</td>
+                <td style="padding: 10px 8px; font-weight: 700; text-align: right; white-space: nowrap; color: #4A554F">Unknown</td>
+                <td style="padding: 10px 0 10px 8px; text-align: right; white-space: nowrap; font-size: 13px; color: #4A554F">no source</td>
+              </tr>
+            </tbody>
+          </table>
+          <p style="margin: 0; font-size: 13px; color: #4A554F">Answers come from the manufacturer’s own published statements. “Unknown” means we asked and found nothing, not that the answer is no.</p>
+        </div>
+      </aside>
+    </div>
+  </main>
+</div>
+</body>
+</html>

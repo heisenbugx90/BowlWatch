@@ -1,0 +1,16 @@
+id: healthy-hide
+name: Healthy Hide
+parent: spectrum-brands
+markets: [US]
+firm_names:
+  - Spectrum Brands Inc
+  - United Pet Group
+manufacturers:
+  - salix-animal-health
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/united-pet-group-expands-voluntary-recall-multiple-brands-rawhide-chew-products-dogs-also-include"
+lines:
+  - id: rawhide
+    name: Rawhide chews
+    species: [dog]
+    formats: [treat]

@@ -1,0 +1,61 @@
+# Smack Pet Food (Winnipeg). Bare "Smack" is too generic to be a standalone alias;
+# recipes are identified by "Smack <recipe>" labels.
+id: smack
+name: Smack Pet Food
+parent: smack-pet-food
+markets: [CA, US]
+firm_names:
+  - Smack Pet Food Inc.
+sources:
+  - https://www.smackpetfood.com/
+  - https://madeinca.ca/?p=64115
+lines:
+  - id: very-berry-chicken
+    name: Very Berry Chicken
+    aliases:
+      - { text: "Smack Very Berry", kind: label }
+      - Very Berry
+    species: [dog, cat]
+    formats: [raw]
+  - id: prairie-harvest-pork
+    name: Prairie Harvest Pork
+    aliases:
+      - { text: "Smack Prairie Harvest", kind: label }
+    species: [dog]
+    formats: [raw]
+  - id: caribbean-salmon-fusion
+    name: Caribbean-Salmon Fusion
+    aliases:
+      - { text: "Smack Caribbean Salmon", kind: label }
+    species: [dog]
+    formats: [raw]
+  - id: rockin-rockfish
+    name: Rockin' Rockfish
+    aliases:
+      - { text: "Smack Rockin Rockfish", kind: label }
+    species: [dog]
+    formats: [raw]
+  - id: chunky-chicken
+    name: Chunky Chicken
+    aliases:
+      - { text: "Smack Chunky Chicken", kind: label }
+    species: [dog]
+    formats: [raw]
+  - id: botanicals
+    name: Botanicals
+    aliases:
+      - { text: "Smack Botanicals", kind: label }
+    species: [dog]
+    formats: [topper]
+  - id: purrfect-pork
+    name: Purrfect Pork
+    aliases:
+      - { text: "Smack Purrfect Pork", kind: label }
+    species: [cat]
+    formats: [raw]
+  - id: pacific-fish-feast
+    name: Pacific Fish Feast
+    aliases:
+      - { text: "Smack Pacific Fish Feast", kind: label }
+    species: [cat]
+    formats: [raw]

@@ -1,0 +1,16 @@
+id: raw-dog-barkery
+name: Raw Dog Barkery
+parent: foodynamics
+markets: [US]
+manufacturers:
+  - glacial-freeze-dry
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/correction-foodynamics-recalls-raw-dog-barkery-bellepepper-cats-and-kanu-pets-brand-freeze-dried-pet"
+lines:
+  - id: freeze-dried
+    name: Freeze-Dried treats
+    aliases:
+      - Noah's Ark
+      - Uncle Clyde's Bucket of Chicken
+    species: [dog, cat]
+    formats: [treat, freeze-dried]

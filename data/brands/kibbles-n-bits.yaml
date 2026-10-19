@@ -1,0 +1,39 @@
+id: kibbles-n-bits
+name: Kibbles 'n Bits
+parent: post-holdings
+markets: [US]
+aliases:
+  - Kibbles and Bits
+  - Kibbles N Bits
+firm_names:
+  - Post Consumer Brands
+  - Post Holdings, Inc.
+  - Post Brands Pet Care
+sources:
+  - https://www.kibblesnbits.com/
+  - https://www.postholdings.com/post-holdings-completes-acquisition-of-rachael-ray-nutrish-natures-recipe-and-other-select-pet-food-brands/
+lines:
+  - id: original
+    name: Original
+    species: [dog]
+    formats: [dry]
+  - id: bistro
+    name: Bistro
+    species: [dog]
+    formats: [dry, wet]
+  - id: homestyle
+    name: Chef's Choice Homestyle
+    aliases: [Homestyle]
+    species: [dog]
+    formats: [wet]
+    notes: FDA iRES event 79291 (2018) "Chef's Choice Homestyle Tender Slices", canned.
+  - id: american-grill
+    name: Chef's Choice American Grill
+    aliases: [American Grill]
+    species: [dog]
+    formats: [wet]
+    notes: FDA iRES event 79291 (2018) variety pack "Chef's Choice American Grill, Burger Dinner".
+  - id: mini-bits
+    name: Mini Bits
+    species: [dog]
+    formats: [dry]

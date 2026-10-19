@@ -1,0 +1,18 @@
+id: junglemax
+name: Junglemax
+parent: junglemax
+markets: [CA]
+firm_names:
+  - Junglemax Inc.
+manufacturers:
+  - euro-can-manufacturing
+sources:
+  - https://www.cdmv.com/campus/product-info-library/junglemax/
+  - https://recalls-rappels.canada.ca/en/alert-recall/euro-can-manufacturing-inc-recalls-bulk-and-prepackaged-junglemax-and-selection-brand
+lines:
+  - id: chews
+    name: Chews
+    aliases:
+      - Pig Ears
+    species: [dog]
+    formats: [treat]

@@ -1,0 +1,32 @@
+id: iams
+name: Iams
+parent: mars
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Mars Petcare US
+  - Mars Petcare US Inc
+  - Mars Petcare USA
+  - The Iams Company
+sources:
+  - https://www.iams.com/
+  - https://www.mars.com/made-by-mars/petcare
+lines:
+  - id: proactive-health
+    name: ProActive Health
+    aliases:
+      - { text: "Iams ProActive Health", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: advanced-health
+    name: Advanced Health
+    species: [dog, cat]
+    formats: [dry]
+  - id: perfect-portions
+    name: Perfect Portions
+    species: [cat]
+    formats: [wet]
+  - id: minichunks
+    name: MiniChunks
+    species: [dog]
+    formats: [dry]

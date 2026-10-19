@@ -1,0 +1,11 @@
+id: gravy-train
+name: "Gravy Train"
+parent: jm-smucker
+markets: [US]
+firm_names: ["The J.M. Smucker Company, Inc."]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: lamb-rice-chunks
+    name: "Lamb & Rice Chunks"
+    species: [dog, cat]
+    formats: [dry, wet]

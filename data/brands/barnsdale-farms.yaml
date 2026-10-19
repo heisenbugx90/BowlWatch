@@ -1,0 +1,14 @@
+# EuroCan pig-ear brand, named on the bag (FDA listing 2017, iRES 76781).
+id: barnsdale-farms
+name: "Barnsdale Farms"
+parent: euro-can-manufacturing
+markets: [CA, US]
+manufacturers:
+  - euro-can-manufacturing
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/eurocan-manufacturing-voluntarily-recalling-barnsdale-farmsr-pig-ears-because-possible-salmonella"
+lines:
+  - id: pig-ears
+    name: Pig Ears
+    species: [dog]
+    formats: [treat]

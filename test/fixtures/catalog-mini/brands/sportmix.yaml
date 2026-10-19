@@ -1,0 +1,16 @@
+id: sportmix
+name: "Sportmix"
+parent: midwestern-pet-foods
+markets: [US]
+firm_names: ["Midwestern Pet Foods Inc", "Midwestern Pet Foods Chickasha Operation"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: premium-energy-plus
+    name: "Premium Energy Plus"
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: wholesomes
+    name: "Wholesomes"
+    aliases: [{"text": "Sportmix Wholesomes", "kind": "label"}]
+    species: [dog, cat]
+    formats: [dry, wet]

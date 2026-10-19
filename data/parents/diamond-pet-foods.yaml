@@ -1,0 +1,10 @@
+id: diamond-pet-foods
+name: Schell & Kampeter, Inc. (Diamond Pet Foods)
+aliases:
+  - Schell & Kampeter Inc
+  - Diamond Pet Foods Inc
+sources:
+  - https://www.diamondpet.com/
+notes: >-
+  Family-owned, Meta, MO. Also a major contract manufacturer (Kirkland Signature,
+  4health, others); see manufacturers.yaml.

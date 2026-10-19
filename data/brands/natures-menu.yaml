@@ -1,0 +1,15 @@
+id: natures-menu
+name: Nature's Menu
+parent: sunshine-mills
+markets: [US]
+firm_names:
+  - SUNSHINE MILLS INC
+  - Sunshine Mills, Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sunshine-mills-inc-issues-voluntary-recall-natures-menur-super-premium-dog-food-blend-real-chicken"
+notes: "Value brand made by Sunshine Mills; whether Sunshine or a retailer owns the name was not verified."
+lines:
+  - id: super-premium
+    name: Super Premium
+    species: [dog]
+    formats: [dry]

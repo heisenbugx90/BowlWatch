@@ -1,0 +1,41 @@
+id: beneful
+name: Beneful
+parent: nestle-purina
+markets: [US, CA]
+aliases:
+  - Purina Beneful
+firm_names:
+  - Nestle Purina PetCare Company
+  - Nestle Purina PetCare Co
+sources:
+  - https://www.purina.com/beneful
+lines:
+  - id: originals
+    name: Originals
+    aliases:
+      - { text: "Beneful Originals", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: incredibites
+    name: IncrediBites
+    aliases:
+      - { text: "Beneful IncrediBites", kind: label }
+    species: [dog]
+    formats: [dry, wet]
+  - id: healthy-weight
+    name: Healthy Weight
+    species: [dog]
+    formats: [dry]
+  - id: chopped-blends
+    name: Chopped Blends
+    aliases:
+      - { text: "Beneful Chopped Blends", kind: label }
+    species: [dog]
+    formats: [wet]
+  - id: prepared-meals
+    name: Prepared Meals
+    aliases:
+      - { text: "Beneful Prepared Meals", kind: label }
+    species: [dog]
+    formats: [wet]
+    notes: FDA iRES event 73463 (2016) Beneful Prepared Meals tubs.

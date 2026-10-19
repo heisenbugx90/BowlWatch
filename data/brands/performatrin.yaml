@@ -1,0 +1,43 @@
+# Pet Valu private label, made by co-packers (not identified yet).
+id: performatrin
+name: Performatrin
+parent: pet-valu
+markets: [CA]
+firm_names:
+  - Pet Valu Canada Inc.
+sources:
+  - https://www.newswire.ca/news-releases/pet-valu-expands-performatrin-r-brand-into-the-freezer-with-launch-of-performatrin-culinary-876226450.html
+  - https://www.petfoodprocessing.net/articles/16646-pet-valu-donates-16-million-worth-of-pet-food
+lines:
+  - id: prime
+    name: Prime
+    aliases:
+      - { text: "Performatrin Prime", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: naturals
+    name: Naturals
+    aliases:
+      - { text: "Performatrin Naturals", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: ultra
+    name: Ultra
+    aliases:
+      - { text: "Performatrin Ultra", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet, treat, freeze-dried]
+  - id: ultra-limited
+    name: Ultra Limited
+    aliases:
+      - { text: "Performatrin Ultra Limited", kind: label }
+      - Ultra Limited Ingredient
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: culinary
+    name: Culinary
+    aliases:
+      - { text: "Performatrin Culinary", kind: label }
+      - Butcher's Select
+    species: [dog]
+    formats: [raw, other]

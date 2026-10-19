@@ -1,0 +1,43 @@
+# Nutram. Elmira Pet Products is the owner AND a private-label co-packer, so its
+# firm name is in manufacturers.yaml, not in firm_names.
+id: nutram
+name: Nutram
+aliases:
+  - Nutram Pet Products
+firm_names:
+  - Nutram Pet Products Inc.
+parent: elmira-pet-products
+markets: [CA, US]
+manufacturers:
+  - elmira-pet-products
+sources:
+  - https://www.nutram.com/
+  - https://trademark.justia.com/owners/nutram-pet-products-inc-4971361
+lines:
+  - id: sound-balanced-wellness
+    name: Sound Balanced Wellness
+    aliases:
+      - { text: "Nutram Sound Balanced Wellness", kind: label }
+      - { text: "Nutram Sound", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: total-grain-free
+    name: Total Grain-Free
+    aliases:
+      - { text: "Nutram Total Grain-Free", kind: label }
+      - { text: "Nutram Total", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: ideal-solution-support
+    name: Ideal Solution Support
+    aliases:
+      - { text: "Nutram Ideal Solution Support", kind: label }
+      - { text: "Nutram Ideal", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: dental-treats
+    name: Dental Treats
+    aliases:
+      - { text: "Nutram Dental Treats", kind: label }
+    species: [dog]
+    formats: [treat]

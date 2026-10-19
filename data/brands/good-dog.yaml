@@ -1,0 +1,20 @@
+id: good-dog
+name: Good Dog (Sunshine Mills)
+parent: sunshine-mills
+markets: [US]
+aliases:
+  - { text: Good Dog Brand, kind: label }
+  - { text: Good Dog Hi Energy, kind: label }
+  # Bare brand word: counts only when the recalling firm corroborates it.
+  - { text: Good Dog, kind: short }
+firm_names:
+  - SUNSHINE MILLS INC
+  - Sunshine Mills, Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sunshine-mills-inc-expands-previously-announced-voluntary-recall-certain-pet-food-products-due"
+notes: Bought by Sunshine Mills from Hi-Tek Rations.
+lines:
+  - id: hi-energy
+    name: Hi Energy Formula
+    species: [dog]
+    formats: [dry]

@@ -1,0 +1,40 @@
+# Tractor Supply store brand, made by contract manufacturers: Diamond (dry, 2012
+# Salmonella recall) and Simmons Foods (wet, FDA iRES event 76403, 2017).
+id: 4health
+name: 4health
+parent: tractor-supply
+markets: [US]
+aliases:
+  - 4health Pet Food
+firm_names:
+  - Tractor Supply Company
+  - Tractor Supply Co
+manufacturers:
+  - diamond-pet-foods
+  - simmons-foods
+sources:
+  - https://www.tractorsupply.com/tsc/cms/4health
+lines:
+  - id: original
+    name: Original
+    aliases: [With Wholesome Grains, Wholesome Grains]
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: grain-free
+    name: Grain Free
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: special-care
+    name: Special Care
+    species: [dog]
+    formats: [dry]
+  - id: untamed
+    name: Untamed
+    aliases:
+      - { text: "4health Untamed", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: performance
+    name: Performance
+    species: [dog]
+    formats: [dry]

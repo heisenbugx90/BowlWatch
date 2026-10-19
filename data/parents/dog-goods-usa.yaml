@@ -1,0 +1,8 @@
+id: dog-goods-usa
+name: Dog Goods USA LLC
+aliases:
+  - Dog Goods USA
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/dog-goods-usa-llc-conduct-voluntary-recall-chef-toby-pig-ears-treats-because-possible-salmonella"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/dog-goods-usa-llc-expands-voluntary-recall-chef-toby-pig-ears-pet-treats-because-possible-salmonella"
+notes: Owner taken from the recalling firm in the FDA record; equity owner not checked.

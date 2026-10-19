@@ -1,0 +1,24 @@
+# 'Priority' alone is a common word; only label aliases identify it.
+id: priority-albertsons
+name: Priority (Albertsons)
+parent: albertsons
+markets: [US]
+aliases:
+  - { text: Priority Pet, kind: label }
+  - { text: Priority Rawhide, kind: label }
+  # 2017 rawhide recall labels (FDA iRES event 77441).
+  - { text: Priority Knotted Rawhide, kind: label }
+  - { text: Priority Large Rawhide, kind: label }
+  - { text: Priority Medium Assorted Rawhide, kind: label }
+  - { text: Priority Munchy Strips, kind: label }
+firm_names:
+  - Lucerne North America LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/united-pet-group-expands-voluntary-recall-multiple-brands-rawhide-chew-products-dogs-also-include"
+lines:
+  - id: rawhide
+    name: Rawhide
+    aliases:
+      - { text: "Priority, Rawhide", kind: label }
+    species: [dog]
+    formats: [treat]

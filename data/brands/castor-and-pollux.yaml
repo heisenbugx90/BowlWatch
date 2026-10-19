@@ -1,0 +1,36 @@
+# Merrick Pet Care brand (Nestle Purina since 2015). FDA iRES event 80152 (2018)
+# "Castor & Pollux Good Buddy Prime Patties", recalled by Merrick Pet Care.
+id: castor-and-pollux
+name: Castor & Pollux
+parent: nestle-purina
+markets: [US]
+aliases:
+  - Castor and Pollux Pet Works
+firm_names:
+  - Merrick Pet Care
+  - Merrick Pet Care, Inc.
+  - Merrick Pet Care (Dry Plant), Inc.
+sources:
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/merrick-pet-care-voluntarily-recalls-limited-amount-good-buddy-and-backcountry-treats-containing
+  - "https://www.accessdata.fda.gov/scripts/ires/index.cfm?action=export.getExportCSVResult&view=AdvancedSearch&page=product&criteria=%5B%7B%22productdescriptiontxt%22%3A%22%22%7D%2C%7B%22codeinformation%22%3A%22%22%7D%2C%7B%22centercd%22%3A%5B%22CVM%22%5D%7D%2C%7B%22centerclassificationtypetxt%22%3Anull%7D%2C%7B%22firmlegalnam%22%3A%22%22%7D%2C%7B%22phasetxt%22%3Anull%7D%2C%7B%22recalleventid%22%3A%2280152%22%7D%2C%7B%22recallnum%22%3A%22%22%7D%2C%7B%22productshortreasontxt%22%3A%22%22%7D%2C%7B%22centerclassificationdtfrom%22%3A%2201%2F01%2F2016%22%7D%2C%7B%22centerclassificationdtto%22%3A%2212%2F31%2F2026%22%7D%5D"
+notes: Current range not verified; Good Buddy treats may be discontinued.
+lines:
+  - id: organix
+    name: ORGANIX
+    aliases:
+      - { text: Castor & Pollux ORGANIX, kind: label }
+    species: [dog, cat]
+    formats: [dry, wet, treat]
+  - id: pristine
+    name: PRISTINE
+    aliases:
+      - { text: Castor & Pollux PRISTINE, kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: good-buddy
+    name: Good Buddy
+    aliases:
+      - { text: Castor & Pollux Good Buddy, kind: label }
+    species: [dog]
+    formats: [treat]
+    discontinued: true

@@ -1,0 +1,25 @@
+# Post Holdings since 2023-04-28. The 2018 pentobarbital withdrawal was filed by
+# The J.M. Smucker Company (Big Heart Pet Brands).
+id: gravy-train
+name: Gravy Train
+parent: post-holdings
+markets: [US]
+aliases: []
+firm_names:
+  - Post Consumer Brands
+  - Post Holdings, Inc.
+  - Post Brands Pet Care
+sources:
+  - https://www.postholdings.com/post-holdings-completes-acquisition-of-rachael-ray-nutrish-natures-recipe-and-other-select-pet-food-brands/
+lines:
+  - id: dry
+    name: Gravy Train Dry
+    aliases: [Beef Classic, Chicken Beef & Liver]
+    species: [dog]
+    formats: [dry]
+  - id: wet
+    name: Gravy Train Wet
+    # 'With Lamb & Rice Chunks' / 'With Beef Chunks' canned varieties: FDA iRES event 79291 (2018).
+    aliases: [Chunks in Gravy, Strips in Gravy, With Lamb & Rice Chunks, With Beef Chunks, With Chicken Chunks]
+    species: [dog]
+    formats: [wet]

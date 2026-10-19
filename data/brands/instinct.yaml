@@ -1,0 +1,55 @@
+# Display name avoids a bare "Instinct" alias: the word also appears in
+# Purina ONE True Instinct and "Instinctively healthy" (Vital Essentials).
+id: instinct
+name: Instinct Pet Food
+parent: agrolimen
+markets: [US, CA]
+aliases:
+  - Nature's Variety Instinct
+  - Instinct by Nature's Variety
+firm_names:
+  - Nature's Variety
+  - Nature's Variety, Inc.
+sources:
+  - https://www.instinctpetfood.com/
+lines:
+  - id: original
+    name: Original
+    aliases:
+      - { text: "Instinct Original", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: raw-boost
+    name: Raw Boost
+    aliases:
+      - { text: "Instinct Raw Boost", kind: label }
+    species: [dog, cat]
+    formats: [dry, topper]
+  - id: limited-ingredient-diet
+    name: Limited Ingredient Diet
+    aliases:
+      - { text: "Instinct Limited Ingredient", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: raw-frozen
+    name: Raw
+    aliases:
+      - Raw Bites
+      - Raw Medallions
+      - Raw Patties
+      - { text: "Instinct Raw", kind: label }
+      - { text: "Instinct Frozen Raw", kind: label }
+    species: [dog, cat]
+    formats: [raw]
+    notes: FDA iRES event 71789 (2016) "Nature's Variety Instinct Raw Chicken Formula Bites".
+  - id: raw-longevity
+    name: Raw Longevity
+    aliases:
+      - { text: "Instinct Raw Longevity", kind: label }
+    species: [dog, cat]
+    formats: [dry, raw, freeze-dried]
+  - id: freeze-dried-raw
+    name: Freeze-Dried Raw
+    aliases: [Freeze Dried Raw Meals]
+    species: [dog, cat]
+    formats: [freeze-dried]

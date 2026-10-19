@@ -1,0 +1,11 @@
+id: victor
+name: "Victor"
+parent: mid-america-pet-food
+markets: [US]
+firm_names: ["Mid America Pet Food LLC"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: hi-pro-plus
+    name: "Hi-Pro Plus"
+    species: [dog, cat]
+    formats: [dry, wet]

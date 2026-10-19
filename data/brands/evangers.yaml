@@ -1,0 +1,23 @@
+id: evangers
+name: Evanger's
+parent: evangers
+markets: [US]
+aliases:
+  - Evanger's Dog & Cat Food
+firm_names:
+  - Evanger's Dog & Cat Food Co
+  - Evanger's Dog & Cat Food Co., Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/evangers-voluntarily-recalls-hunk-beef-because-pentobarbital-exposure-one-batch-food"
+lines:
+  - id: hand-packed
+    name: Hand Packed
+    aliases:
+      - { text: Evanger's Hand Packed, kind: label }
+      - Hunk of Beef
+    species: [dog, cat]
+    formats: [wet]
+  - id: super-premium
+    name: Super Premium
+    species: [dog, cat]
+    formats: [wet]

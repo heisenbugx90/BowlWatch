@@ -1,0 +1,11 @@
+id: g-c-raw
+name: "G & C Raw"
+parent: g-c-raw-llc
+markets: [US]
+firm_names: ["G & C Raw, LLC"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: ground-lamb
+    name: "Ground Lamb"
+    species: [dog, cat]
+    formats: [dry, wet]

@@ -1,0 +1,13 @@
+id: bellepepper-cats
+name: BellePepper Cats
+parent: foodynamics
+markets: [US]
+manufacturers:
+  - glacial-freeze-dry
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/correction-foodynamics-recalls-raw-dog-barkery-bellepepper-cats-and-kanu-pets-brand-freeze-dried-pet"
+lines:
+  - id: freeze-dried
+    name: Freeze Dried treats
+    species: [dog, cat]
+    formats: [treat, freeze-dried]

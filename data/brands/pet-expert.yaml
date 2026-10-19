@@ -1,0 +1,17 @@
+id: pet-expert
+name: Pet Expert (Sunshine Mills)
+parent: sunshine-mills
+markets: [US]
+aliases:
+  - { text: Pet Expert Always Fit, kind: label }
+firm_names:
+  - SUNSHINE MILLS INC
+  - Sunshine Mills, Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sunshine-mills-inc-expands-previously-announced-voluntary-recall-certain-pet-food-products-due"
+notes: "Value brand made by Sunshine Mills; whether Sunshine or a retailer owns the name was not verified."
+lines:
+  - id: always-fit
+    name: Always Fit Formula
+    species: [dog]
+    formats: [dry]

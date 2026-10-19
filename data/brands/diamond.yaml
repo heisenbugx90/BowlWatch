@@ -1,0 +1,61 @@
+# Diamond Pet Foods' own brand. Bags print "Diamond Naturals", "Diamond Pro89",
+# "Diamond Maintenance"... Bare "Diamond" is NOT an alias: it collides with feed
+# (Diamond V, Diamond L) and other products ("Smalls Diamond Dust").
+id: diamond
+name: Diamond Pet Foods
+parent: diamond-pet-foods
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Diamond Pet Foods
+  - Diamond Pet Foods Inc
+  - Schell & Kampeter Inc
+  - Schell and Kampeter Inc dba Diamond Pet Foods
+sources:
+  - https://www.diamondpet.com/
+lines:
+  - id: diamond-naturals
+    name: Diamond Naturals
+    aliases:
+      - { text: "Diamond Naturals", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: diamond-naturals-grain-free
+    name: Diamond Naturals Grain-Free
+    aliases:
+      - { text: "Diamond Naturals Grain Free", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: diamond-care
+    name: Diamond CARE
+    aliases:
+      - { text: "Diamond CARE", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: pro89
+    name: Diamond Pro89
+    aliases:
+      - { text: "Diamond Pro89", kind: label }
+      - { text: "Diamond Pro 89", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: maintenance
+    name: Diamond Maintenance
+    aliases:
+      - { text: "Diamond Maintenance", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: performance
+    name: Diamond Performance
+    aliases:
+      - { text: "Diamond Performance", kind: label }
+      - { text: "Diamond Hi-Energy", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: premium-recipe
+    name: Diamond Premium Recipe
+    aliases:
+      - { text: "Diamond Premium Adult", kind: label }
+      - { text: "Diamond Puppy", kind: label }
+    species: [dog]
+    formats: [dry]

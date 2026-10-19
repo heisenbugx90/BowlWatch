@@ -1,0 +1,17 @@
+id: old-glory
+name: Old Glory
+parent: sunshine-mills
+markets: [US]
+aliases:
+  - { text: Old Glory Dog Food, kind: label }
+firm_names:
+  - SUNSHINE MILLS INC
+  - Sunshine Mills, Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sunshine-mills-inc-expands-previously-announced-voluntary-recall-certain-pet-food-products-due"
+notes: "Value brand made by Sunshine Mills; whether Sunshine or a retailer owns the name was not verified."
+lines:
+  - id: hearty
+    name: Hearty (Beef & Chicken / Turkey & Cheese)
+    species: [dog]
+    formats: [dry]

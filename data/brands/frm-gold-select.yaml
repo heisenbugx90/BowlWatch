@@ -1,0 +1,15 @@
+id: frm-gold-select
+name: FRM Gold Select
+parent: sunshine-mills
+markets: [US]
+firm_names:
+  - SUNSHINE MILLS INC
+  - Sunshine Mills, Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sunshine-mills-inc-issues-voluntary-recall-certain-dog-food-products-because-possible-salmonella"
+notes: "Value brand made by Sunshine Mills; whether Sunshine or a retailer owns the name was not verified."
+lines:
+  - id: high-performance
+    name: High Performance
+    species: [dog]
+    formats: [dry]

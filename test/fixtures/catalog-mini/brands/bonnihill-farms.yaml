@@ -1,0 +1,11 @@
+id: bonnihill-farms
+name: "Bonnihill Farms"
+parent: fromm-family
+markets: [US]
+aliases: ["Bonnihill Farms Pet Foods"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: beefibowls
+    name: "BeefiBowls"
+    species: [dog, cat]
+    formats: [dry, wet]

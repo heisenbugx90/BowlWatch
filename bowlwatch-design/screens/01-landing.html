@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BowlWatch — pet food recall watch</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+body{margin:0}
+a{color:#1E5A45}a:hover{color:#174736}
+</style>
+</head>
+<body>
+<div style="min-height: 100vh; box-sizing: border-box; background: #F5F3EE; color: #16201B; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-size: 16px; line-height: 1.5; display: flex; flex-direction: column">
+
+  <header style="border-bottom: 1px solid #D9D6CE">
+    <nav aria-label="Primary" style="max-width: 1120px; margin: 0 auto; padding: 0 24px; min-height: 64px; display: flex; flex-wrap: wrap; align-items: center; gap: 16px 28px">
+      <a href="#top" style="font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 22px; letter-spacing: -0.02em; color: #16201B; text-decoration: none; display: inline-flex; align-items: center; gap: 10px"><span aria-hidden="true" style="width: 14px; height: 14px; border-radius: 50% 50% 4px 50%; background: #1E5A45; display: inline-block"></span>BowlWatch</a>
+      <a href="#how" style="color: #16201B; text-decoration: none; font-weight: 500">How it works</a>
+      <a href="#sources" style="color: #16201B; text-decoration: none; font-weight: 500">Data sources</a>
+      <a href="#canada" style="color: #16201B; text-decoration: none; font-weight: 500">For Canadians</a>
+      <a href="Home.dc.html" style="margin-left: auto; color: #16201B; text-decoration: none; font-weight: 500">Sign in</a>
+      <a href="#signup" style="font-weight: 600; min-height: 44px; padding: 0 18px; border-radius: 8px; background: #1E5A45; color: #FFFFFF; text-decoration: none; display: inline-flex; align-items: center">Start watching</a>
+    </nav>
+  </header>
+
+  <section id="top" style="max-width: 1120px; width: 100%; box-sizing: border-box; margin: 0 auto; padding: 80px 24px 64px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr)); gap: 48px; align-items: center">
+    <div style="display: flex; flex-direction: column; gap: 24px">
+      <div style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: #4A554F">Free · email only · US and Canada</div>
+      <h1 style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: clamp(38px, 5vw, 60px); line-height: 1.02; letter-spacing: -0.025em; text-wrap: pretty">Know the night a food in your pet’s bowl is recalled.</h1>
+      <p style="margin: 0; max-width: 52ch; font-size: 18px; color: #4A554F; text-wrap: pretty">Tell us what you feed. Every night we read the FDA and Health Canada recall feeds, match them against your foods, and email you only when something matches: the brand, the product line, or the exact lot on your bag.</p>
+      <form id="signup" style="display: flex; flex-wrap: wrap; gap: 10px; max-width: 520px">
+        <label for="email-hero" style="position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0)">Email address</label>
+        <input id="email-hero" type="email" placeholder="you@example.com" style="font: inherit; flex: 1 1 240px; min-height: 48px; padding: 0 14px; border-radius: 8px; border: 1px solid #B8B4AA; background: #FFFFFF; color: #16201B">
+        <button type="button" style="font: inherit; font-weight: 600; min-height: 48px; padding: 0 20px; border-radius: 8px; border: 1px solid #1E5A45; background: #1E5A45; color: #FFFFFF; cursor: pointer">Start watching</button>
+      </form>
+      <p style="margin: 0; font-size: 14px; color: #4A554F">No app to install. No feed to scroll. One email when it matters, nothing when it doesn’t.</p>
+    </div>
+
+    <div aria-label="Example of a Stop email" role="img" style="background: #FFFFFF; border: 1px solid #D9D6CE; border-radius: 12px; overflow: hidden; display: flex; flex-direction: column">
+      <div style="padding: 14px 20px; border-bottom: 1px solid #D9D6CE; display: flex; align-items: center; gap: 12px; font-size: 13px; color: #4A554F">
+        <span style="font-weight: 600; color: #16201B">BowlWatch</span><span>to you</span><span style="margin-left: auto; font-family: 'JetBrains Mono', ui-monospace, monospace">02:14</span>
+      </div>
+      <div style="padding: 24px 20px; display: flex; flex-direction: column; gap: 16px">
+        <div style="display: inline-flex; align-self: flex-start; align-items: center; gap: 10px; padding: 8px 14px; border-radius: 8px; background: #FBE3E0; color: #8E1C15; font-weight: 700">
+          <span aria-hidden="true" style="width: 10px; height: 10px; border-radius: 50%; background: #B3261E"></span>Stop feeding
+        </div>
+        <div style="font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 24px; line-height: 1.15; letter-spacing: -0.02em">Harrow &amp; Finch · Everyday Adult Chicken, 12 kg</div>
+        <div style="display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px">
+          <div style="padding: 12px 14px; border-radius: 8px; background: #F5F3EE; display: flex; flex-direction: column; gap: 4px">
+            <span style="font-size: 12px; color: #4A554F">Your lot</span>
+            <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-weight: 500">24A17</span>
+          </div>
+          <div style="padding: 12px 14px; border-radius: 8px; background: #F5F3EE; display: flex; flex-direction: column; gap: 4px">
+            <span style="font-size: 12px; color: #4A554F">Recalled lots</span>
+            <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-weight: 500">24A15–24A19</span>
+          </div>
+        </div>
+        <p style="margin: 0; font-size: 15px; color: #4A554F">Reason given: possible Salmonella contamination. Stop feeding, keep the bag for the return, wash bowls and scoops.</p>
+        <a href="#sources" style="font-weight: 600; text-underline-offset: 3px">Read the original FDA notice ↗</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="how" style="background: #FFFFFF; border-top: 1px solid #D9D6CE; border-bottom: 1px solid #D9D6CE">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 72px 24px; display: flex; flex-direction: column; gap: 40px">
+      <h2 style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 34px; line-height: 1.1; letter-spacing: -0.02em">Three steps, one of them yours.</h2>
+      <ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 32px">
+        <li style="display: flex; flex-direction: column; gap: 12px; padding-top: 20px; border-top: 2px solid #16201B">
+          <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #4A554F">01 · You</span>
+          <h3 style="margin: 0; font-size: 20px; font-weight: 600">Register what you feed</h3>
+          <p style="margin: 0; color: #4A554F">Add each pet, then the brand and product line in their bowl. Add the lot number and best-by date from the bag if you want the most precise match.</p>
+        </li>
+        <li style="display: flex; flex-direction: column; gap: 12px; padding-top: 20px; border-top: 2px solid #16201B">
+          <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #4A554F">02 · Nightly</span>
+          <h3 style="margin: 0; font-size: 20px; font-weight: 600">We read the recall feeds</h3>
+          <p style="margin: 0; color: #4A554F">Every night we pull new notices from the FDA and Health Canada and map their free-text product descriptions onto a curated table of brands and lines.</p>
+        </li>
+        <li style="display: flex; flex-direction: column; gap: 12px; padding-top: 20px; border-top: 2px solid #16201B">
+          <span style="font-family: 'JetBrains Mono', ui-monospace, monospace; font-size: 13px; color: #4A554F">03 · On a match</span>
+          <h3 style="margin: 0; font-size: 20px; font-weight: 600">You get an email that says what to do</h3>
+          <p style="margin: 0; color: #4A554F">Three levels, so the subject line tells you how worried to be before you open it.</p>
+        </li>
+      </ol>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 16px">
+        <div style="padding: 20px; border-radius: 12px; border: 1px solid #D9D6CE; display: flex; flex-direction: column; gap: 10px">
+          <div style="display: inline-flex; align-self: flex-start; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px; background: #E3EBF8; color: #1B3F7A; font-size: 13px; font-weight: 700"><span aria-hidden="true" style="width: 8px; height: 8px; border-radius: 50%; background: #2457A6"></span>Heads-up</div>
+          <div style="font-size: 14px; color: #4A554F">Matched on brand only</div>
+          <p style="margin: 0; font-style: italic">“A recall at Harrow &amp; Finch; your food isn’t listed. Check your bag.”</p>
+        </div>
+        <div style="padding: 20px; border-radius: 12px; border: 1px solid #D9D6CE; display: flex; flex-direction: column; gap: 10px">
+          <div style="display: inline-flex; align-self: flex-start; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px; background: #FBEBCB; color: #6E4100; font-size: 13px; font-weight: 700"><span aria-hidden="true" style="width: 8px; height: 8px; border-radius: 50%; background: #C77700"></span>Alert</div>
+          <div style="font-size: 14px; color: #4A554F">Matched on product line</div>
+          <p style="margin: 0; font-style: italic">“Recall affects Everyday Adult Chicken. Check lot and best-by.”</p>
+        </div>
+        <div style="padding: 20px; border-radius: 12px; border: 1px solid #D9D6CE; display: flex; flex-direction: column; gap: 10px">
+          <div style="display: inline-flex; align-self: flex-start; align-items: center; gap: 8px; padding: 6px 12px; border-radius: 999px; background: #FBE3E0; color: #8E1C15; font-size: 13px; font-weight: 700"><span aria-hidden="true" style="width: 8px; height: 8px; border-radius: 50%; background: #B3261E"></span>Stop</div>
+          <div style="font-size: 14px; color: #4A554F">Matched on lot or best-by date</div>
+          <p style="margin: 0; font-style: italic">“Stop feeding Everyday Adult Chicken. Lot 24A17 recalled.”</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section style="max-width: 1120px; width: 100%; box-sizing: border-box; margin: 0 auto; padding: 72px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr)); gap: 48px; align-items: start">
+    <div style="display: flex; flex-direction: column; gap: 16px">
+      <h2 style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 34px; line-height: 1.1; letter-spacing: -0.02em; text-wrap: pretty">The record, not a grade.</h2>
+      <p style="margin: 0; color: #4A554F; font-size: 17px">When you add a food you see what is on file for the brand: every recall in the last ten years with its stated reason and a link to the notice, and the answers a manufacturer gives to the five WSAVA nutrition questions, each with a source. We do not score brands and we do not rate them. You read the citations and decide.</p>
+      <a href="AddFood.dc.html" style="font-weight: 600; text-underline-offset: 3px">See a brand profile →</a>
+    </div>
+    <dl style="margin: 0; display: grid; grid-template-columns: 1fr auto; gap: 0; border: 1px solid #D9D6CE; border-radius: 12px; background: #FFFFFF; overflow: hidden; font-size: 15px">
+      <dt style="padding: 14px 20px; border-bottom: 1px solid #D9D6CE">Full-time qualified nutritionist on staff</dt><dd style="margin: 0; padding: 14px 20px; border-bottom: 1px solid #D9D6CE; font-weight: 600; text-align: right">Yes</dd>
+      <dt style="padding: 14px 20px; border-bottom: 1px solid #D9D6CE">Owns its manufacturing plants</dt><dd style="margin: 0; padding: 14px 20px; border-bottom: 1px solid #D9D6CE; font-weight: 600; text-align: right">Partly</dd>
+      <dt style="padding: 14px 20px; border-bottom: 1px solid #D9D6CE">Runs AAFCO feeding trials</dt><dd style="margin: 0; padding: 14px 20px; border-bottom: 1px solid #D9D6CE; font-weight: 600; text-align: right">No</dd>
+      <dt style="padding: 14px 20px; border-bottom: 1px solid #D9D6CE">Publishes complete nutrient analysis on request</dt><dd style="margin: 0; padding: 14px 20px; border-bottom: 1px solid #D9D6CE; font-weight: 600; text-align: right">Yes</dd>
+      <dt style="padding: 14px 20px">Publishes peer-reviewed research</dt><dd style="margin: 0; padding: 14px 20px; font-weight: 600; text-align: right; color: #4A554F">Unknown</dd>
+    </dl>
+  </section>
+
+  <section id="canada" style="background: #16201B; color: #F5F3EE">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 64px 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(440px, 100%), 1fr)); gap: 40px; align-items: start">
+      <h2 style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 34px; line-height: 1.1; letter-spacing: -0.02em; text-wrap: pretty">If you’re in Canada, read this first.</h2>
+      <div style="display: flex; flex-direction: column; gap: 14px; font-size: 17px">
+        <p style="margin: 0">Pet food is not federally regulated in Canada. There is no Canadian agency that requires a manufacturer to announce a recall.</p>
+        <p style="margin: 0">Most recalls that reach Canadian shelves are announced by the US FDA, because the same product is sold south of the border. That is why we watch the FDA feed for every user, not only Americans.</p>
+        <p style="margin: 0; font-weight: 600">Silence does not mean safety. It means nobody was required to say anything.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="sources" style="max-width: 1120px; width: 100%; box-sizing: border-box; margin: 0 auto; padding: 72px 24px; display: flex; flex-direction: column; gap: 24px">
+    <h2 style="margin: 0; font-family: 'Instrument Sans', 'Helvetica Neue', Arial, sans-serif; font-weight: 700; font-size: 34px; line-height: 1.1; letter-spacing: -0.02em">Where the notices come from</h2>
+    <div style="overflow-x: auto">
+      <table style="width: 100%; min-width: 560px; border-collapse: collapse; font-size: 15px">
+        <thead>
+          <tr style="text-align: left; color: #4A554F; font-size: 13px">
+            <th scope="col" style="padding: 10px 0; border-bottom: 1px solid #16201B; font-weight: 600">Country</th>
+            <th scope="col" style="padding: 10px 16px; border-bottom: 1px solid #16201B; font-weight: 600">Source</th>
+            <th scope="col" style="padding: 10px 16px; border-bottom: 1px solid #16201B; font-weight: 600">What it gives us</th>
+            <th scope="col" style="padding: 10px 0 10px 16px; border-bottom: 1px solid #16201B; font-weight: 600">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td style="padding: 14px 0; border-bottom: 1px solid #D9D6CE; font-weight: 600">United States</td>
+            <td style="padding: 14px 16px; border-bottom: 1px solid #D9D6CE">FDA openFDA food enforcement</td>
+            <td style="padding: 14px 16px; border-bottom: 1px solid #D9D6CE; color: #4A554F">Structured notices with lot codes and distribution</td>
+            <td style="padding: 14px 0 14px 16px; border-bottom: 1px solid #D9D6CE"><span style="display: inline-flex; align-items: center; gap: 8px; font-weight: 600"><span aria-hidden="true" style="width: 8px; height: 8px; border-radius: 50%; background: #1F7A4D"></span>Watching</span></td>
+          </tr>
+          <tr>
+            <td style="padding: 14px 0; border-bottom: 1px solid #D9D6CE; font-weight: 600">Canada</td>
+            <td style="padding: 14px 16px; border-bottom: 1px solid #D9D6CE">Health Canada Recalls and Safety Alerts</td>
+            <td style="padding: 14px 16px; border-bottom: 1px solid #D9D6CE; color: #4A554F">Public notices, free text</td>
+            <td style="padding: 14px 0 14px 16px; border-bottom: 1px solid #D9D6CE"><span style="display: inline-flex; align-items: center; gap: 8px; font-weight: 600"><span aria-hidden="true" style="width: 8px; height: 8px; border-radius: 50%; background: #1F7A4D"></span>Watching</span></td>
+          </tr>
+          <tr>
+            <td style="padding: 14px 0; border-bottom: 1px solid #D9D6CE; font-weight: 600">United Kingdom</td>
+            <td style="padding: 14px 16px; border-bottom: 1px solid #D9D6CE">FSA food and feed alerts</td>
+            <td style="padding: 14px 16px; border-bottom: 1px solid #D9D6CE; color: #4A554F">Data API</td>
+            <td style="padding: 14px 0 14px 16px; border-bottom: 1px solid #D9D6CE; color: #4A554F">Later</td>
+          </tr>
+          <tr>
+            <td style="padding: 14px 0; font-weight: 600">European Union</td>
+            <td style="padding: 14px 16px">RASFF Window</td>
+            <td style="padding: 14px 16px; color: #4A554F">Portal export, no clean API</td>
+            <td style="padding: 14px 0 14px 16px; color: #4A554F">Later</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer style="margin-top: auto; border-top: 1px solid #D9D6CE">
+    <div style="max-width: 1120px; margin: 0 auto; padding: 28px 24px; display: flex; flex-wrap: wrap; gap: 16px 32px; font-size: 14px; color: #4A554F">
+      <span>bowlwatch.ca · free, run by one person</span>
+      <span>Dogs and cats · US and Canada</span>
+      <a href="#sources" style="margin-left: auto">Data sources</a>
+      <a href="#top">Privacy</a>
+    </div>
+  </footer>
+</div>
+</body>
+</html>

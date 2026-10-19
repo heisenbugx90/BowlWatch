@@ -1,0 +1,40 @@
+# Costco store brand. Never a bare "Kirkland" alias (Kirkland, WA appears in addresses).
+id: kirkland-signature
+name: Kirkland Signature
+parent: costco
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Costco Wholesale Corporation
+  - Costco Wholesale Corp
+manufacturers:
+  - diamond-pet-foods
+sources:
+  - https://www.costco.com/kirkland-signature.html
+  - https://www.foodsafetynews.com/2012/05/fsn-video-diamond-pet-foods-salmonella-outbreak-and-recall
+lines:
+  - id: super-premium
+    name: Super Premium
+    aliases: [Adult, Puppy, Mature, Healthy Weight]
+    species: [dog, cat]
+    formats: [dry]
+  - id: natures-domain
+    name: Nature's Domain
+    aliases:
+      - { text: "Kirkland Signature Nature's Domain", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: cat-wet
+    name: Cat Pate
+    aliases: [Cuts in Gravy]
+    species: [cat]
+    formats: [wet]
+  - id: dog-wet
+    name: Dog Canned
+    species: [dog]
+    formats: [wet]
+  - id: treats
+    name: Treats
+    aliases: [Jerky]
+    species: [dog]
+    formats: [treat]

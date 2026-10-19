@@ -1,0 +1,17 @@
+id: mars
+name: Mars, Incorporated
+aliases:
+  - Mars Petcare
+  - Mars Petcare US
+  - Mars Petcare US Inc
+  - Mars Petcare USA
+  - Mars Pet Nutrition
+  - Mars Canada Inc.            # Canadian entity for Mars brands (e.g. IAMS promotions, Bolton ON)
+  - Champion Petfoods Holding Inc.
+sources:
+  - https://www.mars.com/made-by-mars/petcare
+  - https://www.torys.com/work/2022/11/903d8757-9a3f-4cc3-bcbc-2037680377db
+notes: >-
+  Mars Petcare brands incl. Pedigree, Iams, Eukanuba, Nutro, Royal Canin, Sheba,
+  Whiskas, Cesar, Temptations, Greenies. Acquired Champion Petfoods (Orijen, Acana),
+  closed 2023-02-28. Iams/Eukanuba (North America) bought from P&G in 2014.

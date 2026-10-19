@@ -1,0 +1,8 @@
+id: riveriene-farm
+name: Riveriene Farm Ltd.
+aliases:
+  - { text: "Carnivora Pet Foods", kind: dba }
+sources:
+  - https://recalls-rappels.canada.ca/en/alert-recall/carnivora-fresh-frozen-patties-dogs-and-cats-recalled-due-ecoli-contamination
+  - https://www.carnivora.ca/
+notes: Saskatoon SK. Health Canada RA-73337 (2020) names "Riveriene Farm Ltd. o/a Carnivora Pet Foods".

@@ -1,0 +1,12 @@
+id: green-coast-pet
+name: "Green Coast Pet"
+parent: green-coast-pet-co
+markets: [US]
+aliases: ["Green Coast Pets"]
+manufacturers: ["stormberg-foods"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: chicken-crisps
+    name: "Chicken Crisps"
+    species: [dog, cat]
+    formats: [dry, wet]

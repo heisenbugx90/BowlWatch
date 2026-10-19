@@ -1,0 +1,46 @@
+# Ethos Pet Brands (2023). Smucker owned it until 2021-01-29; the 2020 "Ultra
+# Premium" canned cat recall was filed by The J.M. Smucker Company, which is a
+# different parent now, so that firm is covered by manufacturers.yaml jm-smucker.
+# "Natural balance" can occur as a phrase in descriptions; brand-level hits on
+# events with no other evidence should go to review.
+id: natural-balance
+name: Natural Balance
+parent: ethos-pet-brands
+markets: [US, CA]
+aliases:
+  - Natural Balance Pet Foods
+firm_names:
+  - Natural Balance Pet Foods, Inc.
+  - Natural Balance Pet Foods, LLC
+  - Ethos Pet Brands
+# J.M. Smucker owned Natural Balance until 2021 and recalled it under its own name (iRES 85961).
+manufacturers:
+  - jm-smucker
+sources:
+  - https://www.naturalbalanceinc.com/
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/natural-balance-pet-foods-inc-voluntarily-recalls-lid-green-pea-chicken-dry-cat-formula-possible
+lines:
+  - id: limited-ingredient
+    name: L.I.D. Limited Ingredient Diets
+    aliases:
+      - Limited Ingredient
+      - LID
+      - { text: "Natural Balance L.I.D.", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet, treat]
+  - id: original-ultra
+    name: Original Ultra
+    # Smucker's 2020 recall printed only "Ultra Premium ... Pate" (iRES 85961).
+    aliases:
+      - { text: Ultra Premium, kind: short }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: fat-dogs-fat-cats
+    name: Fat Dogs / Fat Cats
+    aliases: [Fat Dogs, Fat Cats]
+    species: [dog, cat]
+    formats: [dry]
+  - id: pet-botanicals
+    name: Pet Botanicals
+    species: [dog]
+    formats: [treat]

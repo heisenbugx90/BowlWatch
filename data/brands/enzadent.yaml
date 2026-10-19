@@ -1,0 +1,16 @@
+# Enzadent and Dentahex are the same Vetoquinol oral care chew sold under two names.
+id: enzadent
+name: Enzadent
+parent: vetoquinol
+markets: [US]
+aliases:
+  - Dentahex
+firm_names:
+  - Vetoquinol USA Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/united-pet-group-expands-voluntary-recall-multiple-brands-rawhide-chew-products-dogs-also-include"
+lines:
+  - id: oral-care-chews
+    name: Oral Care Chews
+    species: [dog]
+    formats: [treat]

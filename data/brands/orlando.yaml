@@ -1,0 +1,24 @@
+# Lidl store brand made by Sunshine Mills. 'Orlando' alone is a city name.
+id: orlando
+name: Orlando (Lidl)
+parent: lidl
+markets: [US]
+aliases:
+  - { text: Orlando Grain Free, kind: label }
+  - { text: Orlando Dog Food, kind: label }
+  # Bare brand word: counts only when the recalling firm corroborates it.
+  - { text: Orlando, kind: short }
+firm_names:
+  - Lidl US TRADING
+  - Lidl US, LLC
+manufacturers:
+  - sunshine-mills
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/association-sunshine-mills-lidl-voluntarily-recalls-orlando-brand-grain-free-chicken-chickpea"
+lines:
+  - id: grain-free
+    name: Grain Free
+    aliases:
+      - Super Food Recipe
+    species: [dog]
+    formats: [dry]

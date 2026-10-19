@@ -1,0 +1,54 @@
+# Labels say "Primal" ("Primal Formula for Cats", "Primal Patties For Dogs").
+# Owner since Feb 2026: Pure Treats Inc. (bought from Kinderhook Industries).
+id: primal
+# Bare 'Primal' is not an alias (common adjective in product copy).
+name: Primal Pet Foods
+parent: pure-treats
+markets: [US, CA]
+aliases:
+  - { text: Primal Formula, kind: label }
+  - { text: Primal Patties, kind: label }
+  - { text: Primal Freeze-Dried, kind: label }
+  - { text: Primal Raw, kind: label }
+firm_names:
+  - Primal Pet Foods Inc.
+  - Primal Pet Foods, Inc.
+  - Primal Pet Group
+sources:
+  - https://petsplusmag.com/pure-treats-inc-makers-of-purebites-acquires-primal-pet-foods/amp/
+  - https://primalpetfoods.com/
+  - https://www.thembsgroup.co.uk/external/pure-treats-acquires-primal-pet-foods-from-private-equity-owner-kinderhook-industries/
+lines:
+  - id: freeze-dried-nuggets
+    name: Freeze-Dried Nuggets
+    aliases: [Freeze Dried Raw Nuggets, Freeze-Dried Formula]
+    species: [dog, cat]
+    formats: [freeze-dried]
+  - id: frozen-raw
+    name: Frozen Raw
+    aliases: [Raw Frozen Nuggets, Patties, Nuggets, Primal Formula]
+    species: [dog, cat]
+    formats: [raw]
+    notes: FDA iRES events 70734 (2016, cat nuggets) and 90570 (2022, beef patties).
+  - id: pronto
+    name: Pronto
+    species: [dog, cat]
+    formats: [freeze-dried]
+  - id: mixers
+    name: Mixers
+    aliases: [Freeze-Dried Mixers]
+    species: [dog, cat]
+    formats: [topper]
+  - id: raw-goat-milk
+    name: Raw Goat Milk
+    aliases: [Goat Milk]
+    species: [dog, cat]
+    formats: [topper]
+  - id: kibble-in-the-raw
+    name: Kibble in the Raw
+    species: [dog, cat]
+    formats: [dry]
+  - id: cupboard-cuts
+    name: Cupboard Cuts
+    species: [dog, cat]
+    formats: [wet]

@@ -1,0 +1,11 @@
+id: purina-pro-plan-veterinary-diets
+name: "Purina Pro Plan Veterinary Diets"
+parent: nestle-purina
+markets: [US]
+aliases: ["Pro Plan Veterinary Diets"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: el-elemental
+    name: "EL Elemental"
+    species: [dog, cat]
+    formats: [dry, wet]

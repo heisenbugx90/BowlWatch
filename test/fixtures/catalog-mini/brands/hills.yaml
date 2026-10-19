@@ -1,0 +1,17 @@
+id: hills
+name: "Hill's"
+parent: colgate-palmolive
+markets: [US]
+firm_names: ["Hill's Pet Nutrition Inc"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: prescription-diet
+    name: "Prescription Diet"
+    aliases: [{"text": "Hill's Prescription Diet", "kind": "label"}]
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: science-diet
+    name: "Science Diet"
+    aliases: [{"text": "Hill's Science Diet", "kind": "label"}]
+    species: [dog, cat]
+    formats: [dry, wet]

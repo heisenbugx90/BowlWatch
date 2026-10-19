@@ -1,0 +1,19 @@
+# UNFI own brand (formerly Supervalu), sold across grocery categories; only pet
+# food is tracked. FDA iRES event 88355 (2021, Sunshine Mills vitamin D recall):
+# "Wild Harvest Chicken & Brown Rice 14lb bag", made by Sunshine Mills.
+id: wild-harvest
+name: Wild Harvest
+parent: unfi
+markets: [US]
+aliases: []
+manufacturers:
+  - sunshine-mills
+sources:
+  - https://www.supermarketnews.com/private-label/unfi-unveils-refresh-of-wild-harvest-own-brand
+  - "https://www.accessdata.fda.gov/scripts/ires/index.cfm?action=export.getExportCSVResult&view=AdvancedSearch&page=product&criteria=%5B%7B%22productdescriptiontxt%22%3A%22%22%7D%2C%7B%22codeinformation%22%3A%22%22%7D%2C%7B%22centercd%22%3A%5B%22CVM%22%5D%7D%2C%7B%22centerclassificationtypetxt%22%3Anull%7D%2C%7B%22firmlegalnam%22%3A%22%22%7D%2C%7B%22phasetxt%22%3Anull%7D%2C%7B%22recalleventid%22%3A%2288355%22%7D%2C%7B%22recallnum%22%3A%22%22%7D%2C%7B%22productshortreasontxt%22%3A%22%22%7D%2C%7B%22centerclassificationdtfrom%22%3A%2201%2F01%2F2016%22%7D%2C%7B%22centerclassificationdtto%22%3A%2212%2F31%2F2026%22%7D%5D"
+lines:
+  - id: dry-dog
+    name: Dry dog food
+    aliases: [Chicken & Brown Rice]
+    species: [dog]
+    formats: [dry]

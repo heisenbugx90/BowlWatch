@@ -1,0 +1,12 @@
+id: zukes
+name: "Zuke's"
+parent: nestle-purina
+markets: [US]
+firm_names: ["Zuke's LLC"]
+manufacturers: ["tejas-industries"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: mini-naturals
+    name: "Mini Naturals"
+    species: [dog, cat]
+    formats: [dry, wet]

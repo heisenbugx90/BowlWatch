@@ -1,0 +1,28 @@
+# Boreal / Boréal (Beamsville ON). Accents are normalized away.
+id: boreal
+name: Boreal Pet Food
+parent: boreal-pet-foods
+markets: [CA]
+aliases:
+  - Boreal Pet Foods
+sources:
+  - https://www.borealpetfood.com/
+  - https://www.interzoo.com/en/exhibitors/boreal-pet-food-2569920
+  - https://bluebarn.shop/product/boreal-proper-healthy-grains-dog-ocean-fish-meal/
+lines:
+  - id: original
+    name: Original
+    aliases:
+      - { text: "Boreal Original", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: proper
+    name: Proper
+    aliases:
+      - { text: "Boreal Proper", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: wet
+    name: Wet Food
+    species: [dog, cat]
+    formats: [wet]

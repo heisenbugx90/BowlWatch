@@ -1,0 +1,45 @@
+id: royal-canin
+name: Royal Canin
+parent: mars
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Royal Canin USA Inc
+  - Royal Canin U.S.A., Inc.
+  - Royal Canin Canada
+sources:
+  - https://www.royalcanin.com/us
+  - https://www.mars.com/made-by-mars/petcare
+lines:
+  - id: size-health-nutrition
+    name: Size Health Nutrition
+    aliases: [X-Small, Mini, Medium, Maxi, Giant]
+    species: [dog]
+    formats: [dry, wet]
+  - id: breed-health-nutrition
+    name: Breed Health Nutrition
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: feline-health-nutrition
+    name: Feline Health Nutrition
+    aliases: [Indoor Adult, Kitten]
+    species: [cat]
+    formats: [dry, wet]
+  - id: feline-care-nutrition
+    name: Feline Care Nutrition
+    aliases: [Hairball Care, Urinary Care, Digestive Care]
+    species: [cat]
+    formats: [dry, wet]
+  - id: canine-care-nutrition
+    name: Canine Care Nutrition
+    species: [dog]
+    formats: [dry, wet]
+  - id: veterinary-diets
+    name: Veterinary Diets
+    aliases:
+      - Veterinary Diet
+      - { text: "Royal Canin Veterinary Diet", kind: label }
+      - { text: "Royal Canin Veterinary", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet, treat]
+    notes: FDA iRES event 91551 (2023) "Royal Canin Veterinary Feline Renal Support F".

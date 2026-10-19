@@ -1,0 +1,32 @@
+id: sheba
+name: Sheba
+parent: mars
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Mars Petcare US
+  - Mars Petcare US Inc
+  - Mars Petcare USA
+sources:
+  - https://www.sheba.com/
+  - https://www.mars.com/made-by-mars/petcare
+lines:
+  - id: perfect-portions
+    name: Perfect Portions
+    aliases:
+      - { text: "Sheba Perfect Portions", kind: label }
+    species: [cat]
+    formats: [wet]
+  - id: meaty-tender-sticks
+    name: Meaty Tender Sticks
+    species: [cat]
+    formats: [treat]
+  - id: creamy-purees
+    name: Creamy Purees
+    species: [cat]
+    formats: [treat]
+  - id: gravy-sensations
+    name: Gravy Sensations
+    aliases: [Signature Broths]
+    species: [cat]
+    formats: [wet]

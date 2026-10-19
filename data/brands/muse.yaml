@@ -1,0 +1,20 @@
+# 'Muse' alone is a common word.
+id: muse
+name: Muse (Purina)
+parent: nestle-purina
+markets: [US]
+aliases:
+  - { text: Muse by Purina, kind: label }
+  - { text: Purina Muse, kind: label }
+  # Bare brand word: counts only when the recalling firm corroborates it.
+  - { text: Muse, kind: short }
+firm_names:
+  - Nestle Purina PetCare Co
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nestle-purina-petcare-company-voluntarily-recalls-limited-amount-muse-wet-cat-food-natural-chicken"
+notes: Possibly discontinued.
+lines:
+  - id: wet
+    name: Wet cat food
+    species: [cat]
+    formats: [wet]

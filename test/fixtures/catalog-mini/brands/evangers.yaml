@@ -1,0 +1,11 @@
+id: evangers
+name: "Evanger's"
+parent: evangers-co
+markets: [US]
+firm_names: ["Evanger's Dog & Cat Food Co"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: hand-packed
+    name: "Hand Packed"
+    species: [dog, cat]
+    formats: [dry, wet]

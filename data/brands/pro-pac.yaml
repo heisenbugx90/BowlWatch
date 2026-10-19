@@ -1,0 +1,27 @@
+id: pro-pac
+name: Pro Pac
+parent: midwestern-pet-foods
+markets: [US]
+aliases:
+  - ProPac
+firm_names:
+  - Midwestern Pet Foods Inc.
+  - Midwestern Pet Foods Chickasha Operation
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/midwestern-pet-foods-voluntarily-expands-recall-pet-food-aflatoxin-health-risk"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/midwestern-pet-foods-voluntarily-recall-due-possible-salmonella-health-risk"
+lines:
+  - id: adult-mini-chunk
+    name: Adult Mini Chunk
+    species: [dog]
+    formats: [dry]
+  - id: performance-puppy
+    name: Performance Puppy
+    species: [dog]
+    formats: [dry]
+  - id: ultimates
+    name: Ultimates
+    aliases:
+      - { text: Pro Pac Ultimates, kind: label }
+    species: [dog, cat]
+    formats: [dry]

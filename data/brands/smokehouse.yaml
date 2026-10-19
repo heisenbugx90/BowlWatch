@@ -1,0 +1,22 @@
+# 'Smokehouse' also appears in human food; matcher should still require the pet-food
+# classification at event level.
+id: smokehouse
+name: Smokehouse (Smokehouse Pet Products)
+parent: smokehouse-pet-products
+markets: [US]
+aliases:
+  - Smokehouse Pet Products
+  - { text: Smokehouse Brand, kind: label }
+  - { text: Smokehouse, kind: short }
+firm_names:
+  - Smokehouse Pet Products
+  - Smokehouse Pet Products, Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/recall-expansion-smokehouse-pet-products-inc-recalls-all-lots-beefy-munchies-sold-nationwide-because"
+lines:
+  - id: beefy-munchies
+    name: Beefy Munchies
+    aliases:
+      - { text: Smokehouse Beefy Munchies, kind: label }
+    species: [dog]
+    formats: [treat]

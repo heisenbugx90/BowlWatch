@@ -1,0 +1,17 @@
+id: intimidator
+name: Intimidator
+parent: sunshine-mills
+markets: [US]
+aliases:
+  - { text: Intimidator Chicken & Rice, kind: label }
+firm_names:
+  - SUNSHINE MILLS INC
+  - Sunshine Mills, Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/sunshine-mills-inc-issues-voluntary-recall-certain-dog-food-products-because-possible-salmonella"
+notes: Bought by Sunshine Mills from Hi-Tek Rations.
+lines:
+  - id: chicken-and-rice
+    name: Chicken & Rice Formula
+    species: [dog]
+    formats: [dry]

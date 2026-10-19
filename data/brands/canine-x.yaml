@@ -1,0 +1,14 @@
+id: canine-x
+name: CanineX
+parent: midwestern-pet-foods
+markets: [US]
+firm_names:
+  - Midwestern Pet Foods Inc.
+  - Midwestern Pet Foods Chickasha Operation
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/midwestern-pet-foods-voluntarily-recall-due-possible-salmonella-health-risk"
+lines:
+  - id: dry
+    name: Dry
+    species: [dog]
+    formats: [dry]

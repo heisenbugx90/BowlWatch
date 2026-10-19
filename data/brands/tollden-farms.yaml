@@ -1,0 +1,33 @@
+id: tollden-farms
+name: Tollden Farms
+parent: tollden-farms
+markets: [CA]
+sources:
+  - https://www.tolldenfarms.ca/
+lines:
+  - id: meat-vegetable-blends
+    name: Meat & Vegetable Blends
+    aliases:
+      - Vegetable Blend
+    species: [dog]
+    formats: [raw]
+  - id: meat-botanical-blends
+    name: Meat & Botanical Blends
+    aliases:
+      - Botanicals Blend
+    species: [dog]
+    formats: [raw]
+  - id: cats
+    name: Tollden for Cats
+    aliases:
+      - { text: "Tollden for Cats", kind: label }
+    species: [cat]
+    formats: [raw]
+  - id: meaty-bones
+    name: Meaty Bones
+    species: [dog, cat]
+    formats: [raw]
+  - id: diy-components
+    name: DIY Components
+    species: [dog, cat]
+    formats: [raw]

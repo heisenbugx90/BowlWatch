@@ -1,0 +1,32 @@
+id: ziwi
+name: ZIWI
+parent: ziwi
+markets: [US, CA]
+aliases:
+  - ZIWI Peak
+  - ZiwiPeak
+firm_names:
+  - ZIWI Limited
+  - ZIWI Ltd
+sources:
+  - https://www.just-food.com/news/nz-pet-food-company-ziwi-acquired-by-hong-kong-pe-firm-fountainvest
+lines:
+  - id: air-dried
+    name: Air-Dried
+    aliases: [Air Dried]
+    species: [dog, cat]
+    formats: [dry]
+  - id: steam-and-dried
+    name: Steam & Dried
+    species: [dog, cat]
+    formats: [dry]
+  - id: canned
+    name: Canned
+    aliases: [Wet]
+    species: [dog, cat]
+    formats: [wet]
+  - id: treats
+    name: Treats
+    aliases: [Good Dog Rewards, Oral Health Chews]
+    species: [dog, cat]
+    formats: [treat]

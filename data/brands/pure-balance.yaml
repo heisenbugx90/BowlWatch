@@ -1,0 +1,26 @@
+# Walmart store brand. Contract manufacturer(s) not verified.
+id: pure-balance
+name: Pure Balance
+parent: walmart
+markets: [US]
+aliases: []
+firm_names:
+  - Walmart Inc.
+  - Wal-Mart Stores, Inc.
+sources:
+  - https://corporate.walmart.com/
+lines:
+  - id: dog
+    name: Pure Balance Dog
+    aliases: [Grain Free, Wild & Free]
+    species: [dog]
+    formats: [dry, wet]
+  - id: pro-plus
+    name: Pro+
+    aliases: [Pro Plus]
+    species: [dog, cat]
+    formats: [dry]
+  - id: cat
+    name: Pure Balance Cat
+    species: [cat]
+    formats: [dry, wet]

@@ -1,0 +1,51 @@
+id: sportmix
+name: Sportmix
+parent: midwestern-pet-foods
+markets: [US]
+firm_names:
+  - Midwestern Pet Foods Inc.
+  - Midwestern Pet Foods Chickasha Operation
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/midwestern-pet-foods-voluntarily-expands-recall-pet-food-aflatoxin-health-risk"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/midwestern-pet-foods-voluntarily-recall-due-possible-salmonella-health-risk"
+lines:
+  - id: energy-plus
+    name: Energy Plus
+    species: [dog]
+    formats: [dry]
+  - id: high-energy
+    name: Premium High Energy
+    species: [dog]
+    formats: [dry]
+  - id: maintenance
+    name: Premium Maintenance
+    species: [dog]
+    formats: [dry]
+  - id: stamina
+    name: Premium Stamina
+    species: [dog]
+    formats: [dry]
+  - id: high-protein
+    name: High Protein
+    species: [dog]
+    formats: [dry]
+  - id: bite-size
+    name: Bite Size
+    species: [dog]
+    formats: [dry]
+  - id: premium-puppy
+    name: Premium Puppy
+    species: [dog]
+    formats: [dry]
+  - id: original-cat
+    name: Cat Food Original Recipe
+    aliases:
+      - Original Cat
+    species: [cat]
+    formats: [dry]
+  - id: wholesomes
+    name: Wholesomes
+    aliases:
+      - { text: Sportmix Wholesomes, kind: label }
+    species: [dog, cat]
+    formats: [dry]

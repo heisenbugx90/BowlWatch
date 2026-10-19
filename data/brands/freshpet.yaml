@@ -1,0 +1,40 @@
+id: freshpet
+name: Freshpet
+parent: freshpet
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Freshpet Inc
+  - Freshpet, Inc.
+sources:
+  - https://www.freshpet.com/
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/freshpet-voluntarily-recalls-one-lot-freshpetr-select-small-dog-bite-size-beef-egg-recipe-dog-food
+lines:
+  - id: select
+    name: Select
+    aliases:
+      - Fresh From the Kitchen
+      - { text: "Freshpet Select", kind: label }
+    species: [dog, cat]
+    formats: [other]
+  - id: vital
+    name: Vital
+    aliases:
+      - { text: "Freshpet Vital", kind: label }
+    species: [dog, cat]
+    formats: [other]
+  - id: homestyle-creations
+    name: Homestyle Creations
+    species: [dog]
+    formats: [other]
+  - id: natures-fresh
+    name: Nature's Fresh
+    aliases:
+      - { text: "Freshpet Nature's Fresh", kind: label }
+    species: [dog, cat]
+    formats: [other]
+  - id: dog-joy
+    name: Dog Joy
+    aliases: [Dog Nation]
+    species: [dog]
+    formats: [treat]

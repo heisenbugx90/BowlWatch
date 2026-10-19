@@ -1,0 +1,52 @@
+# Big Country Raw is renaming itself Big Country Pet Company (2024).
+id: big-country-raw
+name: Big Country Raw
+parent: big-country-pet-company
+markets: [CA]
+aliases:
+  - Big Country Pet Company
+sources:
+  - https://bigcountryraw.ca/
+  - https://www.homesalive.ca/brands/big-country-raw.html
+lines:
+  - id: dinners
+    name: Dinner
+    aliases:
+      - XL Dinner
+      - Dinner Carton
+    species: [dog]
+    formats: [raw]
+  - id: pure
+    name: Pure
+    aliases:
+      - { text: "Big Country Raw Pure", kind: label }
+    species: [dog]
+    formats: [raw]
+  - id: grab-n-go
+    name: Grab N Go
+    aliases:
+      - { text: "Big Country Raw Grab N Go", kind: label }
+    species: [dog]
+    formats: [raw]
+  - id: fare-game
+    name: Fare Game
+    aliases:
+      - { text: "Big Country Raw Fare Game", kind: label }
+    species: [cat]
+    formats: [raw]
+  - id: meal-bones
+    name: Meal Bones
+    species: [dog, cat]
+    formats: [raw, treat]
+  - id: upsides
+    name: Upsides
+    aliases:
+      - { text: "Big Country Raw Upsides", kind: label }
+    species: [dog, cat]
+    formats: [topper]
+  - id: goat-milk
+    name: Goat Milk
+    aliases:
+      - Frozen Goat Yogurt
+    species: [dog, cat]
+    formats: [topper, treat]

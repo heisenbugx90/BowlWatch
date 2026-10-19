@@ -1,0 +1,42 @@
+# PetSmart store brand. "Authority" is a common word, so the brand is named with
+# its full name and lines carry label aliases.
+id: authority
+name: Authority Pet Food
+parent: petsmart
+markets: [US, CA]
+aliases:
+  - Authority Dog Food
+  - Authority Cat Food
+firm_names:
+  - PetSmart Inc
+  - PetSmart LLC
+sources:
+  - https://www.petsmart.com/featured-brands/simply-nourish/
+lines:
+  - id: everyday-health
+    name: Everyday Health
+    aliases:
+      - { text: "Authority Everyday Health", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: savory-blends
+    name: Savory Blends
+    aliases:
+      - { text: "Authority Savory Blends", kind: label }
+    species: [cat]
+    formats: [dry]
+    notes: FDA iRES event 86870 (2020) Savory Blends cat food, all lots.
+  - id: digestive-support
+    name: Digestive Support
+    species: [dog, cat]
+    formats: [dry]
+  - id: grain-free
+    name: Grain Free
+    aliases:
+      - { text: "Authority Grain Free", kind: label }
+    species: [dog, cat]
+    formats: [dry]
+  - id: high-protein
+    name: High Protein
+    species: [dog, cat]
+    formats: [dry]

@@ -1,0 +1,15 @@
+id: hollywood-feed
+name: Hollywood Feed
+parent: hollywood-feed
+markets: [US]
+manufacturers:
+  - carolina-prime-pet
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/carolina-prime-pet-inc-recalls-hollywood-feed-carolina-made-chicken-chips-because-possible"
+lines:
+  - id: carolina-made
+    name: Carolina Made treats
+    aliases:
+      - { text: Hollywood Feed Carolina Made, kind: label }
+    species: [dog]
+    formats: [treat]

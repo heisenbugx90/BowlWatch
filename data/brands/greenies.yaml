@@ -1,0 +1,30 @@
+id: greenies
+name: Greenies
+parent: mars
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Mars Petcare US
+  - Mars Petcare US Inc
+  - Mars Petcare USA
+sources:
+  - https://www.greenies.com/
+  - https://www.mars.com/made-by-mars/petcare
+lines:
+  - id: dental-treats
+    name: Original Dental Treats
+    aliases: [Dental Treats, Dental Chews]
+    species: [dog]
+    formats: [treat]
+  - id: feline-dental-treats
+    name: Feline Dental Treats
+    aliases:
+      - { text: "Greenies Feline", kind: label }
+    species: [cat]
+    formats: [treat]
+  - id: pill-pockets
+    name: Pill Pockets
+    aliases:
+      - { text: "Greenies Pill Pockets", kind: label }
+    species: [dog, cat]
+    formats: [treat]

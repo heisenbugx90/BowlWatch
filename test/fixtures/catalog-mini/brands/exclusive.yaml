@@ -1,0 +1,15 @@
+id: exclusive
+name: "Exclusive"
+parent: pmi-nutrition
+markets: [US]
+manufacturers: ["tfp-nutrition"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: red-flannel
+    name: "Red Flannel"
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: signature
+    name: "Signature"
+    species: [dog, cat]
+    formats: [dry, wet]

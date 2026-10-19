@@ -1,0 +1,35 @@
+# Carnivora (Saskatoon). Health Canada RA-73337 (2020).
+id: carnivora
+name: Carnivora
+parent: riveriene-farm
+markets: [CA]
+aliases:
+  - { text: "Carnivora Pet Foods", kind: dba }
+firm_names:
+  - Riveriene Farm Ltd.
+sources:
+  - https://www.carnivora.ca/
+  - https://recalls-rappels.canada.ca/en/alert-recall/carnivora-fresh-frozen-patties-dogs-and-cats-recalled-due-ecoli-contamination
+lines:
+  - id: whole-animal-dinners
+    name: Whole Animal Dinners
+    aliases:
+      - Dinner with Vegetables 'n' Fruit
+    species: [dog, cat]
+    formats: [raw]
+  - id: whole-animal-diets
+    name: Whole Animal Diets
+    aliases:
+      - Diet
+    species: [dog, cat]
+    formats: [raw]
+  - id: pixies
+    name: Pixies
+    aliases:
+      - { text: "Carnivora Pixies", kind: label }
+    species: [dog, cat]
+    formats: [raw, freeze-dried]
+  - id: add-ons
+    name: Add Ons
+    species: [dog, cat]
+    formats: [raw]

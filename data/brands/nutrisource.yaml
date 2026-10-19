@@ -1,0 +1,26 @@
+id: nutrisource
+name: NutriSource
+parent: kln-family-brands
+markets: [US, CA]
+aliases:
+  - Nutri Source
+firm_names:
+  - Tuffy's Pet Foods, Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/tuffys-pet-foods-inc-issues-voluntary-recall-limited-quantity-pure-vita-salmon-entree-dog-food"
+lines:
+  - id: pure-vita
+    name: Pure Vita
+    aliases:
+      - { text: Pure Vita, kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: grain-free
+    # Named with the brand: bare "Grain Free" is a descriptor ("Pure Vita ... Grain Free Pate-Style").
+    name: NutriSource Grain Free
+    species: [dog, cat]
+    formats: [dry]
+  - id: element-series
+    name: Element Series
+    species: [dog]
+    formats: [dry]

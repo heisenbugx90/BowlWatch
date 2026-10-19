@@ -1,0 +1,9 @@
+id: revival-animal-health
+name: "Revival Animal Health, LLC"
+aliases:
+  - Revival Animal Health
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/revival-animal-health-llc-voluntarily-recalls-canine-milk-replacers-due-elevated-levels-vitamin-d"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/revival-animal-health-llc-voluntarily-recalls-canine-and-gm-milk-replacers-due-low-or-elevated"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/revival-animal-health-llc-voluntarily-recalls-feline-milk-replacers-due-inconsistent-levels-vitamins"
+notes: "Sells Breeder's Edge and Shelter's Choice milk replacers for puppies and kittens."

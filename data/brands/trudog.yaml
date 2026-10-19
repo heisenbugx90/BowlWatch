@@ -1,0 +1,23 @@
+id: trudog
+name: TruDog
+parent: trupet
+markets: [US]
+firm_names:
+  - TRUPET, LLC
+  - TruPet LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/trupet-llc-issues-voluntary-recall-certain-treat-me-crunchy-beef-delight-pet-treats"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/trupet-llc-recalls-boost-me-mighty-meaty-beef-topper-meal-enhancer-because-possible-salmonella"
+lines:
+  - id: boost-me
+    name: Boost Me
+    species: [dog]
+    formats: [topper, freeze-dried]
+  - id: treat-me
+    name: Treat Me
+    species: [dog]
+    formats: [treat, freeze-dried]
+  - id: feed-me
+    name: Feed Me
+    species: [dog]
+    formats: [freeze-dried]

@@ -1,0 +1,44 @@
+# Midwestern Pet Foods. The 2021 aflatoxin/Salmonella recalls list "Earthborn
+# Holistic, Venture, Unrefined" as if separate brands; they are Earthborn lines.
+id: earthborn-holistic
+name: Earthborn Holistic
+parent: midwestern-pet-foods
+markets: [US, CA]
+aliases:
+  - Earthborn
+firm_names:
+  - Midwestern Pet Foods, Inc.
+  - Midwestern Pet Foods Inc
+  - Midwestern Pet Foods Chickasha Operation
+sources:
+  - https://www.earthbornholisticpetfood.com/
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/midwestern-pet-foods-voluntarily-expands-recall-pet-food-aflatoxin-health-risk
+lines:
+  - id: grain-free
+    name: Grain Free
+    aliases: [Primitive Natural, Great Plains Feast, Coastal Catch, Meadow Feast, Primitive Feline, Wild Sea Catch]
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: holistic-grains
+    name: Holistic Grains
+    aliases: [Large Breed, Puppy Vantage, Weight Control, Small Breed]
+    species: [dog]
+    formats: [dry]
+  - id: unrefined
+    name: Unrefined
+    aliases:
+      - { text: "Earthborn Holistic Unrefined", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: venture
+    name: Venture
+    aliases:
+      - Limited Ingredient
+      - { text: "Earthborn Holistic Venture", kind: label }
+    species: [dog]
+    formats: [dry]
+  - id: moist-grain-free
+    name: Moist Grain-Free
+    aliases: [Stews]
+    species: [dog, cat]
+    formats: [wet]

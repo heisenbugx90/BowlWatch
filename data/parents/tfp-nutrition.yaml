@@ -1,0 +1,7 @@
+id: tfp-nutrition
+name: Texas Farm Products Company (TFP Nutrition)
+aliases:
+  - Texas Farm Products Company
+sources:
+  - "https://tfpnutrition.com/"
+notes: "Family-owned, Nacogdoches TX. Own brands Lone Star and Star Pro; also a co-packer (see manufacturers.yaml)."

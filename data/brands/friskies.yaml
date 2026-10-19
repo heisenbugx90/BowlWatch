@@ -1,0 +1,44 @@
+id: friskies
+name: Friskies
+parent: nestle-purina
+markets: [US, CA]
+aliases:
+  - Purina Friskies
+firm_names:
+  - Nestle Purina PetCare Company
+  - Nestle Purina PetCare Co
+sources:
+  - https://www.purina.com/friskies
+lines:
+  - id: pate
+    name: Classic Pate
+    aliases: [Pate]
+    species: [cat]
+    formats: [wet]
+  - id: shreds
+    name: Shreds
+    aliases: [Savory Shreds]
+    species: [cat]
+    formats: [wet]
+  - id: prime-filets
+    name: Prime Filets
+    species: [cat]
+    formats: [wet]
+  - id: extra-gravy
+    name: Extra Gravy
+    species: [cat]
+    formats: [wet]
+  - id: dry
+    name: Friskies Dry
+    aliases:
+      - Seafood Sensations
+      - Surfin' & Turfin'
+      - Indoor Delights
+    species: [cat]
+    formats: [dry]
+  - id: party-mix
+    name: Party Mix
+    aliases:
+      - { text: "Friskies Party Mix", kind: label }
+    species: [cat]
+    formats: [treat]

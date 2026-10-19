@@ -1,0 +1,20 @@
+id: nutrisca
+name: Nutrisca
+parent: whitebridge-pet-brands
+markets: [US]
+firm_names:
+  - Whitebridge Pet Brands Llc
+  - Arthur Dogswell LLC
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/nutrisca-issues-recall-dry-dog-food-due-elevated-levels-vitamin-d"
+lines:
+  - id: dry-dog
+    name: Dry dog food
+    aliases:
+      - Chicken and Chickpea
+    species: [dog]
+    formats: [dry]
+  - id: dry-cat
+    name: Dry cat food
+    species: [cat]
+    formats: [dry]

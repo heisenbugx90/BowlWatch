@@ -1,0 +1,28 @@
+# Steve's Real Food cat line, labelled 'Quest Cat Food'. 'Quest' alone is a common word.
+id: quest-cat-food
+name: Quest Cat Food
+parent: go-raw
+markets: [US]
+aliases:
+  - Quest Cat
+  - Quest Diet
+  # Bare "Quest" counts only with a Go Raw / Steve's Real Food firm.
+  - { text: Quest, kind: short }
+firm_names:
+  - Go Raw, LLC DBA Steve's Real Food
+  - Go Raw LLC
+  - STEVE'S REAL FOOD FOR PETS
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/go-raw-llc-expands-voluntary-recall-quest-diet-cat-food-products-due-low-thiamine-levels-and-enacts"
+lines:
+  - id: frozen
+    name: Frozen diets
+    aliases:
+      - Prey Model
+      - Frozen
+    species: [cat]
+    formats: [raw]
+  - id: freeze-dried
+    name: Freeze Dried Nuggets
+    species: [cat]
+    formats: [freeze-dried]

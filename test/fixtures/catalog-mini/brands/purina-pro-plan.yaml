@@ -1,0 +1,11 @@
+id: purina-pro-plan
+name: "Purina Pro Plan"
+parent: nestle-purina
+markets: [US]
+aliases: ["Pro Plan"]
+sources: [https://www.accessdata.fda.gov/scripts/ires/index.cfm]
+lines:
+  - id: sport
+    name: "Sport"
+    species: [dog, cat]
+    formats: [dry, wet]

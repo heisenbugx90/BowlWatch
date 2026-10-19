@@ -1,0 +1,28 @@
+# Bravo Packing's raw dog food. Never alias 'Bravo': the Bravo! raw diet brand is a
+# different company.
+id: performance-dog
+# 'Performance dog food' is a generic phrase (e.g. 'Sprout Ultra High Performance Dog
+# Food'), so the bare name is not an alias; only Bravo's label forms are.
+name: Performance Dog (Bravo Packing)
+parent: bravo-packing
+markets: [US]
+aliases:
+  - { text: Performance Dog Patties, kind: label }
+  - { text: Performance Dog Raw, kind: label }
+  - { text: Performance Dog Frozen Raw, kind: label }
+firm_names:
+  - Bravo Packing, Inc.
+  - Bravo Packing Inc.
+sources:
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bravo-packing-inc-recalls-all-performance-dog-and-ground-beef-raw-pet-food-because-possible"
+  - "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/bravo-packing-inc-recalls-performance-dog-raw-pet-food-because-possible-salmonella-health-risk"
+# Bravo's ground beef, green tripe and smoked bones are separate products of the Bravo Packing
+# house brand (data/brands/bravo-packing-house.yaml), not Performance Dog lines.
+lines:
+  - id: performance-dog
+    name: Patties
+    aliases:
+      # "Performance Dog" alone also reads as "high performance dog food": only with a Bravo firm.
+      - { text: Performance Dog, kind: short }
+    species: [dog]
+    formats: [raw]

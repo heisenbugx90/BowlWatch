@@ -1,0 +1,78 @@
+# Bare "Wellness" is the brand name. Non-food CVM notices also use the word
+# (Wellness Pharmacy, Pet Wellness Clinics wipes); those must be excluded by the
+# event-level pet-food classification, not here. The 2017 topper recall label
+# reads "Old Mother Hubbard, Inc." (WellPet's label company).
+id: wellness
+name: Wellness
+parent: wellness-pet-company
+markets: [US, CA]
+aliases:
+  - Wellness Pet Food
+  - Wellness Natural Pet Food
+firm_names:
+  - WellPet LLC
+  - WellPet, LLC
+  - Wellness Pet Company
+  - Wellness Pet LLC
+  - Old Mother Hubbard, Inc.
+# 2017 canned cat food was co-packed by Simmons Foods (FDA iRES event 76403).
+manufacturers:
+  - simmons-foods
+sources:
+  - https://www.wellnesspetfood.com/
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wellpet-voluntarily-recalls-limited-amount-one-recipe-canned-topper-dogs-due-potential-elevated
+lines:
+  - id: core
+    name: CORE
+    aliases:
+      - { text: "Wellness CORE", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet, freeze-dried, treat]
+  - id: complete-health
+    name: Complete Health
+    aliases:
+      - { text: "Wellness Complete Health", kind: label }
+      # Canned pate recipe recalled in 2017 (FDA iRES events 76403, 76616).
+      - Beef & Chicken Formula
+      # the other 2017 pate cans all read "<X> Formula, Natural Food for Cats, Net Wt. 12.5 oz"
+      - Formula, Natural Food for Cats
+    # 2017 canned pate UPCs, printed on the rows of FDA iRES events 76403 and 76616 (many rows
+    # name only "Wellness <protein> Formula", so the UPC is what identifies the line).
+    upcs:
+      - "076344088196" # Turkey & Salmon Formula
+      - "076344088202" # Chicken & Herring Formula
+      - "076344088219" # Beef & Chicken Formula
+      - "076344088226" # Chicken Formula
+      - "076344088233" # Turkey Formula
+      - "076344088691" # Chicken & Lobster Formula
+      - "076344091226" # Beef & Salmon Formula
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: simple
+    name: Simple
+    aliases:
+      - Simple Limited Ingredient Diet
+      - { text: "Wellness Simple", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: bowl-boosters
+    name: Bowl Boosters
+    aliases:
+      - { text: "Wellness Bowl Boosters", kind: label }
+    species: [dog]
+    formats: [topper]
+  - id: ninety-five-percent
+    name: 95% Toppers
+    # "95% Beef Topper" is printed as "Beef Topper" in the 2017 listing
+    aliases: [Ninety-Five Percent, Beef Topper]
+    species: [dog]
+    formats: [wet, topper]
+    notes: FDA iRES event 76755 (2017) "WELLNESS ninety-five percent BEEF" topper.
+  - id: petite-entrees
+    name: Petite Entrees
+    species: [dog]
+    formats: [wet]
+  - id: signature-selects
+    name: Signature Selects
+    species: [cat]
+    formats: [wet]

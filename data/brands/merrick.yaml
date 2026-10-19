@@ -1,0 +1,55 @@
+# Merrick (Nestle Purina since 2015). Merrick Pet Care also recalled Castor & Pollux
+# treats; that brand is not in this file.
+id: merrick
+name: Merrick
+parent: nestle-purina
+markets: [US, CA]
+aliases: []
+firm_names:
+  - Merrick Pet Care
+  - Merrick Pet Care, Inc.
+  - Merrick Pet Care (Dry Plant), Inc.
+sources:
+  - https://www.merrickpetcare.com/
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/merrick-pet-care-voluntarily-recalls-limited-amount-good-buddy-and-backcountry-treats-containing
+lines:
+  - id: grain-free
+    name: Grain Free
+    aliases:
+      - { text: "Merrick Grain Free", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: classic-healthy-grains
+    name: Classic Healthy Grains
+    aliases: [Healthy Grains]
+    species: [dog]
+    formats: [dry, wet]
+  - id: backcountry
+    name: Backcountry
+    aliases:
+      - { text: "Merrick Backcountry", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet, freeze-dried, treat]
+  - id: limited-ingredient-diet
+    name: Limited Ingredient Diet
+    aliases: [LID]
+    species: [dog, cat]
+    formats: [dry, wet]
+  - id: purrfect-bistro
+    name: Purrfect Bistro
+    aliases:
+      - { text: "Merrick Purrfect Bistro", kind: label }
+    species: [cat]
+    formats: [dry, wet]
+  - id: lil-plates
+    name: Lil' Plates
+    species: [dog]
+    formats: [dry, wet]
+  - id: full-source
+    name: Full Source
+    species: [dog, cat]
+    formats: [dry]
+  - id: power-bites
+    name: Power Bites
+    species: [dog]
+    formats: [treat]

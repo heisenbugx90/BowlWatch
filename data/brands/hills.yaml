@@ -1,0 +1,27 @@
+# Hill's. Notices read "Hill's Prescription Diet, ..." / "Hill's Science Diet, ...".
+id: hills
+name: Hill's
+parent: colgate-palmolive
+markets: [US, CA]
+aliases:
+  - Hill's Pet
+firm_names:
+  - Hill's Pet Nutrition
+  - Hill's Pet Nutrition Inc
+  - Hill's Pet Nutrition, Inc.
+sources:
+  - https://www.hillspet.com/about-us/our-company
+  - https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/hills-pet-nutrition-voluntarily-recalls-select-canned-dog-food-excessive-vitamin-d
+lines:
+  - id: science-diet
+    name: Science Diet
+    aliases:
+      - { text: "Hill's Science Diet", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet, treat]
+  - id: prescription-diet
+    name: Prescription Diet
+    aliases:
+      - { text: "Hill's Prescription Diet", kind: label }
+    species: [dog, cat]
+    formats: [dry, wet, treat]
